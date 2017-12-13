@@ -19,6 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/_9_Reinforcement/10_A3C/_A3C_GPU" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/_8_TensorFlowBasics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/_8_TensorFlowBasics/EmotionDetector" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_8_TensorFlowBasics/MNIST" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.5.4 (C:\Users\user\AppData\Local\conda\conda\envs\TensorflowGPU35\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
