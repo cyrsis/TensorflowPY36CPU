@@ -1,0 +1,7 @@
+modelName 	 F460
+HardwareVer 	 V3.0
+SerialNumber 	 4C09B4-453004C09B45B4692
+SoftwareVer 	 V2.30.10P3T2hbH
+CarrierName 	 中國電信
+BootVer 	 V1.0.0T4
+VerDate 	 2012-07-06 11:59:11

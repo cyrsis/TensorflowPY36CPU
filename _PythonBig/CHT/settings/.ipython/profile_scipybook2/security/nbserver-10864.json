@@ -1,0 +1,8 @@
+{
+  "secure": false, 
+  "url": "http://localhost:8889/", 
+  "hostname": "localhost", 
+  "base_url": "/", 
+  "notebook_dir": "C:\\Users\\RY\\Dropbox\\scipybook2\\codes\\scpy2\\doc", 
+  "port": 8889
+}

@@ -1,0 +1,4 @@
+2016-06-30 14:26:31,172 INFO     root       info message
+2016-06-30 14:26:31,173 WARNING  root       warning message
+2016-06-30 14:26:31,173 ERROR    root       error message
+2016-06-30 14:26:31,173 CRITICAL root       critical message

@@ -1,0 +1,28 @@
+{% extends "stream.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="grid-25">
+        <h1>{{ user.username }}</h1>
+    </div>
+    <div class="grid-50">
+        <div class="grid-33">
+            <h5>Posts</h5>
+            <p>{{ user.posts.count() }}</p>
+        </div>
+        <div class="grid-33">
+            <h5>Followers</h5>
+            <p>0</p>
+        </div>
+        <div class="grid-33">
+            <h5>Following</h5>
+            <p>0</p>
+        </div>
+    </div>
+    <div class="grid-25">
+        <!-- Follow/unfollow button -->
+    </div>
+</div>
+
+{{ super() }}
+{% endblock %}

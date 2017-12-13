@@ -1,0 +1,31 @@
+﻿1) 安裝 Django<http://www.djangoproject.com/documentation/install/>
+
+
+2) 選取資料庫，Sqlite3 或 PostgreSQL 或 MySQL
+
+	2.1) Sqlite 安裝說明
+		2.1.1) 安裝 pysqlite<http://initd.org/tracker/pysqlite>	
+		2.1.2) 我們的源程式碼裡面預設就帶有Sqlite的資料庫檔案，在 tmitter/db 下面，請直接把 tmitterd.db 移除掉。
+		
+		
+	2.2) PostgerSQL 安裝說明	
+		2.2.1) 若果你使用 PostgreSQL 的話，請先安裝 PostgreSQL 並建立資料庫 tmitter 
+		2.2.2) 修改 settings.py 的資料庫組態部分的使用者名稱密碼,請將下面一段置換對應的地方		
+			DATABASE_ENGINE = 'postgresql3'
+			DATABASE_NAME = 'tmitter'
+			DATABASE_USER = 'monster' # 請將 monster 改為你的PostgreSQL賬號的使用者名稱
+			DATABASE_PASSWORD = '123123' # 請將 12123 改為你的PostgreSQL賬號的密碼
+			DATABASE_HOST = '127.0.0.1' # 請將 127.0.0.1 改為你的PostgreSQL的伺服器位址
+			DATABASE_PORT = '' # 這裡是 PostgreSQL的通訊埠號，若果是預設的這裡就留空
+		2.2.3) 安裝 psycopg<http://initd.org/tracker/psycopg>
+		
+	2.3) MySQL 安裝說明
+		2.2.1) 下載安裝 MySQL,並建立 tmitter 資料庫，並修改 settings.py 把 DATABASE_ENGINE 的值改為 'mysql' 其它後面的 DATABASE關聯的設定與 PostgreSQL的設定基本類別似
+		2.2.2) 安裝 mysql-python<http://sourceforge.net/projects/mysql-python> 
+
+3.開啟指令視窗，並進入tmitter源程式碼目錄，執行 manage.py migrate 指令，根據提示完成動作。這樣 Django 為自動為我們建立關聯的表。
+
+
+4.執行 manage.py runserver 將會開始執行web伺服器，最後開啟提示出來的位址，如：http://127.0.0.1:8000/
+
+

@@ -1,0 +1,8 @@
+{
+  "secure": false, 
+  "url": "http://localhost:8888/", 
+  "hostname": "localhost", 
+  "base_url": "/", 
+  "notebook_dir": "C:\\Program Files (x86)\\FreeCommander XE", 
+  "port": 8888
+}

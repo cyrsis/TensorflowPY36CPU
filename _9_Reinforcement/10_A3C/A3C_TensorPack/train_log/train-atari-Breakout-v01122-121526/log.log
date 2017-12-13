@@ -1,0 +1,2 @@
+[32m[1122 12:15:26 @logger.py:74][0m Argv: ./train-atari.py --env Breakout-v0 --gpu 0
+[32m[1122 12:15:26 @train-atari.py:215][0m [Batch-A3C] Train on gpu 0 and infer on gpu 0

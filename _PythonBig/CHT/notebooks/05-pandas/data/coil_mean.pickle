@@ -1,0 +1,45 @@
+ï»¿ï¿¡pandas.core.frame
+DataFrame
+q)á±‚cpandas.core.internals
+BlockManager
+q)á±„(]q(cpandas.core.index
+_new_Index
+qcpandas.core.index
+Index
+q}q(Udataq	cnumpy.core.multiarray
+_reconstruct
+q
+cnumpy
+ndarray
+qKà€€å•bç’±(KK	å£¯umpy
+dtype
+qUO4Kà€€Kç’±(KU|NNNJï¿¿ïŠ¿ï¿¿K?tbéŸŒ(UpHqUNUDensqUPUCaqUMgqUKUNaqUConducqetbUnameqUMeasuresquæ’±hcpandas.core.index
+MultiIndex
+q}q(Ulabelsq]q(h
+cpandas.core.base
+FrozenNDArray
+qKà€€å•bç’±(KKå¨Ui1Kà€€Kç’±ï¿¿(KU|NNNJï¿¿ïŠ¿å¨Kà€€tbé«à€€à€€à€€tbh
+hKà€€å•bç’± (KKå¨Ÿé«à€€à€€à€€à€€tbeUnamesq!]q"(UDepthq#UContourq$eUlevelsq%]q&(hh}q'(h	h
+hKà€€å•bç’±((KKå¨éŸŒ)(U0-10q*U10-30q+U30-60q,U60-90q-etbhh#uæ’±.hh}q/(h	h
+hKà€€å•bç’±0(KKï¿¿éŸŒ1(U
+Depressionq2USlopeq3UTopq4etbhh$uæ’±5eU	sortorderq6Nuæ’±7e]q8h
+hKà€€å•bç’±9(KK	Kæ¨Uf8Kà€€Kç’±:(KU<NNNJï¿¿ïŠ¿áº”Kà€€tbéŒ©à€€à€€*\ï‚µh@Hå«‘î‡–@î‡¡zT@âº”è…@ë‘‘î‡¡@ffffff@33333s@Rè…ë‘@Rè…×£@q=
+Ğ€ë‘¸ä°½ç‘¯@×£
+Õ¸@7é å†?Ì¿é¦±Ú¯İ¤É¿á•ƒ$ë´¿Û¹A`å”šÛ©?î‡¡zî¿‚`å”šäˆ¶?ï¿§îŸšìœš1ì´“ä¿ç“£å›¤?kà²¨æ¿„ á­¿áº”HÍŒî‡¯?ÌŒÌŒà¿Š×£à¿¸p=
+å«‘èµ¿ïµ¿ï‚µ(\ë‘µRè…×£?ï‚µ(\ï¸¿)\ï‚µ(é‚‡\ï‚µ(å®âº”p=
+è¿‚å¨œï‚¶?Ğ´î‡¡æ¿€à€€à€€à€€à€€Ü€@à€€à€€à€€à€€à€€ p@à€€à€€à€€à€€à€€Xn@à€€à€€à€€à€€à€€pg@à€€à€€à€€à€€à€€d@à€€à€€à€€à€€à€€pb@à€€à€€à€€à€€à€€_@à€€à€€à€€à€€à€€å«‘à€€à€€à€€à€€à€€]@à€€à€€à€€à€€à€€à€€[@à€€à€€à€€à€€à€€@Z@à€€à€€à€€à€€à€€@X@è¥å«‘×£@áº”ê™™è¾¨@æ«‘è…*@q=
+ì•€0@H×£î‡£@ë‘•æ˜‡$@\ï‚µ(×£Î¼(\ï‚—@{î‡¡z@î‡¡z@p=
+Ü€0@Rè…å«‘@p=
+×£Ú¡ï‡¡zîœ€\ï‚µ(\@ë‘¤è…#@æŸ˜ï‚µ!@î‡¡z. @æŸ˜ï‚•#@Î¼(\ï¡€\ï‚µ(|!@p=
+ê™™P"@333333 @{î‡¡é™™@à€€à€€à€€à€€à€€à€€å®Œè…é¿?ÌŒÌŒÌœë‘¸Ş¿ÌŒ?é…ÌŒÌŒå«‘Ó¿×£ä¿¸á¿ˆè¿433333áº”q=
+Û¿pã°½×¿î‡‰?î‡¡zî¿333333í¿333333è¿—×£
+í“€?æ«‘è…×£Î¼(\ï’€>
+×‡pé™™é™™p=
+å«‘@×£×£@ä¢€è…@q=
+ï·¿0@{î‡¡#@ë•€p=
+é€†î‡¡zä°½Î¼(\×£ffffffà€€@æŸ˜ï‚µå¿«Qè…È¢ê™™
+é™™@*\ï‚µèŒ€*\ï‚µï¿¿@ï¿Ÿ×£!@Î¼(\ï‚@à§€å¨&@q=
+å¨å¨ï‚µ(\&@tba]q;hh}q<(h	h
+hKà€€å•bç’±=(KK	å¨éŸŒ>(hUNhUPhhUKhhetbhhuæ’±?a}q@U0.14.1qA}qB(UaxesqChUblocksqD]qE}qF(Umgr_locsqGc__builtin__
+slice
+qHKà€€K	Kç’±IUvaluesqJh9uaustbb.

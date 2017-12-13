@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/_95_Chatbot/chatbot" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_95_Chatbot/chatbot/corpus" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_95_Chatbot" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RealWorldMachineLearning/Module 1/Chapter 1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PB1712 一次搞定：所有Python Web框架開發百科全書/chapter01/function.py" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PB1712 一次搞定：所有Python Web框架開發百科全書/chapter05/practice 1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_16_Sklearn" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_16_Sklearn/LinearRegression" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_6_DeepReforcementTrading/Libra/part1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_9_Reinforcement/12_Proximal_Policy_Optimization" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_12_Tensorpack/A3C-Gym" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_12_Tensorpack" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_12_Tensorpack/DeepQNetwork" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tensorpack/examples/A3C-Gym" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_9_Reinforcement/10_A3C/_A3C_GPU" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_8_TensorFlowBasics" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.5.4 (C:\Users\user\AppData\Local\conda\conda\envs\TensorflowGPU35\python.exe)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="renderExternalDocumentation" value="true" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
+</module>

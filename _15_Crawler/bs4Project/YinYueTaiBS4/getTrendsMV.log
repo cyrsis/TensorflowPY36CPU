@@ -1,0 +1,3600 @@
+2016-08-16 22:53:25,631 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=1 到URLS
+
+2016-08-16 22:53:25,631 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=2 到URLS
+
+2016-08-16 22:53:25,631 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=3 到URLS
+
+2016-08-16 22:53:25,855 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=1  數據成功
+
+2016-08-16 22:53:26,526 INFO     king       添加mvName為<<摩天輪的思念 網絡劇<超少年密碼>插曲>>的數據成功
+
+2016-08-16 22:53:26,529 INFO     king       添加mvName為<<最遠的距離 電影<夏有喬木 雅望天堂>插曲>>的數據成功
+
+2016-08-16 22:53:26,532 INFO     king       添加mvName為<<大夢想家 電視劇<九州天空城>片尾曲>>的數據成功
+
+2016-08-16 22:53:26,538 INFO     king       添加mvName為<<我好像在哪見過你 官方版>>的數據成功
+
+2016-08-16 22:53:26,542 INFO     king       添加mvName為<<浮誅 電視劇<青雲志>主題曲>>的數據成功
+
+2016-08-16 22:53:26,543 INFO     king       添加mvName為<<若 官方版>>的數據成功
+
+2016-08-16 22:53:26,549 INFO     king       添加mvName為<<One More Kiss 中文版>>的數據成功
+
+2016-08-16 22:53:26,552 INFO     king       添加mvName為<<微微一笑很傾城 電視劇<微微一笑很傾城>片尾曲>>的數據成功
+
+2016-08-16 22:53:26,558 INFO     king       添加mvName為<<最初的夢想 電影<微微一笑很傾城>插曲>>的數據成功
+
+2016-08-16 22:53:26,562 INFO     king       添加mvName為<<無問 電影<盜墓筆記>主題曲>>的數據成功
+
+2016-08-16 22:53:26,566 INFO     king       添加mvName為<<你是我的 電影<致青春.原來你還在這裡>插曲>>的數據成功
+
+2016-08-16 22:53:26,569 INFO     king       添加mvName為<<從此以後 電影<夏有喬木>主題曲>>的數據成功
+
+2016-08-16 22:53:26,572 INFO     king       添加mvName為<<說過的不算 官方版>>的數據成功
+
+2016-08-16 22:53:26,576 INFO     king       添加mvName為<<Black White (AB) 官方版>>的數據成功
+
+2016-08-16 22:53:26,581 INFO     king       添加mvName為<<不說放棄好嗎 官方版>>的數據成功
+
+2016-08-16 22:53:26,585 INFO     king       添加mvName為<<音夢 電視劇<九州天空城>插曲>>的數據成功
+
+2016-08-16 22:53:26,586 INFO     king       添加mvName為<<手花 官方版>>的數據成功
+
+2016-08-16 22:53:26,591 INFO     king       添加mvName為<<時光正好 電影<夏有喬木 雅望天堂>推廣曲>>的數據成功
+
+2016-08-16 22:53:26,595 INFO     king       添加mvName為<<Wake Up 官方版>>的數據成功
+
+2016-08-16 22:53:26,596 INFO     king       添加mvName為<<大謊言家 官方版>>的數據成功
+
+2016-08-16 22:53:26,823 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=2  數據成功
+
+2016-08-16 22:53:27,214 INFO     king       添加mvName為<<寫詞的人 官方版>>的數據成功
+
+2016-08-16 22:53:27,219 INFO     king       添加mvName為<<Our Paradise 官方版>>的數據成功
+
+2016-08-16 22:53:27,220 INFO     king       添加mvName為<<碎碎戀 官方版>>的數據成功
+
+2016-08-16 22:53:27,223 INFO     king       添加mvName為<<喊我的名字吧 官方版>>的數據成功
+
+2016-08-16 22:53:27,226 INFO     king       添加mvName為<<一生所愛>>的數據成功
+
+2016-08-16 22:53:27,230 INFO     king       添加mvName為<<oh ma mind china 官方版>>的數據成功
+
+2016-08-16 22:53:27,233 INFO     king       添加mvName為<<Bitter Sweet 官方版>>的數據成功
+
+2016-08-16 22:53:27,236 INFO     king       添加mvName為<<我們能不能 電影<泡沫之夏>推廣曲>>的數據成功
+
+2016-08-16 22:53:27,240 INFO     king       添加mvName為<<黎明 官方版>>的數據成功
+
+2016-08-16 22:53:27,243 INFO     king       添加mvName為<<我愛夏天 電影<在世界中心呼喚愛>推廣曲>>的數據成功
+
+2016-08-16 22:53:27,244 INFO     king       添加mvName為<<角度 官方版>>的數據成功
+
+2016-08-16 22:53:27,247 INFO     king       添加mvName為<<不要急 Fantasy 中文版>>的數據成功
+
+2016-08-16 22:53:27,252 INFO     king       添加mvName為<<不可抗力 電影<不可抗力之男僕的秘密>主題曲>>的數據成功
+
+2016-08-16 22:53:27,256 INFO     king       添加mvName為<<你,好不好?>>的數據成功
+
+2016-08-16 22:53:27,259 INFO     king       添加mvName為<<吹牛皮 官方版>>的數據成功
+
+2016-08-16 22:53:27,262 INFO     king       添加mvName為<<Just You>>的數據成功
+
+2016-08-16 22:53:27,263 INFO     king       添加mvName為<<不正常 官方版>>的數據成功
+
+2016-08-16 22:53:27,266 INFO     king       添加mvName為<<青春不散 官方版>>的數據成功
+
+2016-08-16 22:53:27,269 INFO     king       添加mvName為<<This Is Love>>的數據成功
+
+2016-08-16 22:53:27,273 INFO     king       添加mvName為<<事過境遷 官方版>>的數據成功
+
+2016-08-16 22:53:27,401 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=3  數據成功
+
+2016-08-16 22:53:27,676 INFO     king       添加mvName為<<陸垚知馬俐 電影<陸垚知馬俐>主題曲>>的數據成功
+
+2016-08-16 22:53:27,677 INFO     king       添加mvName為<<留言 官方版>>的數據成功
+
+2016-08-16 22:53:27,681 INFO     king       添加mvName為<<破曉 官方版>>的數據成功
+
+2016-08-16 22:53:27,686 INFO     king       添加mvName為<<二十一世紀精神病>>的數據成功
+
+2016-08-16 22:53:27,690 INFO     king       添加mvName為<<等待你出現 電影<我最好朋友的婚禮>推廣曲>>的數據成功
+
+2016-08-16 22:53:27,691 INFO     king       添加mvName為<<回憶漩渦 官方版>>的數據成功
+
+2016-08-16 22:53:27,694 INFO     king       添加mvName為<<舊友 劇情版MV>>的數據成功
+
+2016-08-16 22:53:27,697 INFO     king       添加mvName為<<一生為你 電影<龍拳小子>主題曲>>的數據成功
+
+2016-08-16 22:53:27,698 INFO     king       添加mvName為<<靈眼>>的數據成功
+
+2016-08-16 22:53:27,701 INFO     king       添加mvName為<<為什麼還不放學>>的數據成功
+
+2016-08-16 22:53:27,701 INFO     king       添加mvName為<<摩天輪的思念 網絡劇<超少年密碼>插曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,701 INFO     king       添加mvName為<<最遠的距離 電影<夏有喬木 雅望天堂>插曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,701 INFO     king       添加mvName為<<大夢想家 電視劇<九州天空城>片尾曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,703 INFO     king       添加mvName為<<我好像在哪見過你 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,717 INFO     king       添加mvName為<<浮誅 電視劇<青雲志>主題曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,717 INFO     king       添加mvName為<<若 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,717 INFO     king       添加mvName為<<One More Kiss 中文版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,717 INFO     king       添加mvName為<<微微一笑很傾城 電視劇<微微一笑很傾城>片尾曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,717 INFO     king       添加mvName為<<最初的夢想 電影<微微一笑很傾城>插曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,717 INFO     king       添加mvName為<<無問 電影<盜墓筆記>主題曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,717 INFO     king       添加mvName為<<你是我的 電影<致青春.原來你還在這裡>插曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,717 INFO     king       添加mvName為<<從此以後 電影<夏有喬木>主題曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,717 INFO     king       添加mvName為<<說過的不算 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,719 INFO     king       添加mvName為<<Black White (AB) 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,719 INFO     king       添加mvName為<<不說放棄好嗎 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,719 INFO     king       添加mvName為<<音夢 電視劇<九州天空城>插曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,719 INFO     king       添加mvName為<<手花 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,719 INFO     king       添加mvName為<<時光正好 電影<夏有喬木 雅望天堂>推廣曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,719 INFO     king       添加mvName為<<Wake Up 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,720 INFO     king       添加mvName為<<大謊言家 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,720 INFO     king       添加mvName為<<寫詞的人 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,720 INFO     king       添加mvName為<<Our Paradise 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,720 INFO     king       添加mvName為<<碎碎戀 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,720 INFO     king       添加mvName為<<喊我的名字吧 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,720 INFO     king       添加mvName為<<一生所愛>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,720 INFO     king       添加mvName為<<oh ma mind china 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,720 INFO     king       添加mvName為<<Bitter Sweet 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,720 INFO     king       添加mvName為<<我們能不能 電影<泡沫之夏>推廣曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,720 INFO     king       添加mvName為<<黎明 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,720 INFO     king       添加mvName為<<我愛夏天 電影<在世界中心呼喚愛>推廣曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,720 INFO     king       添加mvName為<<角度 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,720 INFO     king       添加mvName為<<不要急 Fantasy 中文版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,720 INFO     king       添加mvName為<<不可抗力 電影<不可抗力之男僕的秘密>主題曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,721 INFO     king       添加mvName為<<你,好不好?>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,721 INFO     king       添加mvName為<<吹牛皮 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,721 INFO     king       添加mvName為<<Just You>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,721 INFO     king       添加mvName為<<不正常 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,721 INFO     king       添加mvName為<<青春不散 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,721 INFO     king       添加mvName為<<This Is Love>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,721 INFO     king       添加mvName為<<事過境遷 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,723 INFO     king       添加mvName為<<陸垚知馬俐 電影<陸垚知馬俐>主題曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,723 INFO     king       添加mvName為<<留言 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,723 INFO     king       添加mvName為<<破曉 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,723 INFO     king       添加mvName為<<二十一世紀精神病>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,723 INFO     king       添加mvName為<<等待你出現 電影<我最好朋友的婚禮>推廣曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,723 INFO     king       添加mvName為<<回憶漩渦 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,723 INFO     king       添加mvName為<<舊友 劇情版MV>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,723 INFO     king       添加mvName為<<一生為你 電影<龍拳小子>主題曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,723 INFO     king       添加mvName為<<靈眼>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,723 INFO     king       添加mvName為<<為什麼還不放學>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:27,723 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=1 到URLS
+
+2016-08-16 22:53:27,723 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=2 到URLS
+
+2016-08-16 22:53:27,723 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=3 到URLS
+
+2016-08-16 22:53:27,888 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=1  數據成功
+
+2016-08-16 22:53:28,230 INFO     king       添加mvName為<<終於 官方版>>的數據成功
+
+2016-08-16 22:53:28,233 INFO     king       添加mvName為<<超越無限 官方版>>的數據成功
+
+2016-08-16 22:53:28,240 INFO     king       添加mvName為<<第一頁 官方版>>的數據成功
+
+2016-08-16 22:53:28,243 INFO     king       添加mvName為<<不害怕 官方版>>的數據成功
+
+2016-08-16 22:53:28,247 INFO     king       添加mvName為<<我就是傻 官方版>>的數據成功
+
+2016-08-16 22:53:28,250 INFO     king       添加mvName為<<未完不待續 官方版>>的數據成功
+
+2016-08-16 22:53:28,253 INFO     king       添加mvName為<<賊 官方版>>的數據成功
+
+2016-08-16 22:53:28,256 INFO     king       添加mvName為<<不要再孤單 電影<微微一笑很傾城>主題曲>>的數據成功
+
+2016-08-16 22:53:28,259 INFO     king       添加mvName為<<餘波盪漾 官方版>>的數據成功
+
+2016-08-16 22:53:28,263 INFO     king       添加mvName為<<如果我們不曾相遇 電視劇<青雲志>張小凡人物主題曲>>的數據成功
+
+2016-08-16 22:53:28,267 INFO     king       添加mvName為<<憂傷來襲 官方版>>的數據成功
+
+2016-08-16 22:53:28,269 INFO     king       添加mvName為<<人間煙火 官方版>>的數據成功
+
+2016-08-16 22:53:28,273 INFO     king       添加mvName為<<FLOW 官方版>>的數據成功
+
+2016-08-16 22:53:28,276 INFO     king       添加mvName為<<說走就走 官方版>>的數據成功
+
+2016-08-16 22:53:28,280 INFO     king       添加mvName為<<黑寡婦 官方版>>的數據成功
+
+2016-08-16 22:53:28,285 INFO     king       添加mvName為<<鋼琴鍵 官方版>>的數據成功
+
+2016-08-16 22:53:28,288 INFO     king       添加mvName為<<來不及再見 電影<精靈王座>推廣曲>>的數據成功
+
+2016-08-16 22:53:28,292 INFO     king       添加mvName為<<青蛙王子 官方版>>的數據成功
+
+2016-08-16 22:53:28,293 INFO     king       添加mvName為<<心底 電視劇<幻城>片尾曲>>的數據成功
+
+2016-08-16 22:53:28,298 INFO     king       添加mvName為<<Boyz On Fire 官方版>>的數據成功
+
+2016-08-16 22:53:28,413 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=2  數據成功
+
+2016-08-16 22:53:28,644 INFO     king       添加mvName為<<湫兮如風 電影<大魚海棠>片尾曲>>的數據成功
+
+2016-08-16 22:53:28,645 INFO     king       添加mvName為<<不做陌生人 官方版>>的數據成功
+
+2016-08-16 22:53:28,650 INFO     king       添加mvName為<<誘惑的街 電影<天亮之前>主題曲>>的數據成功
+
+2016-08-16 22:53:28,654 INFO     king       添加mvName為<<一個人也可以幸福 官方版>>的數據成功
+
+2016-08-16 22:53:28,657 INFO     king       添加mvName為<<無痛的痛苦 電影<封神傳奇>主題曲>>的數據成功
+
+2016-08-16 22:53:28,660 INFO     king       添加mvName為<<借根煙 電視劇<左耳>主題曲>>的數據成功
+
+2016-08-16 22:53:28,661 INFO     king       添加mvName為<<Luv Me Luv Me 要說出來 舞蹈版>>的數據成功
+
+2016-08-16 22:53:28,665 INFO     king       添加mvName為<<Luv me Luv me要說出來 官方版>>的數據成功
+
+2016-08-16 22:53:28,668 INFO     king       添加mvName為<<一秒時光 官方版>>的數據成功
+
+2016-08-16 22:53:28,673 INFO     king       添加mvName為<<鋼鐵心 電影<危城>宣傳主題曲>>的數據成功
+
+2016-08-16 22:53:28,674 INFO     king       添加mvName為<<My Only Love 官方版>>的數據成功
+
+2016-08-16 22:53:28,769 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=3  數據成功
+
+2016-08-16 22:53:28,891 INFO     king       添加mvName為<<終於 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,891 INFO     king       添加mvName為<<超越無限 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,891 INFO     king       添加mvName为<<第一页 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,891 INFO     king       添加mvName为<<不害怕 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,891 INFO     king       添加mvName为<<我就是傻 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,891 INFO     king       添加mvName为<<未完不待续 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,891 INFO     king       添加mvName为<<贼 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,891 INFO     king       添加mvName为<<不要再孤单 电影<微微一笑很倾城>主题曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,891 INFO     king       添加mvName为<<余波荡漾 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,892 INFO     king       添加mvName为<<如果我们不曾相遇 电视剧<青云志>张小凡人物主题曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,892 INFO     king       添加mvName为<<忧伤来袭 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,892 INFO     king       添加mvName为<<人间烟火 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,892 INFO     king       添加mvName为<<FLOW 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,892 INFO     king       添加mvName为<<说走就走 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,892 INFO     king       添加mvName为<<黑寡妇 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,892 INFO     king       添加mvName为<<钢琴键 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,894 INFO     king       添加mvName为<<来不及再见 电影<精灵王座>推广曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,894 INFO     king       添加mvName为<<青蛙王子 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,894 INFO     king       添加mvName为<<心底 电视剧<幻城>片尾曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,894 INFO     king       添加mvName为<<Boyz On Fire 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,894 INFO     king       添加mvName为<<湫兮如风 电影<大鱼海棠>片尾曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,894 INFO     king       添加mvName为<<不做陌生人 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,894 INFO     king       添加mvName为<<诱惑的街 电影<天亮之前>主题曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,894 INFO     king       添加mvName为<<一个人也可以幸福 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,894 INFO     king       添加mvName为<<无痛的痛苦 电影<封神传奇>主题曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,894 INFO     king       添加mvName为<<借根烟 电视剧<左耳>主题曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,894 INFO     king       添加mvName为<<Luv Me Luv Me 要说出来 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,894 INFO     king       添加mvName为<<Luv me Luv me要说出来 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,894 INFO     king       添加mvName为<<一秒时光 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,894 INFO     king       添加mvName为<<钢铁心 电影<危城>宣传主题曲>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,895 INFO     king       添加mvName为<<My Only Love 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:28,895 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=1 到URLS
+
+2016-08-16 22:53:28,895 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=2 到URLS
+
+2016-08-16 22:53:28,895 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=3 到URLS
+
+2016-08-16 22:53:29,075 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=1  数据成功
+
+2016-08-16 22:53:29,755 INFO     king       添加mvName为<<We Don't Talk Anymore>>的数据成功
+
+2016-08-16 22:53:29,759 INFO     king       添加mvName为<<Rise>>的数据成功
+
+2016-08-16 22:53:29,763 INFO     king       添加mvName为<<WILD>>的数据成功
+
+2016-08-16 22:53:29,766 INFO     king       添加mvName为<<This House Is Not For Sale>>的数据成功
+
+2016-08-16 22:53:29,770 INFO     king       添加mvName为<<Purple Lamborghini>>的数据成功
+
+2016-08-16 22:53:29,775 INFO     king       添加mvName为<<Carry On 官方版>>的数据成功
+
+2016-08-16 22:53:29,778 INFO     king       添加mvName为<<Make Me...>>的数据成功
+
+2016-08-16 22:53:29,782 INFO     king       添加mvName为<<Gangsta 电影<X特遣队>小丑女个人原声>>的数据成功
+
+2016-08-16 22:53:29,786 INFO     king       添加mvName为<<In The Name Of Love>>的数据成功
+
+2016-08-16 22:53:29,789 INFO     king       添加mvName为<<Weekend Millionaires>>的数据成功
+
+2016-08-16 22:53:29,793 INFO     king       添加mvName为<<Rise>>的数据成功
+
+2016-08-16 22:53:29,796 INFO     king       添加mvName为<<Love Make The World Go Round>>的数据成功
+
+2016-08-16 22:53:29,801 INFO     king       添加mvName为<<Enough>>的数据成功
+
+2016-08-16 22:53:29,805 INFO     king       添加mvName为<<Say It Again>>的数据成功
+
+2016-08-16 22:53:29,806 INFO     king       添加mvName为<<What We Started>>的数据成功
+
+2016-08-16 22:53:29,811 INFO     king       添加mvName为<<No Limit>>的数据成功
+
+2016-08-16 22:53:29,813 INFO     king       添加mvName为<<Who Did You Love>>的数据成功
+
+2016-08-16 22:53:29,816 INFO     king       添加mvName为<<Cruel>>的数据成功
+
+2016-08-16 22:53:29,821 INFO     king       添加mvName为<<Gemini Feed>>的数据成功
+
+2016-08-16 22:53:29,822 INFO     king       添加mvName为<<My Diamond>>的数据成功
+
+2016-08-16 22:53:30,012 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=2  数据成功
+
+2016-08-16 22:53:30,421 INFO     king       添加mvName为<<Heartlines>>的数据成功
+
+2016-08-16 22:53:30,424 INFO     king       添加mvName为<<Come Around>>的数据成功
+
+2016-08-16 22:53:30,427 INFO     king       添加mvName为<<Guilty Flowers>>的数据成功
+
+2016-08-16 22:53:30,430 INFO     king       添加mvName为<<Treat You Better>>的数据成功
+
+2016-08-16 22:53:30,434 INFO     king       添加mvName为<<Stack Of Dreams>>的数据成功
+
+2016-08-16 22:53:30,436 INFO     king       添加mvName为<<The God I Know>>的数据成功
+
+2016-08-16 22:53:30,440 INFO     king       添加mvName为<<Summer Nights>>的数据成功
+
+2016-08-16 22:53:30,443 INFO     king       添加mvName为<<Take All the Time You Need>>的数据成功
+
+2016-08-16 22:53:30,446 INFO     king       添加mvName为<<You Don't Know Love>>的数据成功
+
+2016-08-16 22:53:30,450 INFO     king       添加mvName为<<The Boys>>的数据成功
+
+2016-08-16 22:53:30,453 INFO     king       添加mvName为<<Won't Stop Running 正式版>>的数据成功
+
+2016-08-16 22:53:30,457 INFO     king       添加mvName为<<Lyin' To Myself>>的数据成功
+
+2016-08-16 22:53:30,460 INFO     king       添加mvName为<<Ole>>的数据成功
+
+2016-08-16 22:53:30,461 INFO     king       添加mvName为<<FAINT OF HEART>>的数据成功
+
+2016-08-16 22:53:30,463 INFO     king       添加mvName为<<Collider>>的数据成功
+
+2016-08-16 22:53:30,466 INFO     king       添加mvName为<<Lights Down Low>>的数据成功
+
+2016-08-16 22:53:30,469 INFO     king       添加mvName为<<Go Off>>的数据成功
+
+2016-08-16 22:53:30,470 INFO     king       添加mvName为<<Saw It Coming>>的数据成功
+
+2016-08-16 22:53:30,473 INFO     king       添加mvName为<<The Spoils>>的数据成功
+
+2016-08-16 22:53:30,476 INFO     king       添加mvName为<<Scars To Your Beautiful>>的数据成功
+
+2016-08-16 22:53:30,602 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=3  数据成功
+
+2016-08-16 22:53:30,788 INFO     king       添加mvName为<<Different For Girls>>的数据成功
+
+2016-08-16 22:53:30,790 INFO     king       添加mvName为<<Off Road (360度全景版)>>的数据成功
+
+2016-08-16 22:53:30,792 INFO     king       添加mvName为<<Ruin>>的数据成功
+
+2016-08-16 22:53:30,796 INFO     king       添加mvName为<<Kids>>的数据成功
+
+2016-08-16 22:53:30,798 INFO     king       添加mvName为<<<泰山归来:险战丛林>主题曲<Better Love>>>的数据成功
+
+2016-08-16 22:53:30,799 INFO     king       添加mvName为<<Hype>>的数据成功
+
+2016-08-16 22:53:30,801 INFO     king       添加mvName为<<We Don't Talk Anymore>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,801 INFO     king       添加mvName为<<Rise>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,801 INFO     king       添加mvName为<<WILD>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,801 INFO     king       添加mvName为<<This House Is Not For Sale>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,801 INFO     king       添加mvName为<<Purple Lamborghini>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,801 INFO     king       添加mvName为<<Carry On 官方版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,802 INFO     king       添加mvName为<<Make Me...>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,802 INFO     king       添加mvName为<<Gangsta 电影<X特遣队>小丑女个人原声>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,802 INFO     king       添加mvName为<<In The Name Of Love>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,802 INFO     king       添加mvName为<<Weekend Millionaires>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,802 INFO     king       添加mvName为<<Rise>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,802 INFO     king       添加mvName为<<Love Make The World Go Round>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,802 INFO     king       添加mvName为<<Enough>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,802 INFO     king       添加mvName为<<Say It Again>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,802 INFO     king       添加mvName为<<What We Started>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,802 INFO     king       添加mvName为<<No Limit>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,802 INFO     king       添加mvName为<<Who Did You Love>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,802 INFO     king       添加mvName为<<Cruel>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,802 INFO     king       添加mvName为<<Gemini Feed>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,802 INFO     king       添加mvName为<<My Diamond>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,803 INFO     king       添加mvName为<<Heartlines>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,803 INFO     king       添加mvName为<<Come Around>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,803 INFO     king       添加mvName为<<Guilty Flowers>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,803 INFO     king       添加mvName为<<Treat You Better>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,803 INFO     king       添加mvName为<<Stack Of Dreams>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,803 INFO     king       添加mvName为<<The God I Know>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,803 INFO     king       添加mvName为<<Summer Nights>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,805 INFO     king       添加mvName为<<Take All the Time You Need>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,805 INFO     king       添加mvName为<<You Don't Know Love>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,805 INFO     king       添加mvName为<<The Boys>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,805 INFO     king       添加mvName为<<Won't Stop Running 正式版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,805 INFO     king       添加mvName为<<Lyin' To Myself>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,805 INFO     king       添加mvName为<<Ole>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,805 INFO     king       添加mvName为<<FAINT OF HEART>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,805 INFO     king       添加mvName为<<Collider>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,805 INFO     king       添加mvName为<<Lights Down Low>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,805 INFO     king       添加mvName为<<Go Off>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,805 INFO     king       添加mvName为<<Saw It Coming>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,805 INFO     king       添加mvName为<<The Spoils>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,806 INFO     king       添加mvName为<<Scars To Your Beautiful>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,806 INFO     king       添加mvName为<<Different For Girls>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,806 INFO     king       添加mvName为<<Off Road (360度全景版)>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,806 INFO     king       添加mvName为<<Ruin>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,806 INFO     king       添加mvName为<<Kids>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,806 INFO     king       添加mvName为<<<泰山归来:险战丛林>主题曲<Better Love>>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,806 INFO     king       添加mvName为<<Hype>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:30,808 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=1 到URLS
+
+2016-08-16 22:53:30,808 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=2 到URLS
+
+2016-08-16 22:53:30,808 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=3 到URLS
+
+2016-08-16 22:53:30,974 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=1  数据成功
+
+2016-08-16 22:53:31,381 INFO     king       添加mvName为<<Agust D 完整版>>的数据成功
+
+2016-08-16 22:53:31,382 INFO     king       添加mvName为<<Baby Ride 完整版>>的数据成功
+
+2016-08-16 22:53:31,385 INFO     king       添加mvName为<<Fantasy 完整版>>的数据成功
+
+2016-08-16 22:53:31,388 INFO     king       添加mvName为<<RECIPE 完整版>>的数据成功
+
+2016-08-16 22:53:31,391 INFO     king       添加mvName为<<Whatta Man (Good man) 完整版>>的数据成功
+
+2016-08-16 22:53:31,392 INFO     king       添加mvName为<<怎样?(How's this?) 完整版>>的数据成功
+
+2016-08-16 22:53:31,394 INFO     king       添加mvName为<<梦 完整版>>的数据成功
+
+2016-08-16 22:53:31,397 INFO     king       添加mvName为<<Lip 2 Lip 舞蹈版>>的数据成功
+
+2016-08-16 22:53:31,400 INFO     king       添加mvName为<<All Mine 完整版>>的数据成功
+
+2016-08-16 22:53:31,401 INFO     king       添加mvName为<<Take Me Now 完整版>>的数据成功
+
+2016-08-16 22:53:31,405 INFO     king       添加mvName为<<D.N.A 完整版>>的数据成功
+
+2016-08-16 22:53:31,407 INFO     king       添加mvName为<<JUST DO IT 完整版>>的数据成功
+
+2016-08-16 22:53:31,411 INFO     king       添加mvName为<<夏日时光! (Summer Time! サマータイム!) 完整版>>的数据成功
+
+2016-08-16 22:53:31,413 INFO     king       添加mvName为<<That's My Jam 完整版>>的数据成功
+
+2016-08-16 22:53:31,415 INFO     king       添加mvName为<<Do Better 完整版>>的数据成功
+
+2016-08-16 22:53:31,417 INFO     king       添加mvName为<<Crying 完整版>>的数据成功
+
+2016-08-16 22:53:31,421 INFO     king       添加mvName为<<听我说(A-ing) 完整版>>的数据成功
+
+2016-08-16 22:53:31,423 INFO     king       添加mvName为<<只对你执着 完整版>>的数据成功
+
+2016-08-16 22:53:31,426 INFO     king       添加mvName为<<THINK ABOUT YOU 舞蹈版>>的数据成功
+
+2016-08-16 22:53:31,427 INFO     king       添加mvName为<<没关系 没关系 Fantasy 完整版>>的数据成功
+
+2016-08-16 22:53:31,566 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=2  数据成功
+
+2016-08-16 22:53:31,913 INFO     king       添加mvName为<<Darling Darling 完整版>>的数据成功
+
+2016-08-16 22:53:31,914 INFO     king       添加mvName为<<THINK ABOUT YOU 完整版>>的数据成功
+
+2016-08-16 22:53:31,917 INFO     king       添加mvName为<<Lip 2 Lip 完整版>>的数据成功
+
+2016-08-16 22:53:31,920 INFO     king       添加mvName为<<GOOD LUCK 日文版>>的数据成功
+
+2016-08-16 22:53:31,924 INFO     king       添加mvName为<<Love Spell 完整版>>的数据成功
+
+2016-08-16 22:53:31,926 INFO     king       添加mvName为<<我脑海里的照片 <任意依恋>OST Part.6>>的数据成功
+
+2016-08-16 22:53:31,930 INFO     king       添加mvName为<<Summer Time(サマータイム!) 舞蹈版>>的数据成功
+
+2016-08-16 22:53:31,933 INFO     king       添加mvName为<<Fly To High 完整版>>的数据成功
+
+2016-08-16 22:53:31,936 INFO     king       添加mvName为<<Still 24K 完整版>>的数据成功
+
+2016-08-16 22:53:31,937 INFO     king       添加mvName为<<チャミスマ (Chamisma) 完整版>>的数据成功
+
+2016-08-16 22:53:31,940 INFO     king       添加mvName为<<Paradise 完整版>>的数据成功
+
+2016-08-16 22:53:31,941 INFO     king       添加mvName为<<UPDATE 完整版>>的数据成功
+
+2016-08-16 22:53:31,944 INFO     king       添加mvName为<<偶然的事 完整版>>的数据成功
+
+2016-08-16 22:53:31,947 INFO     king       添加mvName为<<消防车 舞蹈版>>的数据成功
+
+2016-08-16 22:53:31,950 INFO     king       添加mvName为<<夜半逃走(Tonight) 完整版>>的数据成功
+
+2016-08-16 22:53:31,953 INFO     king       添加mvName为<<YOUNG FOREVER 完整版>>的数据成功
+
+2016-08-16 22:53:31,957 INFO     king       添加mvName为<<Wonderland 舞蹈版>>的数据成功
+
+2016-08-16 22:53:31,960 INFO     king       添加mvName为<<没关系 没关系 Fantasy 舞蹈版>>的数据成功
+
+2016-08-16 22:53:31,963 INFO     king       添加mvName为<<待机室 完整版>>的数据成功
+
+2016-08-16 22:53:31,967 INFO     king       添加mvName为<<DUET 完整版>>的数据成功
+
+2016-08-16 22:53:32,088 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=3  数据成功
+
+2016-08-16 22:53:32,326 INFO     king       添加mvName为<<Nice 完整版>>的数据成功
+
+2016-08-16 22:53:32,331 INFO     king       添加mvName为<<Sunglasses>>的数据成功
+
+2016-08-16 22:53:32,332 INFO     king       添加mvName为<<And July (Feat. DEAN, DJ Friz) 完整版>>的数据成功
+
+2016-08-16 22:53:32,335 INFO     king       添加mvName为<<Your Girl 完整版>>的数据成功
+
+2016-08-16 22:53:32,339 INFO     king       添加mvName为<<夜与星的歌(Starry Night) 完整版>>的数据成功
+
+2016-08-16 22:53:32,342 INFO     king       添加mvName为<<我们的夜晚比你的白天更美 完整版>>的数据成功
+
+2016-08-16 22:53:32,345 INFO     king       添加mvName为<<大海 完整版>>的数据成功
+
+2016-08-16 22:53:32,346 INFO     king       添加mvName为<<Dream 完整版 我也是电影导演OST Part.1>>的数据成功
+
+2016-08-16 22:53:32,351 INFO     king       添加mvName为<<Put'Em Up 完整版>>的数据成功
+
+2016-08-16 22:53:32,352 INFO     king       添加mvName为<<到此为止 完整版>>的数据成功
+
+2016-08-16 22:53:32,354 INFO     king       添加mvName为<<Agust D 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,354 INFO     king       添加mvName为<<Baby Ride 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,354 INFO     king       添加mvName为<<Fantasy 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,354 INFO     king       添加mvName为<<RECIPE 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,354 INFO     king       添加mvName为<<Whatta Man (Good man) 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,354 INFO     king       添加mvName为<<怎样?(How's this?) 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,355 INFO     king       添加mvName为<<梦 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,355 INFO     king       添加mvName为<<Lip 2 Lip 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,355 INFO     king       添加mvName为<<All Mine 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,355 INFO     king       添加mvName为<<Take Me Now 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,355 INFO     king       添加mvName为<<D.N.A 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,355 INFO     king       添加mvName为<<JUST DO IT 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,355 INFO     king       添加mvName为<<夏日时光! (Summer Time! サマータイム!) 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,355 INFO     king       添加mvName为<<That's My Jam 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,355 INFO     king       添加mvName为<<Do Better 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,355 INFO     king       添加mvName为<<Crying 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,355 INFO     king       添加mvName为<<听我说(A-ing) 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,355 INFO     king       添加mvName为<<只对你执着 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,355 INFO     king       添加mvName为<<THINK ABOUT YOU 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,357 INFO     king       添加mvName为<<没关系 没关系 Fantasy 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,357 INFO     king       添加mvName为<<Darling Darling 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,357 INFO     king       添加mvName为<<THINK ABOUT YOU 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,357 INFO     king       添加mvName为<<Lip 2 Lip 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,357 INFO     king       添加mvName为<<GOOD LUCK 日文版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,357 INFO     king       添加mvName为<<Love Spell 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,357 INFO     king       添加mvName为<<我脑海里的照片 <任意依恋>OST Part.6>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,358 INFO     king       添加mvName为<<Summer Time(サマータイム!) 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,358 INFO     king       添加mvName为<<Fly To High 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,358 INFO     king       添加mvName为<<Still 24K 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,358 INFO     king       添加mvName为<<チャミスマ (Chamisma) 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,358 INFO     king       添加mvName为<<Paradise 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,358 INFO     king       添加mvName为<<UPDATE 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,358 INFO     king       添加mvName为<<偶然的事 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,358 INFO     king       添加mvName为<<消防车 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,358 INFO     king       添加mvName为<<夜半逃走(Tonight) 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,358 INFO     king       添加mvName为<<YOUNG FOREVER 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,358 INFO     king       添加mvName为<<Wonderland 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,358 INFO     king       添加mvName为<<没关系 没关系 Fantasy 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,358 INFO     king       添加mvName为<<待机室 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,358 INFO     king       添加mvName为<<DUET 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,359 INFO     king       添加mvName为<<Nice 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,359 INFO     king       添加mvName为<<Sunglasses>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,359 INFO     king       添加mvName为<<And July (Feat. DEAN, DJ Friz) 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,359 INFO     king       添加mvName为<<Your Girl 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,359 INFO     king       添加mvName为<<夜与星的歌(Starry Night) 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,359 INFO     king       添加mvName为<<我们的夜晚比你的白天更美 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,359 INFO     king       添加mvName为<<大海 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,361 INFO     king       添加mvName为<<Dream 完整版 我也是电影导演OST Part.1>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,361 INFO     king       添加mvName为<<Put'Em Up 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,361 INFO     king       添加mvName为<<到此为止 完整版>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:32,361 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=JP&page=1 到URLS
+
+2016-08-16 22:53:32,361 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=JP&page=2 到URLS
+
+2016-08-16 22:53:32,361 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=JP&page=3 到URLS
+
+2016-08-16 22:53:32,539 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=JP&page=1  数据成功
+
+2016-08-16 22:53:32,911 INFO     king       添加mvName为<<金の愛,銀の愛>>的数据成功
+
+2016-08-16 22:53:32,914 INFO     king       添加mvName为<<サヨナラが美しくて>>的数据成功
+
+2016-08-16 22:53:32,917 INFO     king       添加mvName为<<LOVE TRIP>>的数据成功
+
+2016-08-16 22:53:32,920 INFO     king       添加mvName为<<blaze>>的数据成功
+
+2016-08-16 22:53:32,923 INFO     king       添加mvName为<<Pride>>的数据成功
+
+2016-08-16 22:53:32,924 INFO     king       添加mvName为<<風の唄>>的数据成功
+
+2016-08-16 22:53:32,927 INFO     king       添加mvName为<<しあわせを分けなさい>>的数据成功
+
+2016-08-16 22:53:32,930 INFO     king       添加mvName为<<まだ君は知らない MY PRETTIEST GIRL>>的数据成功
+
+2016-08-16 22:53:32,931 INFO     king       添加mvName为<<いい人いい人詐欺>>的数据成功
+
+2016-08-16 22:53:32,934 INFO     king       添加mvName为<<Masquerade>>的数据成功
+
+2016-08-16 22:53:32,937 INFO     king       添加mvName为<<僕はいない (Dance Ver.)>>的数据成功
+
+2016-08-16 22:53:32,940 INFO     king       添加mvName为<<Hero (NHK ver.)>>的数据成功
+
+2016-08-16 22:53:32,943 INFO     king       添加mvName为<<クロスロード>>的数据成功
+
+2016-08-16 22:53:32,944 INFO     king       添加mvName为<<窓際LOVER>>的数据成功
+
+2016-08-16 22:53:32,947 INFO     king       添加mvName为<<ハッピーランキング>>的数据成功
+
+2016-08-16 22:53:32,950 INFO     king       添加mvName为<<僕はいない>>的数据成功
+
+2016-08-16 22:53:32,953 INFO     king       添加mvName为<<BURN>>的数据成功
+
+2016-08-16 22:53:32,956 INFO     king       添加mvName为<<起死回生>>的数据成功
+
+2016-08-16 22:53:32,959 INFO     king       添加mvName为<<薔薇と太陽>>的数据成功
+
+2016-08-16 22:53:32,960 INFO     king       添加mvName为<<Show Me What You've Got>>的数据成功
+
+2016-08-16 22:53:33,164 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=JP&page=2  数据成功
+
+2016-08-16 22:53:33,548 INFO     king       添加mvName为<<ハプニング>>的数据成功
+
+2016-08-16 22:53:33,552 INFO     king       添加mvName为<<ラストシーン>>的数据成功
+
+2016-08-16 22:53:33,553 INFO     king       添加mvName为<<世界には愛しかない>>的数据成功
+
+2016-08-16 22:53:33,556 INFO     king       添加mvName为<<Hero>>的数据成功
+
+2016-08-16 22:53:33,559 INFO     king       添加mvName为<<渋谷からPARCOが消えた日>>的数据成功
+
+2016-08-16 22:53:33,562 INFO     king       添加mvName为<<オフショアガール>>的数据成功
+
+2016-08-16 22:53:33,565 INFO     king       添加mvName为<<ひまわりに積もる雪>>的数据成功
+
+2016-08-16 22:53:33,569 INFO     king       添加mvName为<<翼>>的数据成功
+
+2016-08-16 22:53:33,572 INFO     king       添加mvName为<<語るなら未来を...>>的数据成功
+
+2016-08-16 22:53:33,575 INFO     king       添加mvName为<<光の破片>>的数据成功
+
+2016-08-16 22:53:33,576 INFO     king       添加mvName为<<Deal with>>的数据成功
+
+2016-08-16 22:53:33,579 INFO     king       添加mvName为<<INSIDE OF ME>>的数据成功
+
+2016-08-16 22:53:33,584 INFO     king       添加mvName为<<また会ってください>>的数据成功
+
+2016-08-16 22:53:33,585 INFO     king       添加mvName为<<Pink Champagne>>的数据成功
+
+2016-08-16 22:53:33,588 INFO     king       添加mvName为<<イノセント>>的数据成功
+
+2016-08-16 22:53:33,591 INFO     king       添加mvName为<<トモダチメートル>>的数据成功
+
+2016-08-16 22:53:33,592 INFO     king       添加mvName为<<命の真実 ミュージカル>>的数据成功
+
+2016-08-16 22:53:33,595 INFO     king       添加mvName为<<beautiful days>>的数据成功
+
+2016-08-16 22:53:33,598 INFO     king       添加mvName为<<Backstage>>的数据成功
+
+2016-08-16 22:53:33,599 INFO     king       添加mvName为<<最後の五尺玉>>的数据成功
+
+2016-08-16 22:53:33,752 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=JP&page=3  数据成功
+
+2016-08-16 22:53:34,000 INFO     king       添加mvName为<<テイクミーアウト>>的数据成功
+
+2016-08-16 22:53:34,003 INFO     king       添加mvName为<<空から愛が降って来る>>的数据成功
+
+2016-08-16 22:53:34,006 INFO     king       添加mvName为<<Shut up!! Shut up!! Shut up!!>>的数据成功
+
+2016-08-16 22:53:34,009 INFO     king       添加mvName为<<恋を知らない君へ>>的数据成功
+
+2016-08-16 22:53:34,012 INFO     king       添加mvName为<<妄想マシーン3号機>>的数据成功
+
+2016-08-16 22:53:34,013 INFO     king       添加mvName为<<白米様>>的数据成功
+
+2016-08-16 22:53:34,016 INFO     king       添加mvName为<<Gravity>>的数据成功
+
+2016-08-16 22:53:34,019 INFO     king       添加mvName为<<FACES PLACES>>的数据成功
+
+2016-08-16 22:53:34,020 INFO     king       添加mvName为<<海の声−Umi No Koe−>>的数据成功
+
+2016-08-16 22:53:34,023 INFO     king       添加mvName为<<シークレットグラフィティー>>的数据成功
+
+2016-08-16 22:53:34,023 INFO     king       添加mvName为<<金の愛,銀の愛>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,023 INFO     king       添加mvName为<<サヨナラが美しくて>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,023 INFO     king       添加mvName为<<LOVE TRIP>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,023 INFO     king       添加mvName为<<blaze>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,025 INFO     king       添加mvName为<<Pride>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,025 INFO     king       添加mvName为<<風の唄>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,025 INFO     king       添加mvName为<<しあわせを分けなさい>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,025 INFO     king       添加mvName为<<まだ君は知らない MY PRETTIEST GIRL>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,025 INFO     king       添加mvName为<<いい人いい人詐欺>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,025 INFO     king       添加mvName为<<Masquerade>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,026 INFO     king       添加mvName为<<僕はいない (Dance Ver.)>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,026 INFO     king       添加mvName为<<Hero (NHK ver.)>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,026 INFO     king       添加mvName为<<クロスロード>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,026 INFO     king       添加mvName为<<窓際LOVER>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,026 INFO     king       添加mvName为<<ハッピーランキング>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,026 INFO     king       添加mvName为<<僕はいない>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,026 INFO     king       添加mvName为<<BURN>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,026 INFO     king       添加mvName为<<起死回生>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,026 INFO     king       添加mvName为<<薔薇と太陽>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,026 INFO     king       添加mvName为<<Show Me What You've Got>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,026 INFO     king       添加mvName为<<ハプニング>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,026 INFO     king       添加mvName为<<ラストシーン>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,026 INFO     king       添加mvName为<<世界には愛しかない>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,028 INFO     king       添加mvName为<<Hero>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,028 INFO     king       添加mvName为<<渋谷からPARCOが消えた日>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,028 INFO     king       添加mvName为<<オフショアガール>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,028 INFO     king       添加mvName为<<ひまわりに積もる雪>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,028 INFO     king       添加mvName为<<翼>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,028 INFO     king       添加mvName为<<語るなら未来を...>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,028 INFO     king       添加mvName为<<光の破片>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,029 INFO     king       添加mvName为<<Deal with>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,029 INFO     king       添加mvName为<<INSIDE OF ME>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,029 INFO     king       添加mvName为<<また会ってください>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,029 INFO     king       添加mvName为<<Pink Champagne>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,029 INFO     king       添加mvName为<<イノセント>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,029 INFO     king       添加mvName为<<トモダチメートル>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,029 INFO     king       添加mvName为<<命の真実 ミュージカル>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,029 INFO     king       添加mvName为<<beautiful days>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,029 INFO     king       添加mvName为<<Backstage>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,029 INFO     king       添加mvName为<<最後の五尺玉>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,029 INFO     king       添加mvName为<<テイクミーアウト>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,029 INFO     king       添加mvName为<<空から愛が降って来る>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,029 INFO     king       添加mvName为<<Shut up!! Shut up!! Shut up!!>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,029 INFO     king       添加mvName为<<恋を知らない君へ>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,030 INFO     king       添加mvName为<<妄想マシーン3号機>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,030 INFO     king       添加mvName为<<白米様>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,030 INFO     king       添加mvName为<<Gravity>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,030 INFO     king       添加mvName为<<FACES PLACES>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,030 INFO     king       添加mvName为<<海の声−Umi No Koe−>>的MV到mvTopList.txt...
+
+2016-08-16 22:53:34,030 INFO     king       添加mvName为<<シークレットグラフィティー>>的MV到mvTopList.txt...
+
+2016-08-20 00:34:09,076 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=1 到URLS
+
+2016-08-20 00:34:09,076 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=2 到URLS
+
+2016-08-20 00:34:09,076 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=3 到URLS
+
+2016-08-20 00:34:09,362 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=1  数据成功
+
+2016-08-20 00:34:10,079 INFO     king       添加mvName为<<摩天轮的思念 网络剧<超少年密码>插曲>>的数据成功
+
+2016-08-20 00:34:10,084 INFO     king       添加mvName为<<Lotto 中文版>>的数据成功
+
+2016-08-20 00:34:10,085 INFO     king       添加mvName为<<不说放弃好吗 官方版>>的数据成功
+
+2016-08-20 00:34:10,089 INFO     king       添加mvName为<<最远的距离 电影<夏有乔木 雅望天堂>插曲>>的数据成功
+
+2016-08-20 00:34:10,094 INFO     king       添加mvName为<<大梦想家 电视剧<九州天空城>片尾曲>>的数据成功
+
+2016-08-20 00:34:10,096 INFO     king       添加mvName为<<陪我一起做梦 官方版>>的数据成功
+
+2016-08-20 00:34:10,101 INFO     king       添加mvName为<<我好像在哪见过你 官方版>>的数据成功
+
+2016-08-20 00:34:10,105 INFO     king       添加mvName为<<浮诛 电视剧<青云志>主题曲>>的数据成功
+
+2016-08-20 00:34:10,108 INFO     king       添加mvName为<<若 官方版>>的数据成功
+
+2016-08-20 00:34:10,111 INFO     king       添加mvName为<<纨绔 官方版>>的数据成功
+
+2016-08-20 00:34:10,115 INFO     king       添加mvName为<<微微一笑很倾城 电视剧<微微一笑很倾城>片尾曲>>的数据成功
+
+2016-08-20 00:34:10,119 INFO     king       添加mvName为<<是秘密啊 中文版>>的数据成功
+
+2016-08-20 00:34:10,122 INFO     king       添加mvName为<<One More Kiss 中文版>>的数据成功
+
+2016-08-20 00:34:10,127 INFO     king       添加mvName为<<最初的梦想 电影<微微一笑很倾城>插曲>>的数据成功
+
+2016-08-20 00:34:10,131 INFO     king       添加mvName为<<无问 电影<盗墓笔记>主题曲>>的数据成功
+
+2016-08-20 00:34:10,134 INFO     king       添加mvName为<<说过的不算 官方版>>的数据成功
+
+2016-08-20 00:34:10,138 INFO     king       添加mvName为<<从此以后 电影<夏有乔木>主题曲>>的数据成功
+
+2016-08-20 00:34:10,141 INFO     king       添加mvName为<<Black White (AB) 官方版>>的数据成功
+
+2016-08-20 00:34:10,145 INFO     king       添加mvName为<<你是我的 电影<致青春.原来你还在这里>插曲>>的数据成功
+
+2016-08-20 00:34:10,148 INFO     king       添加mvName为<<香橙小姐 官方版>>的数据成功
+
+2016-08-20 00:34:10,890 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=2  数据成功
+
+2016-08-20 00:34:26,138 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=1 到URLS
+
+2016-08-20 00:34:26,140 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=2 到URLS
+
+2016-08-20 00:34:26,140 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=3 到URLS
+
+2016-08-20 00:34:34,911 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=1 到URLS
+
+2016-08-20 00:34:34,911 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=2 到URLS
+
+2016-08-20 00:34:34,911 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=3 到URLS
+
+2016-08-20 00:34:37,170 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=1  数据成功
+
+2016-08-20 00:34:57,625 INFO     king       添加mvName为<<摩天轮的思念 网络剧<超少年密码>插曲>>的数据成功
+
+2016-08-20 00:34:57,630 INFO     king       添加mvName为<<Lotto 中文版>>的数据成功
+
+2016-08-20 00:34:57,631 INFO     king       添加mvName为<<不说放弃好吗 官方版>>的数据成功
+
+2016-08-20 00:34:57,635 INFO     king       添加mvName为<<最远的距离 电影<夏有乔木 雅望天堂>插曲>>的数据成功
+
+2016-08-20 00:34:57,640 INFO     king       添加mvName为<<大梦想家 电视剧<九州天空城>片尾曲>>的数据成功
+
+2016-08-20 00:34:57,642 INFO     king       添加mvName为<<陪我一起做梦 官方版>>的数据成功
+
+2016-08-20 00:34:57,647 INFO     king       添加mvName为<<我好像在哪见过你 官方版>>的数据成功
+
+2016-08-20 00:34:57,651 INFO     king       添加mvName为<<浮诛 电视剧<青云志>主题曲>>的数据成功
+
+2016-08-20 00:34:57,654 INFO     king       添加mvName为<<若 官方版>>的数据成功
+
+2016-08-20 00:34:57,657 INFO     king       添加mvName为<<纨绔 官方版>>的数据成功
+
+2016-08-20 00:34:57,661 INFO     king       添加mvName为<<微微一笑很倾城 电视剧<微微一笑很倾城>片尾曲>>的数据成功
+
+2016-08-20 00:34:57,665 INFO     king       添加mvName为<<是秘密啊 中文版>>的数据成功
+
+2016-08-20 00:34:57,670 INFO     king       添加mvName为<<One More Kiss 中文版>>的数据成功
+
+2016-08-20 00:34:57,673 INFO     king       添加mvName为<<最初的梦想 电影<微微一笑很倾城>插曲>>的数据成功
+
+2016-08-20 00:34:57,677 INFO     king       添加mvName为<<无问 电影<盗墓笔记>主题曲>>的数据成功
+
+2016-08-20 00:34:57,680 INFO     king       添加mvName为<<说过的不算 官方版>>的数据成功
+
+2016-08-20 00:34:57,684 INFO     king       添加mvName为<<从此以后 电影<夏有乔木>主题曲>>的数据成功
+
+2016-08-20 00:34:57,687 INFO     king       添加mvName为<<Black White (AB) 官方版>>的数据成功
+
+2016-08-20 00:34:57,691 INFO     king       添加mvName为<<你是我的 电影<致青春.原来你还在这里>插曲>>的数据成功
+
+2016-08-20 00:34:57,696 INFO     king       添加mvName为<<香橙小姐 官方版>>的数据成功
+
+2016-08-20 00:35:00,948 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=2  数据成功
+
+2016-08-20 00:35:02,339 INFO     king       添加mvName为<<音梦 电视剧<九州天空城>插曲>>的数据成功
+
+2016-08-20 00:35:02,344 INFO     king       添加mvName为<<手花 官方版>>的数据成功
+
+2016-08-20 00:35:02,348 INFO     king       添加mvName为<<时光正好 电影<夏有乔木 雅望天堂>推广曲>>的数据成功
+
+2016-08-20 00:35:02,351 INFO     king       添加mvName为<<夏日的纪念 官方版>>的数据成功
+
+2016-08-20 00:35:02,355 INFO     king       添加mvName为<<Wake Up 官方版>>的数据成功
+
+2016-08-20 00:35:02,358 INFO     king       添加mvName为<<大谎言家 官方版>>的数据成功
+
+2016-08-20 00:35:02,362 INFO     king       添加mvName为<<写词的人 官方版>>的数据成功
+
+2016-08-20 00:35:02,365 INFO     king       添加mvName为<<Our Paradise 官方版>>的数据成功
+
+2016-08-20 00:35:02,369 INFO     king       添加mvName为<<碎碎恋 官方版>>的数据成功
+
+2016-08-20 00:35:02,374 INFO     king       添加mvName为<<一生所爱>>的数据成功
+
+2016-08-20 00:35:02,378 INFO     king       添加mvName为<<喊我的名字吧 官方版>>的数据成功
+
+2016-08-20 00:35:02,381 INFO     king       添加mvName为<<黎明 官方版>>的数据成功
+
+2016-08-20 00:35:02,384 INFO     king       添加mvName为<<oh ma mind china 官方版>>的数据成功
+
+2016-08-20 00:35:02,388 INFO     king       添加mvName为<<Bitter Sweet 官方版>>的数据成功
+
+2016-08-20 00:35:02,392 INFO     king       添加mvName为<<我们能不能 电影<泡沫之夏>推广曲>>的数据成功
+
+2016-08-20 00:35:02,397 INFO     king       添加mvName为<<我爱夏天 电影<在世界中心呼唤爱>推广曲>>的数据成功
+
+2016-08-20 00:35:02,401 INFO     king       添加mvName为<<角度 官方版>>的数据成功
+
+2016-08-20 00:35:02,404 INFO     king       添加mvName为<<陆垚知马俐 电影<陆垚知马俐>主题曲>>的数据成功
+
+2016-08-20 00:35:02,407 INFO     king       添加mvName为<<你,好不好?>>的数据成功
+
+2016-08-20 00:35:02,411 INFO     king       添加mvName为<<吹牛皮 官方版>>的数据成功
+
+2016-08-20 00:35:03,621 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=3  数据成功
+
+2016-08-20 00:35:03,913 INFO     king       添加mvName为<<不可抗力 电影<不可抗力之男仆的秘密>主题曲>>的数据成功
+
+2016-08-20 00:35:03,915 INFO     king       添加mvName为<<不要急 Fantasy 中文版>>的数据成功
+
+2016-08-20 00:35:03,920 INFO     king       添加mvName为<<青春不散 官方版>>的数据成功
+
+2016-08-20 00:35:03,924 INFO     king       添加mvName为<<事过境迁 官方版>>的数据成功
+
+2016-08-20 00:35:03,927 INFO     king       添加mvName为<<Just You>>的数据成功
+
+2016-08-20 00:35:03,930 INFO     king       添加mvName为<<This Is Love>>的数据成功
+
+2016-08-20 00:35:03,934 INFO     king       添加mvName为<<旧友 剧情版MV>>的数据成功
+
+2016-08-20 00:35:03,938 INFO     king       添加mvName为<<不正常 官方版>>的数据成功
+
+2016-08-20 00:35:03,943 INFO     king       添加mvName为<<留言 官方版>>的数据成功
+
+2016-08-20 00:35:03,947 INFO     king       添加mvName为<<破晓 官方版>>的数据成功
+
+2016-08-20 00:35:03,947 INFO     king       添加mvName为<<摩天轮的思念 网络剧<超少年密码>插曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,947 INFO     king       添加mvName为<<Lotto 中文版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,947 INFO     king       添加mvName为<<不说放弃好吗 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,947 INFO     king       添加mvName为<<最远的距离 电影<夏有乔木 雅望天堂>插曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,947 INFO     king       添加mvName为<<大梦想家 电视剧<九州天空城>片尾曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,947 INFO     king       添加mvName为<<陪我一起做梦 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,947 INFO     king       添加mvName为<<我好像在哪见过你 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,947 INFO     king       添加mvName为<<浮诛 电视剧<青云志>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,948 INFO     king       添加mvName为<<若 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,948 INFO     king       添加mvName为<<纨绔 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,948 INFO     king       添加mvName为<<微微一笑很倾城 电视剧<微微一笑很倾城>片尾曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,948 INFO     king       添加mvName为<<是秘密啊 中文版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,948 INFO     king       添加mvName为<<One More Kiss 中文版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,948 INFO     king       添加mvName为<<最初的梦想 电影<微微一笑很倾城>插曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,950 INFO     king       添加mvName为<<无问 电影<盗墓笔记>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,950 INFO     king       添加mvName为<<说过的不算 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,950 INFO     king       添加mvName为<<从此以后 电影<夏有乔木>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,950 INFO     king       添加mvName为<<Black White (AB) 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,950 INFO     king       添加mvName为<<你是我的 电影<致青春.原来你还在这里>插曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,950 INFO     king       添加mvName为<<香橙小姐 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,950 INFO     king       添加mvName为<<音梦 电视剧<九州天空城>插曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,950 INFO     king       添加mvName为<<手花 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,950 INFO     king       添加mvName为<<时光正好 电影<夏有乔木 雅望天堂>推广曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,950 INFO     king       添加mvName为<<夏日的纪念 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,950 INFO     king       添加mvName为<<Wake Up 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,950 INFO     king       添加mvName为<<大谎言家 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,950 INFO     king       添加mvName为<<写词的人 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,950 INFO     king       添加mvName为<<Our Paradise 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,950 INFO     king       添加mvName为<<碎碎恋 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,951 INFO     king       添加mvName为<<一生所爱>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,951 INFO     king       添加mvName为<<喊我的名字吧 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,951 INFO     king       添加mvName为<<黎明 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,951 INFO     king       添加mvName为<<oh ma mind china 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,951 INFO     king       添加mvName为<<Bitter Sweet 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,951 INFO     king       添加mvName为<<我们能不能 电影<泡沫之夏>推广曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,951 INFO     king       添加mvName为<<我爱夏天 电影<在世界中心呼唤爱>推广曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,953 INFO     king       添加mvName为<<角度 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,953 INFO     king       添加mvName为<<陆垚知马俐 电影<陆垚知马俐>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,953 INFO     king       添加mvName为<<你,好不好?>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,953 INFO     king       添加mvName为<<吹牛皮 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,953 INFO     king       添加mvName为<<不可抗力 电影<不可抗力之男仆的秘密>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,953 INFO     king       添加mvName为<<不要急 Fantasy 中文版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,953 INFO     king       添加mvName为<<青春不散 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,953 INFO     king       添加mvName为<<事过境迁 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,953 INFO     king       添加mvName为<<Just You>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,953 INFO     king       添加mvName为<<This Is Love>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,953 INFO     king       添加mvName为<<旧友 剧情版MV>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,953 INFO     king       添加mvName为<<不正常 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,953 INFO     king       添加mvName为<<留言 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,953 INFO     king       添加mvName为<<破晓 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:35:03,954 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=1 到URLS
+
+2016-08-20 00:35:03,954 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=2 到URLS
+
+2016-08-20 00:35:03,954 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=3 到URLS
+
+2016-08-20 00:35:06,519 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=1  数据成功
+
+2016-08-20 00:35:36,259 INFO     king       添加mvName为<<终于 官方版>>的数据成功
+
+2016-08-20 00:35:36,263 INFO     king       添加mvName为<<第一页 官方版>>的数据成功
+
+2016-08-20 00:35:36,266 INFO     king       添加mvName为<<黑寡妇 官方版>>的数据成功
+
+2016-08-20 00:35:36,270 INFO     king       添加mvName为<<超越无限 官方版>>的数据成功
+
+2016-08-20 00:35:36,275 INFO     king       添加mvName为<<我就是傻 官方版>>的数据成功
+
+2016-08-20 00:35:36,279 INFO     king       添加mvName为<<不害怕 官方版>>的数据成功
+
+2016-08-20 00:35:36,282 INFO     king       添加mvName为<<未完不待续 官方版>>的数据成功
+
+2016-08-20 00:35:36,286 INFO     king       添加mvName为<<不要再孤单 电影<微微一笑很倾城>主题曲>>的数据成功
+
+2016-08-20 00:35:36,289 INFO     king       添加mvName为<<贼 官方版>>的数据成功
+
+2016-08-20 00:35:36,293 INFO     king       添加mvName为<<余波荡漾 官方版>>的数据成功
+
+2016-08-20 00:35:36,298 INFO     king       添加mvName为<<如果我们不曾相遇 电视剧<青云志>张小凡人物主题曲>>的数据成功
+
+2016-08-20 00:35:36,302 INFO     king       添加mvName为<<忧伤来袭 官方版>>的数据成功
+
+2016-08-20 00:35:36,305 INFO     king       添加mvName为<<FLOW 官方版>>的数据成功
+
+2016-08-20 00:35:36,309 INFO     king       添加mvName为<<人间烟火 官方版>>的数据成功
+
+2016-08-20 00:35:36,312 INFO     king       添加mvName为<<说走就走 官方版>>的数据成功
+
+2016-08-20 00:35:36,316 INFO     king       添加mvName为<<钢琴键 官方版>>的数据成功
+
+2016-08-20 00:35:36,319 INFO     king       添加mvName为<<青蛙王子 官方版>>的数据成功
+
+2016-08-20 00:35:36,323 INFO     king       添加mvName为<<来不及再见 电影<精灵王座>推广曲>>的数据成功
+
+2016-08-20 00:35:36,328 INFO     king       添加mvName为<<久等了>>的数据成功
+
+2016-08-20 00:35:36,332 INFO     king       添加mvName为<<心底 电视剧<幻城>片尾曲>>的数据成功
+
+2016-08-20 00:35:39,592 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=2  数据成功
+
+2016-08-20 00:35:40,592 INFO     king       添加mvName为<<Boyz On Fire 官方版>>的数据成功
+
+2016-08-20 00:35:40,596 INFO     king       添加mvName为<<湫兮如风 电影<大鱼海棠>片尾曲>>的数据成功
+
+2016-08-20 00:35:40,601 INFO     king       添加mvName为<<诱惑的街 电影<天亮之前>主题曲>>的数据成功
+
+2016-08-20 00:35:40,604 INFO     king       添加mvName为<<一秒时光 官方版>>的数据成功
+
+2016-08-20 00:35:40,608 INFO     king       添加mvName为<<无痛的痛苦 电影<封神传奇>主题曲>>的数据成功
+
+2016-08-20 00:35:40,611 INFO     king       添加mvName为<<一个人也可以幸福 官方版>>的数据成功
+
+2016-08-20 00:35:40,615 INFO     king       添加mvName为<<不做陌生人 官方版>>的数据成功
+
+2016-08-20 00:35:40,618 INFO     king       添加mvName为<<Luv me Luv me要说出来 官方版>>的数据成功
+
+2016-08-20 00:35:40,622 INFO     king       添加mvName为<<借根烟 电视剧<左耳>主题曲>>的数据成功
+
+2016-08-20 00:35:40,627 INFO     king       添加mvName为<<Luv Me Luv Me 要说出来 舞蹈版>>的数据成功
+
+2016-08-20 00:35:40,631 INFO     king       添加mvName为<<十年 电影<我们的十年>主题曲>>的数据成功
+
+2016-08-20 00:35:40,634 INFO     king       添加mvName为<<钢铁心 电影<危城>宣传主题曲>>的数据成功
+
+2016-08-20 00:35:40,637 INFO     king       添加mvName为<<My Only Love 官方版>>的数据成功
+
+2016-08-20 00:36:01,651 ERROR    king       Python 返回URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=3  数据失败
+
+2016-08-20 00:41:16,401 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=1 到URLS
+
+2016-08-20 00:41:16,401 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=2 到URLS
+
+2016-08-20 00:41:16,401 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=3 到URLS
+
+2016-08-20 00:41:16,664 ERROR    king       Python 返回URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=1  数据失败
+
+2016-08-20 00:41:28,424 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=1 到URLS
+
+2016-08-20 00:41:28,424 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=2 到URLS
+
+2016-08-20 00:41:28,426 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=3 到URLS
+
+2016-08-20 00:41:29,098 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=1  数据成功
+
+2016-08-20 00:41:30,042 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=2  数据成功
+
+2016-08-20 00:41:36,615 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=3  数据成功
+
+2016-08-20 00:41:38,845 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=1 到URLS
+
+2016-08-20 00:41:38,845 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=2 到URLS
+
+2016-08-20 00:41:38,845 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=3 到URLS
+
+2016-08-20 00:41:54,224 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=1  数据成功
+
+2016-08-20 00:42:30,134 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=2  数据成功
+
+2016-08-20 00:42:45,783 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=3  数据成功
+
+2016-08-20 00:42:46,075 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=1 到URLS
+
+2016-08-20 00:42:46,075 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=2 到URLS
+
+2016-08-20 00:42:46,075 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=3 到URLS
+
+2016-08-20 00:42:48,832 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=1  数据成功
+
+2016-08-20 00:43:19,776 ERROR    king       Python 返回URL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=2  数据失败
+
+2016-08-20 00:44:45,151 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=1 到URLS
+
+2016-08-20 00:44:45,151 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=2 到URLS
+
+2016-08-20 00:44:45,151 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=3 到URLS
+
+2016-08-20 00:44:45,404 ERROR    king       Python 返回URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=1  数据失败
+
+2016-08-20 00:44:51,447 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=2  数据成功
+
+2016-08-20 00:44:51,832 INFO     king       添加mvName为<<音梦 电视剧<九州天空城>插曲>>的数据成功
+
+2016-08-20 00:44:51,835 INFO     king       添加mvName为<<手花 官方版>>的数据成功
+
+2016-08-20 00:44:51,839 INFO     king       添加mvName为<<时光正好 电影<夏有乔木 雅望天堂>推广曲>>的数据成功
+
+2016-08-20 00:44:51,844 INFO     king       添加mvName为<<夏日的纪念 官方版>>的数据成功
+
+2016-08-20 00:44:51,848 INFO     king       添加mvName为<<Wake Up 官方版>>的数据成功
+
+2016-08-20 00:44:51,851 INFO     king       添加mvName为<<大谎言家 官方版>>的数据成功
+
+2016-08-20 00:44:51,855 INFO     king       添加mvName为<<写词的人 官方版>>的数据成功
+
+2016-08-20 00:44:51,858 INFO     king       添加mvName为<<Our Paradise 官方版>>的数据成功
+
+2016-08-20 00:44:51,862 INFO     king       添加mvName为<<碎碎恋 官方版>>的数据成功
+
+2016-08-20 00:44:51,867 INFO     king       添加mvName为<<一生所爱>>的数据成功
+
+2016-08-20 00:44:51,869 INFO     king       添加mvName为<<喊我的名字吧 官方版>>的数据成功
+
+2016-08-20 00:44:51,875 INFO     king       添加mvName为<<黎明 官方版>>的数据成功
+
+2016-08-20 00:44:51,878 INFO     king       添加mvName为<<oh ma mind china 官方版>>的数据成功
+
+2016-08-20 00:44:51,881 INFO     king       添加mvName为<<Bitter Sweet 官方版>>的数据成功
+
+2016-08-20 00:44:51,885 INFO     king       添加mvName为<<我们能不能 电影<泡沫之夏>推广曲>>的数据成功
+
+2016-08-20 00:44:51,890 INFO     king       添加mvName为<<我爱夏天 电影<在世界中心呼唤爱>推广曲>>的数据成功
+
+2016-08-20 00:44:51,894 INFO     king       添加mvName为<<角度 官方版>>的数据成功
+
+2016-08-20 00:44:51,897 INFO     king       添加mvName为<<陆垚知马俐 电影<陆垚知马俐>主题曲>>的数据成功
+
+2016-08-20 00:44:51,901 INFO     king       添加mvName为<<你,好不好?>>的数据成功
+
+2016-08-20 00:44:51,905 INFO     king       添加mvName为<<吹牛皮 官方版>>的数据成功
+
+2016-08-20 00:44:53,674 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=3  数据成功
+
+2016-08-20 00:45:00,331 INFO     king       添加mvName为<<不可抗力 电影<不可抗力之男仆的秘密>主题曲>>的数据成功
+
+2016-08-20 00:45:00,335 INFO     king       添加mvName为<<不要急 Fantasy 中文版>>的数据成功
+
+2016-08-20 00:45:00,339 INFO     king       添加mvName为<<青春不散 官方版>>的数据成功
+
+2016-08-20 00:45:00,344 INFO     king       添加mvName为<<事过境迁 官方版>>的数据成功
+
+2016-08-20 00:45:00,348 INFO     king       添加mvName为<<Just You>>的数据成功
+
+2016-08-20 00:45:00,351 INFO     king       添加mvName为<<This Is Love>>的数据成功
+
+2016-08-20 00:45:00,355 INFO     king       添加mvName为<<旧友 剧情版MV>>的数据成功
+
+2016-08-20 00:45:00,358 INFO     king       添加mvName为<<不正常 官方版>>的数据成功
+
+2016-08-20 00:45:00,362 INFO     king       添加mvName为<<留言 官方版>>的数据成功
+
+2016-08-20 00:45:00,367 INFO     king       添加mvName为<<破晓 官方版>>的数据成功
+
+2016-08-20 00:45:00,367 INFO     king       添加mvName为<<音梦 电视剧<九州天空城>插曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,367 INFO     king       添加mvName为<<手花 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,368 INFO     king       添加mvName为<<时光正好 电影<夏有乔木 雅望天堂>推广曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,368 INFO     king       添加mvName为<<夏日的纪念 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,368 INFO     king       添加mvName为<<Wake Up 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,368 INFO     king       添加mvName为<<大谎言家 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,368 INFO     king       添加mvName为<<写词的人 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,368 INFO     king       添加mvName为<<Our Paradise 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,368 INFO     king       添加mvName为<<碎碎恋 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,368 INFO     king       添加mvName为<<一生所爱>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,368 INFO     king       添加mvName为<<喊我的名字吧 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,368 INFO     king       添加mvName为<<黎明 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,368 INFO     king       添加mvName为<<oh ma mind china 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,368 INFO     king       添加mvName为<<Bitter Sweet 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,368 INFO     king       添加mvName为<<我们能不能 电影<泡沫之夏>推广曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,368 INFO     king       添加mvName为<<我爱夏天 电影<在世界中心呼唤爱>推广曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,369 INFO     king       添加mvName为<<角度 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,369 INFO     king       添加mvName为<<陆垚知马俐 电影<陆垚知马俐>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,369 INFO     king       添加mvName为<<你,好不好?>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,369 INFO     king       添加mvName为<<吹牛皮 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,369 INFO     king       添加mvName为<<不可抗力 电影<不可抗力之男仆的秘密>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,371 INFO     king       添加mvName为<<不要急 Fantasy 中文版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,371 INFO     king       添加mvName为<<青春不散 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,371 INFO     king       添加mvName为<<事过境迁 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,371 INFO     king       添加mvName为<<Just You>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,371 INFO     king       添加mvName为<<This Is Love>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,371 INFO     king       添加mvName为<<旧友 剧情版MV>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,371 INFO     king       添加mvName为<<不正常 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,371 INFO     king       添加mvName为<<留言 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,371 INFO     king       添加mvName为<<破晓 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:00,371 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=1 到URLS
+
+2016-08-20 00:45:00,371 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=2 到URLS
+
+2016-08-20 00:45:00,371 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=3 到URLS
+
+2016-08-20 00:45:01,036 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=1  数据成功
+
+2016-08-20 00:45:01,815 INFO     king       添加mvName为<<终于 官方版>>的数据成功
+
+2016-08-20 00:45:01,819 INFO     king       添加mvName为<<第一页 官方版>>的数据成功
+
+2016-08-20 00:45:01,822 INFO     king       添加mvName为<<黑寡妇 官方版>>的数据成功
+
+2016-08-20 00:45:01,825 INFO     king       添加mvName为<<超越无限 官方版>>的数据成功
+
+2016-08-20 00:45:01,828 INFO     king       添加mvName为<<我就是傻 官方版>>的数据成功
+
+2016-08-20 00:45:01,832 INFO     king       添加mvName为<<不害怕 官方版>>的数据成功
+
+2016-08-20 00:45:01,835 INFO     king       添加mvName为<<未完不待续 官方版>>的数据成功
+
+2016-08-20 00:45:01,839 INFO     king       添加mvName为<<不要再孤单 电影<微微一笑很倾城>主题曲>>的数据成功
+
+2016-08-20 00:45:01,842 INFO     king       添加mvName为<<贼 官方版>>的数据成功
+
+2016-08-20 00:45:01,845 INFO     king       添加mvName为<<余波荡漾 官方版>>的数据成功
+
+2016-08-20 00:45:01,849 INFO     king       添加mvName为<<如果我们不曾相遇 电视剧<青云志>张小凡人物主题曲>>的数据成功
+
+2016-08-20 00:45:01,851 INFO     king       添加mvName为<<忧伤来袭 官方版>>的数据成功
+
+2016-08-20 00:45:01,855 INFO     king       添加mvName为<<FLOW 官方版>>的数据成功
+
+2016-08-20 00:45:01,859 INFO     king       添加mvName为<<人间烟火 官方版>>的数据成功
+
+2016-08-20 00:45:01,864 INFO     king       添加mvName为<<说走就走 官方版>>的数据成功
+
+2016-08-20 00:45:01,868 INFO     king       添加mvName为<<钢琴键 官方版>>的数据成功
+
+2016-08-20 00:45:01,869 INFO     king       添加mvName为<<青蛙王子 官方版>>的数据成功
+
+2016-08-20 00:45:01,874 INFO     king       添加mvName为<<来不及再见 电影<精灵王座>推广曲>>的数据成功
+
+2016-08-20 00:45:01,878 INFO     king       添加mvName为<<久等了>>的数据成功
+
+2016-08-20 00:45:01,881 INFO     king       添加mvName为<<心底 电视剧<幻城>片尾曲>>的数据成功
+
+2016-08-20 00:45:02,121 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=2  数据成功
+
+2016-08-20 00:45:03,910 INFO     king       添加mvName为<<Boyz On Fire 官方版>>的数据成功
+
+2016-08-20 00:45:03,913 INFO     king       添加mvName为<<湫兮如风 电影<大鱼海棠>片尾曲>>的数据成功
+
+2016-08-20 00:45:03,917 INFO     king       添加mvName为<<诱惑的街 电影<天亮之前>主题曲>>的数据成功
+
+2016-08-20 00:45:03,921 INFO     king       添加mvName为<<一秒时光 官方版>>的数据成功
+
+2016-08-20 00:45:03,924 INFO     king       添加mvName为<<无痛的痛苦 电影<封神传奇>主题曲>>的数据成功
+
+2016-08-20 00:45:03,927 INFO     king       添加mvName为<<一个人也可以幸福 官方版>>的数据成功
+
+2016-08-20 00:45:03,930 INFO     king       添加mvName为<<不做陌生人 官方版>>的数据成功
+
+2016-08-20 00:45:03,934 INFO     king       添加mvName为<<Luv me Luv me要说出来 官方版>>的数据成功
+
+2016-08-20 00:45:03,937 INFO     king       添加mvName为<<借根烟 电视剧<左耳>主题曲>>的数据成功
+
+2016-08-20 00:45:03,940 INFO     king       添加mvName为<<Luv Me Luv Me 要说出来 舞蹈版>>的数据成功
+
+2016-08-20 00:45:03,944 INFO     king       添加mvName为<<十年 电影<我们的十年>主题曲>>的数据成功
+
+2016-08-20 00:45:03,947 INFO     king       添加mvName为<<钢铁心 电影<危城>宣传主题曲>>的数据成功
+
+2016-08-20 00:45:03,951 INFO     king       添加mvName为<<My Only Love 官方版>>的数据成功
+
+2016-08-20 00:45:04,201 ERROR    king       Python 返回URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=3  数据失败
+
+2016-08-20 00:45:04,203 INFO     king       添加mvName为<<终于 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,203 INFO     king       添加mvName为<<第一页 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,203 INFO     king       添加mvName为<<黑寡妇 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,203 INFO     king       添加mvName为<<超越无限 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,203 INFO     king       添加mvName为<<我就是傻 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,203 INFO     king       添加mvName为<<不害怕 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,203 INFO     king       添加mvName为<<未完不待续 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,204 INFO     king       添加mvName为<<不要再孤单 电影<微微一笑很倾城>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,204 INFO     king       添加mvName为<<贼 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,204 INFO     king       添加mvName为<<余波荡漾 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,204 INFO     king       添加mvName为<<如果我们不曾相遇 电视剧<青云志>张小凡人物主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,204 INFO     king       添加mvName为<<忧伤来袭 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,206 INFO     king       添加mvName为<<FLOW 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,206 INFO     king       添加mvName为<<人间烟火 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,206 INFO     king       添加mvName为<<说走就走 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,206 INFO     king       添加mvName为<<钢琴键 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,206 INFO     king       添加mvName为<<青蛙王子 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,206 INFO     king       添加mvName为<<来不及再见 电影<精灵王座>推广曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,206 INFO     king       添加mvName为<<久等了>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,206 INFO     king       添加mvName为<<心底 电视剧<幻城>片尾曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,207 INFO     king       添加mvName为<<Boyz On Fire 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,207 INFO     king       添加mvName为<<湫兮如风 电影<大鱼海棠>片尾曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,207 INFO     king       添加mvName为<<诱惑的街 电影<天亮之前>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,207 INFO     king       添加mvName为<<一秒时光 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,207 INFO     king       添加mvName为<<无痛的痛苦 电影<封神传奇>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,207 INFO     king       添加mvName为<<一个人也可以幸福 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,207 INFO     king       添加mvName为<<不做陌生人 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,207 INFO     king       添加mvName为<<Luv me Luv me要说出来 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,207 INFO     king       添加mvName为<<借根烟 电视剧<左耳>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,207 INFO     king       添加mvName为<<Luv Me Luv Me 要说出来 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,207 INFO     king       添加mvName为<<十年 电影<我们的十年>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,207 INFO     king       添加mvName为<<钢铁心 电影<危城>宣传主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,207 INFO     king       添加mvName为<<My Only Love 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:04,209 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=1 到URLS
+
+2016-08-20 00:45:04,209 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=2 到URLS
+
+2016-08-20 00:45:04,209 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=3 到URLS
+
+2016-08-20 00:45:04,628 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=1  数据成功
+
+2016-08-20 00:45:05,223 INFO     king       添加mvName为<<We Don't Talk Anymore>>的数据成功
+
+2016-08-20 00:45:05,226 INFO     king       添加mvName为<<Rise>>的数据成功
+
+2016-08-20 00:45:05,229 INFO     king       添加mvName为<<WILD>>的数据成功
+
+2016-08-20 00:45:05,233 INFO     king       添加mvName为<<Superlove>>的数据成功
+
+2016-08-20 00:45:05,236 INFO     king       添加mvName为<<This House Is Not For Sale>>的数据成功
+
+2016-08-20 00:45:05,239 INFO     king       添加mvName为<<Goldmine>>的数据成功
+
+2016-08-20 00:45:05,243 INFO     king       添加mvName为<<Gangsta 电影<X特遣队>小丑女个人原声>>的数据成功
+
+2016-08-20 00:45:05,244 INFO     king       添加mvName为<<Purple Lamborghini>>的数据成功
+
+2016-08-20 00:45:05,249 INFO     king       添加mvName为<<Make Me...>>的数据成功
+
+2016-08-20 00:45:05,250 INFO     king       添加mvName为<<Carry On 官方版>>的数据成功
+
+2016-08-20 00:45:05,253 INFO     king       添加mvName为<<A Real Good Thing>>的数据成功
+
+2016-08-20 00:45:05,256 INFO     king       添加mvName为<<Weekend Millionaires>>的数据成功
+
+2016-08-20 00:45:05,259 INFO     king       添加mvName为<<In The Name Of Love>>的数据成功
+
+2016-08-20 00:45:05,260 INFO     king       添加mvName为<<Rise>>的数据成功
+
+2016-08-20 00:45:05,263 INFO     king       添加mvName为<<Guilty Flowers>>的数据成功
+
+2016-08-20 00:45:05,266 INFO     king       添加mvName为<<Say It Again>>的数据成功
+
+2016-08-20 00:45:05,267 INFO     king       添加mvName为<<Love Make The World Go Round>>的数据成功
+
+2016-08-20 00:45:05,270 INFO     king       添加mvName为<<Who Did You Love>>的数据成功
+
+2016-08-20 00:45:05,273 INFO     king       添加mvName为<<Gemini Feed>>的数据成功
+
+2016-08-20 00:45:05,276 INFO     king       添加mvName为<<Enough>>的数据成功
+
+2016-08-20 00:45:08,286 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=2  数据成功
+
+2016-08-20 00:45:08,736 INFO     king       添加mvName为<<Kill Em With The Shoulders>>的数据成功
+
+2016-08-20 00:45:08,740 INFO     king       添加mvName为<<What We Started>>的数据成功
+
+2016-08-20 00:45:08,742 INFO     king       添加mvName为<<Lionhearted>>的数据成功
+
+2016-08-20 00:45:08,743 INFO     king       添加mvName为<<No Limit>>的数据成功
+
+2016-08-20 00:45:08,747 INFO     king       添加mvName为<<Super Natural>>的数据成功
+
+2016-08-20 00:45:08,750 INFO     king       添加mvName为<<Cruel>>的数据成功
+
+2016-08-20 00:45:08,753 INFO     king       添加mvName为<<Heartlines>>的数据成功
+
+2016-08-20 00:45:08,756 INFO     king       添加mvName为<<A Head Full Of Dreams>>的数据成功
+
+2016-08-20 00:45:08,759 INFO     king       添加mvName为<<My Diamond>>的数据成功
+
+2016-08-20 00:45:08,760 INFO     king       添加mvName为<<Treat You Better>>的数据成功
+
+2016-08-20 00:45:08,763 INFO     king       添加mvName为<<Come Around>>的数据成功
+
+2016-08-20 00:45:08,766 INFO     king       添加mvName为<<The God I Know>>的数据成功
+
+2016-08-20 00:45:08,769 INFO     king       添加mvName为<<Stack Of Dreams>>的数据成功
+
+2016-08-20 00:45:08,770 INFO     king       添加mvName为<<Lights Down Low>>的数据成功
+
+2016-08-20 00:45:08,773 INFO     king       添加mvName为<<Summer Nights>>的数据成功
+
+2016-08-20 00:45:08,776 INFO     king       添加mvName为<<Take All the Time You Need>>的数据成功
+
+2016-08-20 00:45:08,778 INFO     king       添加mvName为<<You Don't Know Love>>的数据成功
+
+2016-08-20 00:45:08,782 INFO     king       添加mvName为<<Lyin' To Myself>>的数据成功
+
+2016-08-20 00:45:08,783 INFO     king       添加mvName为<<The Boys>>的数据成功
+
+2016-08-20 00:45:08,786 INFO     king       添加mvName为<<Collider>>的数据成功
+
+2016-08-20 00:45:09,019 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=3  数据成功
+
+2016-08-20 00:45:09,726 INFO     king       添加mvName为<<Go Off>>的数据成功
+
+2016-08-20 00:45:09,727 INFO     king       添加mvName为<<Scars To Your Beautiful>>的数据成功
+
+2016-08-20 00:45:09,730 INFO     king       添加mvName为<<Won't Stop Running 正式版>>的数据成功
+
+2016-08-20 00:45:09,733 INFO     king       添加mvName为<<Ruin>>的数据成功
+
+2016-08-20 00:45:09,737 INFO     king       添加mvName为<<Different For Girls>>的数据成功
+
+2016-08-20 00:45:09,740 INFO     king       添加mvName为<<Kids>>的数据成功
+
+2016-08-20 00:45:09,742 INFO     king       添加mvName为<<Saw It Coming>>的数据成功
+
+2016-08-20 00:45:09,744 INFO     king       添加mvName为<<The Spoils>>的数据成功
+
+2016-08-20 00:45:09,746 INFO     king       添加mvName为<<Ole>>的数据成功
+
+2016-08-20 00:45:09,749 INFO     king       添加mvName为<<FAINT OF HEART>>的数据成功
+
+2016-08-20 00:45:09,750 INFO     king       添加mvName为<<We Don't Talk Anymore>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,750 INFO     king       添加mvName为<<Rise>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,750 INFO     king       添加mvName为<<WILD>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,750 INFO     king       添加mvName为<<Superlove>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,750 INFO     king       添加mvName为<<This House Is Not For Sale>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,750 INFO     king       添加mvName为<<Goldmine>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,750 INFO     king       添加mvName为<<Gangsta 电影<X特遣队>小丑女个人原声>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,750 INFO     king       添加mvName为<<Purple Lamborghini>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,750 INFO     king       添加mvName为<<Make Me...>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,752 INFO     king       添加mvName为<<Carry On 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,752 INFO     king       添加mvName为<<A Real Good Thing>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,752 INFO     king       添加mvName为<<Weekend Millionaires>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,752 INFO     king       添加mvName为<<In The Name Of Love>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,752 INFO     king       添加mvName为<<Rise>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,752 INFO     king       添加mvName为<<Guilty Flowers>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,752 INFO     king       添加mvName为<<Say It Again>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,753 INFO     king       添加mvName为<<Love Make The World Go Round>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,753 INFO     king       添加mvName为<<Who Did You Love>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,753 INFO     king       添加mvName为<<Gemini Feed>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,753 INFO     king       添加mvName为<<Enough>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,753 INFO     king       添加mvName为<<Kill Em With The Shoulders>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,753 INFO     king       添加mvName为<<What We Started>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,753 INFO     king       添加mvName为<<Lionhearted>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,755 INFO     king       添加mvName为<<No Limit>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,755 INFO     king       添加mvName为<<Super Natural>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,755 INFO     king       添加mvName为<<Cruel>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,755 INFO     king       添加mvName为<<Heartlines>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,755 INFO     king       添加mvName为<<A Head Full Of Dreams>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,755 INFO     king       添加mvName为<<My Diamond>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,756 INFO     king       添加mvName为<<Treat You Better>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,756 INFO     king       添加mvName为<<Come Around>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,756 INFO     king       添加mvName为<<The God I Know>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,756 INFO     king       添加mvName为<<Stack Of Dreams>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,756 INFO     king       添加mvName为<<Lights Down Low>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,756 INFO     king       添加mvName为<<Summer Nights>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,756 INFO     king       添加mvName为<<Take All the Time You Need>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,756 INFO     king       添加mvName为<<You Don't Know Love>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,756 INFO     king       添加mvName为<<Lyin' To Myself>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,756 INFO     king       添加mvName为<<The Boys>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,756 INFO     king       添加mvName为<<Collider>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,756 INFO     king       添加mvName为<<Go Off>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,756 INFO     king       添加mvName为<<Scars To Your Beautiful>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,756 INFO     king       添加mvName为<<Won't Stop Running 正式版>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,757 INFO     king       添加mvName为<<Ruin>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,757 INFO     king       添加mvName为<<Different For Girls>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,757 INFO     king       添加mvName为<<Kids>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,757 INFO     king       添加mvName为<<Saw It Coming>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,757 INFO     king       添加mvName为<<The Spoils>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,757 INFO     king       添加mvName为<<Ole>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,757 INFO     king       添加mvName为<<FAINT OF HEART>>的MV到mvTopList.txt...
+
+2016-08-20 00:45:09,759 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=1 到URLS
+
+2016-08-20 00:45:09,759 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=2 到URLS
+
+2016-08-20 00:45:09,759 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=3 到URLS
+
+2016-08-20 00:45:10,266 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=1  数据成功
+
+2016-08-20 00:45:12,075 INFO     king       添加mvName为<<Lotto 完整版>>的数据成功
+
+2016-08-20 00:45:12,076 INFO     king       添加mvName为<<Agust D 完整版>>的数据成功
+
+2016-08-20 00:45:12,081 INFO     king       添加mvName为<<Baby Ride 完整版>>的数据成功
+
+2016-08-20 00:45:12,082 INFO     king       添加mvName为<<Fantasy 完整版>>的数据成功
+
+2016-08-20 00:45:12,086 INFO     king       添加mvName为<<Give It To Me 完整版>>的数据成功
+
+2016-08-20 00:45:12,091 INFO     king       添加mvName为<<RECIPE 完整版>>的数据成功
+
+2016-08-20 00:45:12,095 INFO     king       添加mvName为<<怎样?(How's this?) 完整版>>的数据成功
+
+2016-08-20 00:45:12,096 INFO     king       添加mvName为<<是秘密啊 韩文版>>的数据成功
+
+2016-08-20 00:45:12,099 INFO     king       添加mvName为<<Whatta Man (Good man) 完整版>>的数据成功
+
+2016-08-20 00:45:12,107 INFO     king       添加mvName为<<Secret 完整版>>的数据成功
+
+2016-08-20 00:45:12,109 INFO     king       添加mvName为<<梦 完整版>>的数据成功
+
+2016-08-20 00:45:12,111 INFO     king       添加mvName为<<All Mine 完整版>>的数据成功
+
+2016-08-20 00:45:12,114 INFO     king       添加mvName为<<MOLAE MOLAE 完整版>>的数据成功
+
+2016-08-20 00:45:12,115 INFO     king       添加mvName为<<Lip 2 Lip 舞蹈版>>的数据成功
+
+2016-08-20 00:45:12,118 INFO     king       添加mvName为<<D.N.A 完整版>>的数据成功
+
+2016-08-20 00:45:12,121 INFO     king       添加mvName为<<Take Me Now 完整版>>的数据成功
+
+2016-08-20 00:45:12,124 INFO     king       添加mvName为<<夏日时光! (Summer Time! サマータイム!) 完整版>>的数据成功
+
+2016-08-20 00:45:12,127 INFO     king       添加mvName为<<夏天,冰淇淋 (EYESCREAM) 完整版>>的数据成功
+
+2016-08-20 00:45:12,128 INFO     king       添加mvName为<<Do Better 完整版>>的数据成功
+
+2016-08-20 00:45:12,132 INFO     king       添加mvName为<<Crying 完整版>>的数据成功
+
+2016-08-20 00:45:12,401 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=2  数据成功
+
+2016-08-20 00:45:14,700 INFO     king       添加mvName为<<听我说(A-ing) 完整版>>的数据成功
+
+2016-08-20 00:45:14,703 INFO     king       添加mvName为<<JUST DO IT 完整版>>的数据成功
+
+2016-08-20 00:45:14,707 INFO     king       添加mvName为<<That's My Jam 完整版>>的数据成功
+
+2016-08-20 00:45:14,710 INFO     king       添加mvName为<<只对你执着 完整版>>的数据成功
+
+2016-08-20 00:45:14,713 INFO     king       添加mvName为<<我做错了什么 (Narr.李国主) 完整版>>的数据成功
+
+2016-08-20 00:45:14,714 INFO     king       添加mvName为<<THINK ABOUT YOU 舞蹈版>>的数据成功
+
+2016-08-20 00:45:14,717 INFO     king       添加mvName为<<夜半逃走 (Dance ver.)>>的数据成功
+
+2016-08-20 00:45:14,719 INFO     king       添加mvName为<<没关系 没关系 Fantasy 完整版>>的数据成功
+
+2016-08-20 00:45:14,721 INFO     king       添加mvName为<<THINK ABOUT YOU 完整版>>的数据成功
+
+2016-08-20 00:45:14,723 INFO     king       添加mvName为<<Darling Darling 完整版>>的数据成功
+
+2016-08-20 00:45:14,727 INFO     king       添加mvName为<<我脑海里的照片 <任意依恋>OST Part.6>>的数据成功
+
+2016-08-20 00:45:14,732 INFO     king       添加mvName为<<Lip 2 Lip 完整版>>的数据成功
+
+2016-08-20 00:45:14,734 INFO     king       添加mvName为<<GOOD LUCK 日文版>>的数据成功
+
+2016-08-20 00:45:14,739 INFO     king       添加mvName为<<Love Spell 完整版>>的数据成功
+
+2016-08-20 00:45:14,740 INFO     king       添加mvName为<<Still 24K 完整版>>的数据成功
+
+2016-08-20 00:45:14,744 INFO     king       添加mvName为<<チャミスマ (Chamisma) 完整版>>的数据成功
+
+2016-08-20 00:45:14,746 INFO     king       添加mvName为<<Summer Time(サマータイム!) 舞蹈版>>的数据成功
+
+2016-08-20 00:45:14,750 INFO     king       添加mvName为<<消防车 舞蹈版>>的数据成功
+
+2016-08-20 00:45:14,752 INFO     king       添加mvName为<<Paradise 完整版>>的数据成功
+
+2016-08-20 00:45:14,753 INFO     king       添加mvName为<<Fly To High 完整版>>的数据成功
+
+2016-08-20 00:45:41,565 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=3  数据成功
+
+2016-08-20 00:46:02,540 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=1 到URLS
+
+2016-08-20 00:46:02,542 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=2 到URLS
+
+2016-08-20 00:46:02,542 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=3 到URLS
+
+2016-08-20 00:46:03,851 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=1  数据成功
+
+2016-08-20 00:46:05,546 INFO     king       添加mvName为<<摩天轮的思念 网络剧<超少年密码>插曲>>的数据成功
+
+2016-08-20 00:46:05,549 INFO     king       添加mvName为<<Lotto 中文版>>的数据成功
+
+2016-08-20 00:46:05,552 INFO     king       添加mvName为<<不说放弃好吗 官方版>>的数据成功
+
+2016-08-20 00:46:05,556 INFO     king       添加mvName为<<最远的距离 电影<夏有乔木 雅望天堂>插曲>>的数据成功
+
+2016-08-20 00:46:05,561 INFO     king       添加mvName为<<大梦想家 电视剧<九州天空城>片尾曲>>的数据成功
+
+2016-08-20 00:46:05,563 INFO     king       添加mvName为<<陪我一起做梦 官方版>>的数据成功
+
+2016-08-20 00:46:05,568 INFO     king       添加mvName为<<我好像在哪见过你 官方版>>的数据成功
+
+2016-08-20 00:46:05,572 INFO     king       添加mvName为<<浮诛 电视剧<青云志>主题曲>>的数据成功
+
+2016-08-20 00:46:05,575 INFO     king       添加mvName为<<若 官方版>>的数据成功
+
+2016-08-20 00:46:05,578 INFO     king       添加mvName为<<纨绔 官方版>>的数据成功
+
+2016-08-20 00:46:05,582 INFO     king       添加mvName为<<微微一笑很倾城 电视剧<微微一笑很倾城>片尾曲>>的数据成功
+
+2016-08-20 00:46:05,588 INFO     king       添加mvName为<<是秘密啊 中文版>>的数据成功
+
+2016-08-20 00:46:05,591 INFO     king       添加mvName为<<One More Kiss 中文版>>的数据成功
+
+2016-08-20 00:46:05,595 INFO     king       添加mvName为<<最初的梦想 电影<微微一笑很倾城>插曲>>的数据成功
+
+2016-08-20 00:46:05,598 INFO     king       添加mvName为<<无问 电影<盗墓笔记>主题曲>>的数据成功
+
+2016-08-20 00:46:05,602 INFO     king       添加mvName为<<说过的不算 官方版>>的数据成功
+
+2016-08-20 00:46:05,607 INFO     king       添加mvName为<<从此以后 电影<夏有乔木>主题曲>>的数据成功
+
+2016-08-20 00:46:05,611 INFO     king       添加mvName为<<Black White (AB) 官方版>>的数据成功
+
+2016-08-20 00:46:05,615 INFO     king       添加mvName为<<你是我的 电影<致青春.原来你还在这里>插曲>>的数据成功
+
+2016-08-20 00:46:05,618 INFO     king       添加mvName为<<香橙小姐 官方版>>的数据成功
+
+2016-08-20 00:46:05,867 ERROR    king       Python 返回URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=2  数据失败
+
+2016-08-20 00:46:06,773 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=3  数据成功
+
+2016-08-20 00:46:10,528 INFO     king       添加mvName为<<不可抗力 电影<不可抗力之男仆的秘密>主题曲>>的数据成功
+
+2016-08-20 00:46:10,532 INFO     king       添加mvName为<<不要急 Fantasy 中文版>>的数据成功
+
+2016-08-20 00:46:10,536 INFO     king       添加mvName为<<青春不散 官方版>>的数据成功
+
+2016-08-20 00:46:10,539 INFO     king       添加mvName为<<事过境迁 官方版>>的数据成功
+
+2016-08-20 00:46:10,543 INFO     king       添加mvName为<<Just You>>的数据成功
+
+2016-08-20 00:46:10,548 INFO     king       添加mvName为<<This Is Love>>的数据成功
+
+2016-08-20 00:46:10,552 INFO     king       添加mvName为<<旧友 剧情版MV>>的数据成功
+
+2016-08-20 00:46:10,555 INFO     king       添加mvName为<<不正常 官方版>>的数据成功
+
+2016-08-20 00:46:10,559 INFO     king       添加mvName为<<留言 官方版>>的数据成功
+
+2016-08-20 00:46:10,562 INFO     king       添加mvName为<<破晓 官方版>>的数据成功
+
+2016-08-20 00:46:10,563 INFO     king       添加mvName为<<摩天轮的思念 网络剧<超少年密码>插曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,563 INFO     king       添加mvName为<<Lotto 中文版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,563 INFO     king       添加mvName为<<不说放弃好吗 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,565 INFO     king       添加mvName为<<最远的距离 电影<夏有乔木 雅望天堂>插曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,565 INFO     king       添加mvName为<<大梦想家 电视剧<九州天空城>片尾曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,565 INFO     king       添加mvName为<<陪我一起做梦 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,565 INFO     king       添加mvName为<<我好像在哪见过你 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,565 INFO     king       添加mvName为<<浮诛 电视剧<青云志>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,565 INFO     king       添加mvName为<<若 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,565 INFO     king       添加mvName为<<纨绔 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,565 INFO     king       添加mvName为<<微微一笑很倾城 电视剧<微微一笑很倾城>片尾曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,565 INFO     king       添加mvName为<<是秘密啊 中文版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,565 INFO     king       添加mvName为<<One More Kiss 中文版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,565 INFO     king       添加mvName为<<最初的梦想 电影<微微一笑很倾城>插曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,565 INFO     king       添加mvName为<<无问 电影<盗墓笔记>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,565 INFO     king       添加mvName为<<说过的不算 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,566 INFO     king       添加mvName为<<从此以后 电影<夏有乔木>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,566 INFO     king       添加mvName为<<Black White (AB) 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,566 INFO     king       添加mvName为<<你是我的 电影<致青春.原来你还在这里>插曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,566 INFO     king       添加mvName为<<香橙小姐 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,566 INFO     king       添加mvName为<<不可抗力 电影<不可抗力之男仆的秘密>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,566 INFO     king       添加mvName为<<不要急 Fantasy 中文版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,566 INFO     king       添加mvName为<<青春不散 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,568 INFO     king       添加mvName为<<事过境迁 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,568 INFO     king       添加mvName为<<Just You>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,568 INFO     king       添加mvName为<<This Is Love>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,568 INFO     king       添加mvName为<<旧友 剧情版MV>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,568 INFO     king       添加mvName为<<不正常 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,568 INFO     king       添加mvName为<<留言 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,568 INFO     king       添加mvName为<<破晓 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:10,569 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=1 到URLS
+
+2016-08-20 00:46:10,569 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=2 到URLS
+
+2016-08-20 00:46:10,569 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=3 到URLS
+
+2016-08-20 00:46:11,092 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=1  数据成功
+
+2016-08-20 00:46:11,757 INFO     king       添加mvName为<<终于 官方版>>的数据成功
+
+2016-08-20 00:46:11,762 INFO     king       添加mvName为<<第一页 官方版>>的数据成功
+
+2016-08-20 00:46:11,765 INFO     king       添加mvName为<<黑寡妇 官方版>>的数据成功
+
+2016-08-20 00:46:11,769 INFO     king       添加mvName为<<超越无限 官方版>>的数据成功
+
+2016-08-20 00:46:11,770 INFO     king       添加mvName为<<我就是傻 官方版>>的数据成功
+
+2016-08-20 00:46:11,775 INFO     king       添加mvName为<<不害怕 官方版>>的数据成功
+
+2016-08-20 00:46:11,779 INFO     king       添加mvName为<<未完不待续 官方版>>的数据成功
+
+2016-08-20 00:46:11,782 INFO     king       添加mvName为<<不要再孤单 电影<微微一笑很倾城>主题曲>>的数据成功
+
+2016-08-20 00:46:11,785 INFO     king       添加mvName为<<贼 官方版>>的数据成功
+
+2016-08-20 00:46:11,789 INFO     king       添加mvName为<<余波荡漾 官方版>>的数据成功
+
+2016-08-20 00:46:11,792 INFO     king       添加mvName为<<如果我们不曾相遇 电视剧<青云志>张小凡人物主题曲>>的数据成功
+
+2016-08-20 00:46:11,795 INFO     king       添加mvName为<<忧伤来袭 官方版>>的数据成功
+
+2016-08-20 00:46:11,799 INFO     king       添加mvName为<<FLOW 官方版>>的数据成功
+
+2016-08-20 00:46:11,802 INFO     king       添加mvName为<<人间烟火 官方版>>的数据成功
+
+2016-08-20 00:46:11,805 INFO     king       添加mvName为<<说走就走 官方版>>的数据成功
+
+2016-08-20 00:46:11,809 INFO     king       添加mvName为<<钢琴键 官方版>>的数据成功
+
+2016-08-20 00:46:11,812 INFO     king       添加mvName为<<青蛙王子 官方版>>的数据成功
+
+2016-08-20 00:46:11,816 INFO     king       添加mvName为<<来不及再见 电影<精灵王座>推广曲>>的数据成功
+
+2016-08-20 00:46:11,821 INFO     king       添加mvName为<<久等了>>的数据成功
+
+2016-08-20 00:46:11,825 INFO     king       添加mvName为<<心底 电视剧<幻城>片尾曲>>的数据成功
+
+2016-08-20 00:46:12,038 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=2  数据成功
+
+2016-08-20 00:46:14,970 INFO     king       添加mvName为<<Boyz On Fire 官方版>>的数据成功
+
+2016-08-20 00:46:14,973 INFO     king       添加mvName为<<湫兮如风 电影<大鱼海棠>片尾曲>>的数据成功
+
+2016-08-20 00:46:14,976 INFO     king       添加mvName为<<诱惑的街 电影<天亮之前>主题曲>>的数据成功
+
+2016-08-20 00:46:14,980 INFO     king       添加mvName为<<一秒时光 官方版>>的数据成功
+
+2016-08-20 00:46:14,984 INFO     king       添加mvName为<<无痛的痛苦 电影<封神传奇>主题曲>>的数据成功
+
+2016-08-20 00:46:14,989 INFO     king       添加mvName为<<一个人也可以幸福 官方版>>的数据成功
+
+2016-08-20 00:46:14,990 INFO     king       添加mvName为<<不做陌生人 官方版>>的数据成功
+
+2016-08-20 00:46:14,994 INFO     king       添加mvName为<<Luv me Luv me要说出来 官方版>>的数据成功
+
+2016-08-20 00:46:14,996 INFO     king       添加mvName为<<借根烟 电视剧<左耳>主题曲>>的数据成功
+
+2016-08-20 00:46:15,000 INFO     king       添加mvName为<<Luv Me Luv Me 要说出来 舞蹈版>>的数据成功
+
+2016-08-20 00:46:15,005 INFO     king       添加mvName为<<十年 电影<我们的十年>主题曲>>的数据成功
+
+2016-08-20 00:46:15,009 INFO     king       添加mvName为<<钢铁心 电影<危城>宣传主题曲>>的数据成功
+
+2016-08-20 00:46:15,013 INFO     king       添加mvName为<<My Only Love 官方版>>的数据成功
+
+2016-08-20 00:46:36,012 ERROR    king       Python 返回URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=3  数据失败
+
+2016-08-20 00:46:36,012 INFO     king       添加mvName为<<终于 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,012 INFO     king       添加mvName为<<第一页 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,013 INFO     king       添加mvName为<<黑寡妇 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,013 INFO     king       添加mvName为<<超越无限 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,013 INFO     king       添加mvName为<<我就是傻 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,013 INFO     king       添加mvName为<<不害怕 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,013 INFO     king       添加mvName为<<未完不待续 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,013 INFO     king       添加mvName为<<不要再孤单 电影<微微一笑很倾城>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,013 INFO     king       添加mvName为<<贼 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,013 INFO     king       添加mvName为<<余波荡漾 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,013 INFO     king       添加mvName为<<如果我们不曾相遇 电视剧<青云志>张小凡人物主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,013 INFO     king       添加mvName为<<忧伤来袭 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,013 INFO     king       添加mvName为<<FLOW 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,013 INFO     king       添加mvName为<<人间烟火 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,015 INFO     king       添加mvName为<<说走就走 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,015 INFO     king       添加mvName为<<钢琴键 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,015 INFO     king       添加mvName为<<青蛙王子 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,015 INFO     king       添加mvName为<<来不及再见 电影<精灵王座>推广曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,015 INFO     king       添加mvName为<<久等了>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,015 INFO     king       添加mvName为<<心底 电视剧<幻城>片尾曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,015 INFO     king       添加mvName为<<Boyz On Fire 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,016 INFO     king       添加mvName为<<湫兮如风 电影<大鱼海棠>片尾曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,016 INFO     king       添加mvName为<<诱惑的街 电影<天亮之前>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,016 INFO     king       添加mvName为<<一秒时光 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,016 INFO     king       添加mvName为<<无痛的痛苦 电影<封神传奇>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,016 INFO     king       添加mvName为<<一个人也可以幸福 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,016 INFO     king       添加mvName为<<不做陌生人 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,016 INFO     king       添加mvName为<<Luv me Luv me要说出来 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,016 INFO     king       添加mvName为<<借根烟 电视剧<左耳>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,016 INFO     king       添加mvName为<<Luv Me Luv Me 要说出来 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,016 INFO     king       添加mvName为<<十年 电影<我们的十年>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,016 INFO     king       添加mvName为<<钢铁心 电影<危城>宣传主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,016 INFO     king       添加mvName为<<My Only Love 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:36,016 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=1 到URLS
+
+2016-08-20 00:46:36,017 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=2 到URLS
+
+2016-08-20 00:46:36,017 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=3 到URLS
+
+2016-08-20 00:46:36,319 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=1  数据成功
+
+2016-08-20 00:46:36,996 INFO     king       添加mvName为<<We Don't Talk Anymore>>的数据成功
+
+2016-08-20 00:46:36,997 INFO     king       添加mvName为<<Rise>>的数据成功
+
+2016-08-20 00:46:37,000 INFO     king       添加mvName为<<WILD>>的数据成功
+
+2016-08-20 00:46:37,005 INFO     king       添加mvName为<<Superlove>>的数据成功
+
+2016-08-20 00:46:37,007 INFO     king       添加mvName为<<This House Is Not For Sale>>的数据成功
+
+2016-08-20 00:46:37,010 INFO     king       添加mvName为<<Goldmine>>的数据成功
+
+2016-08-20 00:46:37,013 INFO     king       添加mvName为<<Gangsta 电影<X特遣队>小丑女个人原声>>的数据成功
+
+2016-08-20 00:46:37,016 INFO     king       添加mvName为<<Purple Lamborghini>>的数据成功
+
+2016-08-20 00:46:37,019 INFO     king       添加mvName为<<Make Me...>>的数据成功
+
+2016-08-20 00:46:37,023 INFO     king       添加mvName为<<Carry On 官方版>>的数据成功
+
+2016-08-20 00:46:37,026 INFO     king       添加mvName为<<A Real Good Thing>>的数据成功
+
+2016-08-20 00:46:37,028 INFO     king       添加mvName为<<Weekend Millionaires>>的数据成功
+
+2016-08-20 00:46:37,029 INFO     king       添加mvName为<<In The Name Of Love>>的数据成功
+
+2016-08-20 00:46:37,032 INFO     king       添加mvName为<<Rise>>的数据成功
+
+2016-08-20 00:46:37,035 INFO     king       添加mvName为<<Guilty Flowers>>的数据成功
+
+2016-08-20 00:46:37,038 INFO     king       添加mvName为<<Say It Again>>的数据成功
+
+2016-08-20 00:46:37,039 INFO     king       添加mvName为<<Love Make The World Go Round>>的数据成功
+
+2016-08-20 00:46:37,042 INFO     king       添加mvName为<<Who Did You Love>>的数据成功
+
+2016-08-20 00:46:37,045 INFO     king       添加mvName为<<Gemini Feed>>的数据成功
+
+2016-08-20 00:46:37,049 INFO     king       添加mvName为<<Enough>>的数据成功
+
+2016-08-20 00:46:43,315 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=2  数据成功
+
+2016-08-20 00:46:47,443 INFO     king       添加mvName为<<Kill Em With The Shoulders>>的数据成功
+
+2016-08-20 00:46:47,444 INFO     king       添加mvName为<<What We Started>>的数据成功
+
+2016-08-20 00:46:47,447 INFO     king       添加mvName为<<Lionhearted>>的数据成功
+
+2016-08-20 00:46:47,450 INFO     king       添加mvName为<<No Limit>>的数据成功
+
+2016-08-20 00:46:47,453 INFO     king       添加mvName为<<Super Natural>>的数据成功
+
+2016-08-20 00:46:47,456 INFO     king       添加mvName为<<Cruel>>的数据成功
+
+2016-08-20 00:46:47,459 INFO     king       添加mvName为<<Heartlines>>的数据成功
+
+2016-08-20 00:46:47,461 INFO     king       添加mvName为<<A Head Full Of Dreams>>的数据成功
+
+2016-08-20 00:46:47,464 INFO     king       添加mvName为<<My Diamond>>的数据成功
+
+2016-08-20 00:46:47,467 INFO     king       添加mvName为<<Treat You Better>>的数据成功
+
+2016-08-20 00:46:47,469 INFO     king       添加mvName为<<Come Around>>的数据成功
+
+2016-08-20 00:46:47,471 INFO     king       添加mvName为<<The God I Know>>的数据成功
+
+2016-08-20 00:46:47,473 INFO     king       添加mvName为<<Stack Of Dreams>>的数据成功
+
+2016-08-20 00:46:47,476 INFO     king       添加mvName为<<Lights Down Low>>的数据成功
+
+2016-08-20 00:46:47,479 INFO     king       添加mvName为<<Summer Nights>>的数据成功
+
+2016-08-20 00:46:47,480 INFO     king       添加mvName为<<Take All the Time You Need>>的数据成功
+
+2016-08-20 00:46:47,483 INFO     king       添加mvName为<<You Don't Know Love>>的数据成功
+
+2016-08-20 00:46:47,486 INFO     king       添加mvName为<<Lyin' To Myself>>的数据成功
+
+2016-08-20 00:46:47,489 INFO     king       添加mvName为<<The Boys>>的数据成功
+
+2016-08-20 00:46:47,492 INFO     king       添加mvName为<<Collider>>的数据成功
+
+2016-08-20 00:46:48,108 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=3  数据成功
+
+2016-08-20 00:46:48,947 INFO     king       添加mvName为<<Go Off>>的数据成功
+
+2016-08-20 00:46:48,948 INFO     king       添加mvName为<<Scars To Your Beautiful>>的数据成功
+
+2016-08-20 00:46:48,951 INFO     king       添加mvName为<<Won't Stop Running 正式版>>的数据成功
+
+2016-08-20 00:46:48,956 INFO     king       添加mvName为<<Ruin>>的数据成功
+
+2016-08-20 00:46:48,960 INFO     king       添加mvName为<<Different For Girls>>的数据成功
+
+2016-08-20 00:46:48,961 INFO     king       添加mvName为<<Kids>>的数据成功
+
+2016-08-20 00:46:48,964 INFO     king       添加mvName为<<Saw It Coming>>的数据成功
+
+2016-08-20 00:46:48,967 INFO     king       添加mvName为<<The Spoils>>的数据成功
+
+2016-08-20 00:46:48,970 INFO     king       添加mvName为<<Ole>>的数据成功
+
+2016-08-20 00:46:48,971 INFO     king       添加mvName为<<FAINT OF HEART>>的数据成功
+
+2016-08-20 00:46:48,973 INFO     king       添加mvName为<<We Don't Talk Anymore>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,973 INFO     king       添加mvName为<<Rise>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,973 INFO     king       添加mvName为<<WILD>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,973 INFO     king       添加mvName为<<Superlove>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,973 INFO     king       添加mvName为<<This House Is Not For Sale>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,973 INFO     king       添加mvName为<<Goldmine>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,973 INFO     king       添加mvName为<<Gangsta 电影<X特遣队>小丑女个人原声>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,973 INFO     king       添加mvName为<<Purple Lamborghini>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,973 INFO     king       添加mvName为<<Make Me...>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,973 INFO     king       添加mvName为<<Carry On 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,973 INFO     king       添加mvName为<<A Real Good Thing>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,973 INFO     king       添加mvName为<<Weekend Millionaires>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,974 INFO     king       添加mvName为<<In The Name Of Love>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,974 INFO     king       添加mvName为<<Rise>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,974 INFO     king       添加mvName为<<Guilty Flowers>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,974 INFO     king       添加mvName为<<Say It Again>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,974 INFO     king       添加mvName为<<Love Make The World Go Round>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,974 INFO     king       添加mvName为<<Who Did You Love>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,974 INFO     king       添加mvName为<<Gemini Feed>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,976 INFO     king       添加mvName为<<Enough>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,976 INFO     king       添加mvName为<<Kill Em With The Shoulders>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,976 INFO     king       添加mvName为<<What We Started>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,976 INFO     king       添加mvName为<<Lionhearted>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,976 INFO     king       添加mvName为<<No Limit>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,976 INFO     king       添加mvName为<<Super Natural>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,976 INFO     king       添加mvName为<<Cruel>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,976 INFO     king       添加mvName为<<Heartlines>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,976 INFO     king       添加mvName为<<A Head Full Of Dreams>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,976 INFO     king       添加mvName为<<My Diamond>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,976 INFO     king       添加mvName为<<Treat You Better>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,976 INFO     king       添加mvName为<<Come Around>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,976 INFO     king       添加mvName为<<The God I Know>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,977 INFO     king       添加mvName为<<Stack Of Dreams>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,977 INFO     king       添加mvName为<<Lights Down Low>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,977 INFO     king       添加mvName为<<Summer Nights>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,977 INFO     king       添加mvName为<<Take All the Time You Need>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,977 INFO     king       添加mvName为<<You Don't Know Love>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,977 INFO     king       添加mvName为<<Lyin' To Myself>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,977 INFO     king       添加mvName为<<The Boys>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,979 INFO     king       添加mvName为<<Collider>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,979 INFO     king       添加mvName为<<Go Off>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,979 INFO     king       添加mvName为<<Scars To Your Beautiful>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,979 INFO     king       添加mvName为<<Won't Stop Running 正式版>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,979 INFO     king       添加mvName为<<Ruin>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,979 INFO     king       添加mvName为<<Different For Girls>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,979 INFO     king       添加mvName为<<Kids>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,980 INFO     king       添加mvName为<<Saw It Coming>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,980 INFO     king       添加mvName为<<The Spoils>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,980 INFO     king       添加mvName为<<Ole>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,980 INFO     king       添加mvName为<<FAINT OF HEART>>的MV到mvTopList.txt...
+
+2016-08-20 00:46:48,980 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=1 到URLS
+
+2016-08-20 00:46:48,980 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=2 到URLS
+
+2016-08-20 00:46:48,980 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=3 到URLS
+
+2016-08-20 00:47:08,101 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=1  数据成功
+
+2016-08-20 00:47:34,246 INFO     king       添加mvName为<<Lotto 完整版>>的数据成功
+
+2016-08-20 00:47:34,249 INFO     king       添加mvName为<<Agust D 完整版>>的数据成功
+
+2016-08-20 00:47:34,253 INFO     king       添加mvName为<<Baby Ride 完整版>>的数据成功
+
+2016-08-20 00:47:34,256 INFO     king       添加mvName为<<Fantasy 完整版>>的数据成功
+
+2016-08-20 00:47:34,259 INFO     king       添加mvName为<<Give It To Me 完整版>>的数据成功
+
+2016-08-20 00:47:34,263 INFO     king       添加mvName为<<RECIPE 完整版>>的数据成功
+
+2016-08-20 00:47:34,267 INFO     king       添加mvName为<<怎样?(How's this?) 完整版>>的数据成功
+
+2016-08-20 00:47:34,270 INFO     king       添加mvName为<<是秘密啊 韩文版>>的数据成功
+
+2016-08-20 00:47:34,273 INFO     king       添加mvName为<<Whatta Man (Good man) 完整版>>的数据成功
+
+2016-08-20 00:47:34,276 INFO     king       添加mvName为<<Secret 完整版>>的数据成功
+
+2016-08-20 00:47:34,279 INFO     king       添加mvName为<<梦 完整版>>的数据成功
+
+2016-08-20 00:47:34,282 INFO     king       添加mvName为<<All Mine 完整版>>的数据成功
+
+2016-08-20 00:47:34,283 INFO     king       添加mvName为<<MOLAE MOLAE 完整版>>的数据成功
+
+2016-08-20 00:47:34,286 INFO     king       添加mvName为<<Lip 2 Lip 舞蹈版>>的数据成功
+
+2016-08-20 00:47:34,289 INFO     king       添加mvName为<<D.N.A 完整版>>的数据成功
+
+2016-08-20 00:47:34,296 INFO     king       添加mvName为<<Take Me Now 完整版>>的数据成功
+
+2016-08-20 00:47:34,299 INFO     king       添加mvName为<<夏日时光! (Summer Time! サマータイム!) 完整版>>的数据成功
+
+2016-08-20 00:47:34,301 INFO     king       添加mvName为<<夏天,冰淇淋 (EYESCREAM) 完整版>>的数据成功
+
+2016-08-20 00:47:34,302 INFO     king       添加mvName为<<Do Better 完整版>>的数据成功
+
+2016-08-20 00:47:34,306 INFO     king       添加mvName为<<Crying 完整版>>的数据成功
+
+2016-08-20 00:47:34,927 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=2  数据成功
+
+2016-08-20 00:47:37,426 INFO     king       添加mvName为<<听我说(A-ing) 完整版>>的数据成功
+
+2016-08-20 00:47:37,427 INFO     king       添加mvName为<<JUST DO IT 完整版>>的数据成功
+
+2016-08-20 00:47:37,431 INFO     king       添加mvName为<<That's My Jam 完整版>>的数据成功
+
+2016-08-20 00:47:37,434 INFO     king       添加mvName为<<只对你执着 完整版>>的数据成功
+
+2016-08-20 00:47:37,437 INFO     king       添加mvName为<<我做错了什么 (Narr.李国主) 完整版>>的数据成功
+
+2016-08-20 00:47:37,438 INFO     king       添加mvName为<<THINK ABOUT YOU 舞蹈版>>的数据成功
+
+2016-08-20 00:47:37,441 INFO     king       添加mvName为<<夜半逃走 (Dance ver.)>>的数据成功
+
+2016-08-20 00:47:37,444 INFO     king       添加mvName为<<没关系 没关系 Fantasy 完整版>>的数据成功
+
+2016-08-20 00:47:37,447 INFO     king       添加mvName为<<THINK ABOUT YOU 完整版>>的数据成功
+
+2016-08-20 00:47:37,448 INFO     king       添加mvName为<<Darling Darling 完整版>>的数据成功
+
+2016-08-20 00:47:37,453 INFO     king       添加mvName为<<我脑海里的照片 <任意依恋>OST Part.6>>的数据成功
+
+2016-08-20 00:47:37,457 INFO     king       添加mvName为<<Lip 2 Lip 完整版>>的数据成功
+
+2016-08-20 00:47:37,459 INFO     king       添加mvName为<<GOOD LUCK 日文版>>的数据成功
+
+2016-08-20 00:47:37,463 INFO     king       添加mvName为<<Love Spell 完整版>>的数据成功
+
+2016-08-20 00:47:37,464 INFO     king       添加mvName为<<Still 24K 完整版>>的数据成功
+
+2016-08-20 00:47:37,469 INFO     king       添加mvName为<<チャミスマ (Chamisma) 完整版>>的数据成功
+
+2016-08-20 00:47:37,471 INFO     king       添加mvName为<<Summer Time(サマータイム!) 舞蹈版>>的数据成功
+
+2016-08-20 00:47:37,473 INFO     king       添加mvName为<<消防车 舞蹈版>>的数据成功
+
+2016-08-20 00:47:37,476 INFO     king       添加mvName为<<Paradise 完整版>>的数据成功
+
+2016-08-20 00:47:37,477 INFO     king       添加mvName为<<Fly To High 完整版>>的数据成功
+
+2016-08-20 00:47:38,039 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=3  数据成功
+
+2016-08-20 00:47:39,157 INFO     king       添加mvName为<<UPDATE 完整版>>的数据成功
+
+2016-08-20 00:47:39,161 INFO     king       添加mvName为<<Dream catcher 完整版>>的数据成功
+
+2016-08-20 00:47:39,164 INFO     king       添加mvName为<<CITY BREEZE 完整版>>的数据成功
+
+2016-08-20 00:47:39,167 INFO     king       添加mvName为<<Wonderland 舞蹈版>>的数据成功
+
+2016-08-20 00:47:39,168 INFO     king       添加mvName为<<And July (Feat. DEAN, DJ Friz) 完整版>>的数据成功
+
+2016-08-20 00:47:39,171 INFO     king       添加mvName为<<没关系 没关系 Fantasy 舞蹈版>>的数据成功
+
+2016-08-20 00:47:39,174 INFO     king       添加mvName为<<YOUNG FOREVER 完整版>>的数据成功
+
+2016-08-20 00:47:39,177 INFO     king       添加mvName为<<夜半逃走(Tonight) 完整版>>的数据成功
+
+2016-08-20 00:47:39,180 INFO     king       添加mvName为<<偶然的事 完整版>>的数据成功
+
+2016-08-20 00:47:39,181 INFO     king       添加mvName为<<待机室 完整版>>的数据成功
+
+2016-08-20 00:47:39,183 INFO     king       添加mvName为<<Lotto 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,183 INFO     king       添加mvName为<<Agust D 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,183 INFO     king       添加mvName为<<Baby Ride 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,183 INFO     king       添加mvName为<<Fantasy 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,184 INFO     king       添加mvName为<<Give It To Me 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,184 INFO     king       添加mvName为<<RECIPE 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,184 INFO     king       添加mvName为<<怎样?(How's this?) 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,184 INFO     king       添加mvName为<<是秘密啊 韩文版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,184 INFO     king       添加mvName为<<Whatta Man (Good man) 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,184 INFO     king       添加mvName为<<Secret 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,184 INFO     king       添加mvName为<<梦 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,184 INFO     king       添加mvName为<<All Mine 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,184 INFO     king       添加mvName为<<MOLAE MOLAE 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,184 INFO     king       添加mvName为<<Lip 2 Lip 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,186 INFO     king       添加mvName为<<D.N.A 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,186 INFO     king       添加mvName为<<Take Me Now 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,186 INFO     king       添加mvName为<<夏日时光! (Summer Time! サマータイム!) 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,186 INFO     king       添加mvName为<<夏天,冰淇淋 (EYESCREAM) 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,186 INFO     king       添加mvName为<<Do Better 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,186 INFO     king       添加mvName为<<Crying 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,186 INFO     king       添加mvName为<<听我说(A-ing) 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,187 INFO     king       添加mvName为<<JUST DO IT 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,187 INFO     king       添加mvName为<<That's My Jam 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,187 INFO     king       添加mvName为<<只对你执着 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,187 INFO     king       添加mvName为<<我做错了什么 (Narr.李国主) 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,187 INFO     king       添加mvName为<<THINK ABOUT YOU 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,187 INFO     king       添加mvName为<<夜半逃走 (Dance ver.)>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,187 INFO     king       添加mvName为<<没关系 没关系 Fantasy 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,187 INFO     king       添加mvName为<<THINK ABOUT YOU 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,187 INFO     king       添加mvName为<<Darling Darling 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,187 INFO     king       添加mvName为<<我脑海里的照片 <任意依恋>OST Part.6>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,187 INFO     king       添加mvName为<<Lip 2 Lip 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,187 INFO     king       添加mvName为<<GOOD LUCK 日文版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,187 INFO     king       添加mvName为<<Love Spell 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,187 INFO     king       添加mvName为<<Still 24K 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,188 INFO     king       添加mvName为<<チャミスマ (Chamisma) 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,188 INFO     king       添加mvName为<<Summer Time(サマータイム!) 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,188 INFO     king       添加mvName为<<消防车 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,188 INFO     king       添加mvName为<<Paradise 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,188 INFO     king       添加mvName为<<Fly To High 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,188 INFO     king       添加mvName为<<UPDATE 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,190 INFO     king       添加mvName为<<Dream catcher 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,190 INFO     king       添加mvName为<<CITY BREEZE 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,190 INFO     king       添加mvName为<<Wonderland 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,190 INFO     king       添加mvName为<<And July (Feat. DEAN, DJ Friz) 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,190 INFO     king       添加mvName为<<没关系 没关系 Fantasy 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,190 INFO     king       添加mvName为<<YOUNG FOREVER 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,190 INFO     king       添加mvName为<<夜半逃走(Tonight) 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,190 INFO     king       添加mvName为<<偶然的事 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,190 INFO     king       添加mvName为<<待机室 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:47:39,190 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=JP&page=1 到URLS
+
+2016-08-20 00:47:39,190 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=JP&page=2 到URLS
+
+2016-08-20 00:47:39,190 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=JP&page=3 到URLS
+
+2016-08-20 00:47:42,000 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=JP&page=1  数据成功
+
+2016-08-20 00:48:09,305 INFO     king       添加mvName为<<金の愛,銀の愛>>的数据成功
+
+2016-08-20 00:48:09,309 INFO     king       添加mvName为<<光と影の日々>>的数据成功
+
+2016-08-20 00:48:09,312 INFO     king       添加mvName为<<LOVE TRIP>>的数据成功
+
+2016-08-20 00:48:09,315 INFO     king       添加mvName为<<サヨナラが美しくて>>的数据成功
+
+2016-08-20 00:48:09,318 INFO     king       添加mvName为<<まだ君は知らない MY PRETTIEST GIRL>>的数据成功
+
+2016-08-20 00:48:09,319 INFO     king       添加mvName为<<blaze>>的数据成功
+
+2016-08-20 00:48:09,322 INFO     king       添加mvName为<<しあわせを分けなさい>>的数据成功
+
+2016-08-20 00:48:09,325 INFO     king       添加mvName为<<風の唄>>的数据成功
+
+2016-08-20 00:48:09,328 INFO     king       添加mvName为<<Pride>>的数据成功
+
+2016-08-20 00:48:09,331 INFO     king       添加mvName为<<Hero (NHK ver.)>>的数据成功
+
+2016-08-20 00:48:09,334 INFO     king       添加mvName为<<僕はいない (Dance Ver.)>>的数据成功
+
+2016-08-20 00:48:09,338 INFO     king       添加mvName为<<Mr.Flawless>>的数据成功
+
+2016-08-20 00:48:09,342 INFO     king       添加mvName为<<Masquerade>>的数据成功
+
+2016-08-20 00:48:09,345 INFO     king       添加mvName为<<起死回生>>的数据成功
+
+2016-08-20 00:48:09,346 INFO     king       添加mvName为<<クロスロード>>的数据成功
+
+2016-08-20 00:48:09,348 INFO     king       添加mvName为<<いい人いい人詐欺>>的数据成功
+
+2016-08-20 00:48:09,351 INFO     king       添加mvName为<<薔薇と太陽>>的数据成功
+
+2016-08-20 00:48:09,354 INFO     king       添加mvName为<<窓際LOVER>>的数据成功
+
+2016-08-20 00:48:09,358 INFO     king       添加mvName为<<Show Me What You've Got>>的数据成功
+
+2016-08-20 00:48:09,361 INFO     king       添加mvName为<<僕はいない>>的数据成功
+
+2016-08-20 00:48:09,609 ERROR    king       Python 返回URL:http://vchart.yinyuetai.com/vchart/trends?area=JP&page=2  数据失败
+
+2016-08-20 00:48:15,864 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=JP&page=3  数据成功
+
+2016-08-20 00:48:16,165 INFO     king       添加mvName为<<恋を知らない君へ>>的数据成功
+
+2016-08-20 00:48:16,167 INFO     king       添加mvName为<<命の真実 ミュージカル>>的数据成功
+
+2016-08-20 00:48:16,171 INFO     king       添加mvName为<<空から愛が降って来る>>的数据成功
+
+2016-08-20 00:48:16,173 INFO     king       添加mvName为<<妄想マシーン3号機>>的数据成功
+
+2016-08-20 00:48:16,176 INFO     king       添加mvName为<<テイクミーアウト>>的数据成功
+
+2016-08-20 00:48:16,177 INFO     king       添加mvName为<<Shut up!! Shut up!! Shut up!!>>的数据成功
+
+2016-08-20 00:48:16,180 INFO     king       添加mvName为<<最後の五尺玉>>的数据成功
+
+2016-08-20 00:48:16,183 INFO     king       添加mvName为<<Joy-ride 〜歓喜のドライブ〜>>的数据成功
+
+2016-08-20 00:48:16,184 INFO     king       添加mvName为<<シークレットグラフィティー>>的数据成功
+
+2016-08-20 00:48:16,187 INFO     king       添加mvName为<<Gravity>>的数据成功
+
+2016-08-20 00:48:16,187 INFO     king       添加mvName为<<金の愛,銀の愛>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,187 INFO     king       添加mvName为<<光と影の日々>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,187 INFO     king       添加mvName为<<LOVE TRIP>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,187 INFO     king       添加mvName为<<サヨナラが美しくて>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,187 INFO     king       添加mvName为<<まだ君は知らない MY PRETTIEST GIRL>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,187 INFO     king       添加mvName为<<blaze>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,188 INFO     king       添加mvName为<<しあわせを分けなさい>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,188 INFO     king       添加mvName为<<風の唄>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,188 INFO     king       添加mvName为<<Pride>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,188 INFO     king       添加mvName为<<Hero (NHK ver.)>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,188 INFO     king       添加mvName为<<僕はいない (Dance Ver.)>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,188 INFO     king       添加mvName为<<Mr.Flawless>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,190 INFO     king       添加mvName为<<Masquerade>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,190 INFO     king       添加mvName为<<起死回生>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,190 INFO     king       添加mvName为<<クロスロード>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,190 INFO     king       添加mvName为<<いい人いい人詐欺>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,190 INFO     king       添加mvName为<<薔薇と太陽>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,190 INFO     king       添加mvName为<<窓際LOVER>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,190 INFO     king       添加mvName为<<Show Me What You've Got>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,190 INFO     king       添加mvName为<<僕はいない>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,190 INFO     king       添加mvName为<<恋を知らない君へ>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,190 INFO     king       添加mvName为<<命の真実 ミュージカル>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,190 INFO     king       添加mvName为<<空から愛が降って来る>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,190 INFO     king       添加mvName为<<妄想マシーン3号機>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,190 INFO     king       添加mvName为<<テイクミーアウト>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,190 INFO     king       添加mvName为<<Shut up!! Shut up!! Shut up!!>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,191 INFO     king       添加mvName为<<最後の五尺玉>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,191 INFO     king       添加mvName为<<Joy-ride 〜歓喜のドライブ〜>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,191 INFO     king       添加mvName为<<シークレットグラフィティー>>的MV到mvTopList.txt...
+
+2016-08-20 00:48:16,191 INFO     king       添加mvName为<<Gravity>>的MV到mvTopList.txt...
+
+2016-08-20 00:49:53,598 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=1 到URLS
+
+2016-08-20 00:49:53,599 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=2 到URLS
+
+2016-08-20 00:49:53,599 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=3 到URLS
+
+2016-08-20 00:49:55,191 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=1  数据成功
+
+2016-08-20 00:49:59,601 INFO     king       添加mvName为<<摩天轮的思念 网络剧<超少年密码>插曲>>的数据成功
+
+2016-08-20 00:49:59,604 INFO     king       添加mvName为<<Lotto 中文版>>的数据成功
+
+2016-08-20 00:49:59,607 INFO     king       添加mvName为<<不说放弃好吗 官方版>>的数据成功
+
+2016-08-20 00:49:59,609 INFO     king       添加mvName为<<最远的距离 电影<夏有乔木 雅望天堂>插曲>>的数据成功
+
+2016-08-20 00:49:59,614 INFO     king       添加mvName为<<大梦想家 电视剧<九州天空城>片尾曲>>的数据成功
+
+2016-08-20 00:49:59,618 INFO     king       添加mvName为<<陪我一起做梦 官方版>>的数据成功
+
+2016-08-20 00:49:59,621 INFO     king       添加mvName为<<我好像在哪见过你 官方版>>的数据成功
+
+2016-08-20 00:49:59,625 INFO     king       添加mvName为<<浮诛 电视剧<青云志>主题曲>>的数据成功
+
+2016-08-20 00:49:59,630 INFO     king       添加mvName为<<若 官方版>>的数据成功
+
+2016-08-20 00:49:59,632 INFO     king       添加mvName为<<纨绔 官方版>>的数据成功
+
+2016-08-20 00:49:59,637 INFO     king       添加mvName为<<微微一笑很倾城 电视剧<微微一笑很倾城>片尾曲>>的数据成功
+
+2016-08-20 00:49:59,641 INFO     king       添加mvName为<<是秘密啊 中文版>>的数据成功
+
+2016-08-20 00:49:59,644 INFO     king       添加mvName为<<One More Kiss 中文版>>的数据成功
+
+2016-08-20 00:49:59,648 INFO     king       添加mvName为<<最初的梦想 电影<微微一笑很倾城>插曲>>的数据成功
+
+2016-08-20 00:49:59,653 INFO     king       添加mvName为<<无问 电影<盗墓笔记>主题曲>>的数据成功
+
+2016-08-20 00:49:59,657 INFO     king       添加mvName为<<说过的不算 官方版>>的数据成功
+
+2016-08-20 00:49:59,660 INFO     king       添加mvName为<<从此以后 电影<夏有乔木>主题曲>>的数据成功
+
+2016-08-20 00:49:59,664 INFO     king       添加mvName为<<Black White (AB) 官方版>>的数据成功
+
+2016-08-20 00:49:59,667 INFO     king       添加mvName为<<你是我的 电影<致青春.原来你还在这里>插曲>>的数据成功
+
+2016-08-20 00:49:59,671 INFO     king       添加mvName为<<香橙小姐 官方版>>的数据成功
+
+2016-08-20 00:49:59,921 ERROR    king       Python 返回URL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=2  数据失败
+
+2016-08-20 00:50:16,559 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=ML&page=3  数据成功
+
+2016-08-20 00:50:27,696 INFO     king       添加mvName为<<不可抗力 电影<不可抗力之男仆的秘密>主题曲>>的数据成功
+
+2016-08-20 00:50:27,700 INFO     king       添加mvName为<<不要急 Fantasy 中文版>>的数据成功
+
+2016-08-20 00:50:27,703 INFO     king       添加mvName为<<青春不散 官方版>>的数据成功
+
+2016-08-20 00:50:27,707 INFO     king       添加mvName为<<事过境迁 官方版>>的数据成功
+
+2016-08-20 00:50:27,711 INFO     king       添加mvName为<<Just You>>的数据成功
+
+2016-08-20 00:50:27,716 INFO     king       添加mvName为<<This Is Love>>的数据成功
+
+2016-08-20 00:50:27,719 INFO     king       添加mvName为<<旧友 剧情版MV>>的数据成功
+
+2016-08-20 00:50:27,723 INFO     king       添加mvName为<<不正常 官方版>>的数据成功
+
+2016-08-20 00:50:27,726 INFO     king       添加mvName为<<留言 官方版>>的数据成功
+
+2016-08-20 00:50:27,730 INFO     king       添加mvName为<<破晓 官方版>>的数据成功
+
+2016-08-20 00:50:27,732 INFO     king       添加mvName为<<摩天轮的思念 网络剧<超少年密码>插曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,732 INFO     king       添加mvName为<<Lotto 中文版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,732 INFO     king       添加mvName为<<不说放弃好吗 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,732 INFO     king       添加mvName为<<最远的距离 电影<夏有乔木 雅望天堂>插曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,732 INFO     king       添加mvName为<<大梦想家 电视剧<九州天空城>片尾曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,733 INFO     king       添加mvName为<<陪我一起做梦 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,733 INFO     king       添加mvName为<<我好像在哪见过你 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,733 INFO     king       添加mvName为<<浮诛 电视剧<青云志>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,733 INFO     king       添加mvName为<<若 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,733 INFO     king       添加mvName为<<纨绔 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,733 INFO     king       添加mvName为<<微微一笑很倾城 电视剧<微微一笑很倾城>片尾曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,733 INFO     king       添加mvName为<<是秘密啊 中文版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,733 INFO     king       添加mvName为<<One More Kiss 中文版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,733 INFO     king       添加mvName为<<最初的梦想 电影<微微一笑很倾城>插曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,733 INFO     king       添加mvName为<<无问 电影<盗墓笔记>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,733 INFO     king       添加mvName为<<说过的不算 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,733 INFO     king       添加mvName为<<从此以后 电影<夏有乔木>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,734 INFO     king       添加mvName为<<Black White (AB) 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,734 INFO     king       添加mvName为<<你是我的 电影<致青春.原来你还在这里>插曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,734 INFO     king       添加mvName为<<香橙小姐 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,734 INFO     king       添加mvName为<<不可抗力 电影<不可抗力之男仆的秘密>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,734 INFO     king       添加mvName为<<不要急 Fantasy 中文版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,734 INFO     king       添加mvName为<<青春不散 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,734 INFO     king       添加mvName为<<事过境迁 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,736 INFO     king       添加mvName为<<Just You>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,736 INFO     king       添加mvName为<<This Is Love>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,736 INFO     king       添加mvName为<<旧友 剧情版MV>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,736 INFO     king       添加mvName为<<不正常 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,736 INFO     king       添加mvName为<<留言 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,736 INFO     king       添加mvName为<<破晓 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:27,736 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=1 到URLS
+
+2016-08-20 00:50:27,736 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=2 到URLS
+
+2016-08-20 00:50:27,736 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=3 到URLS
+
+2016-08-20 00:50:30,930 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=1  数据成功
+
+2016-08-20 00:50:31,500 INFO     king       添加mvName为<<终于 官方版>>的数据成功
+
+2016-08-20 00:50:31,505 INFO     king       添加mvName为<<第一页 官方版>>的数据成功
+
+2016-08-20 00:50:31,509 INFO     king       添加mvName为<<黑寡妇 官方版>>的数据成功
+
+2016-08-20 00:50:31,513 INFO     king       添加mvName为<<超越无限 官方版>>的数据成功
+
+2016-08-20 00:50:31,516 INFO     king       添加mvName为<<我就是傻 官方版>>的数据成功
+
+2016-08-20 00:50:31,520 INFO     king       添加mvName为<<不害怕 官方版>>的数据成功
+
+2016-08-20 00:50:31,523 INFO     king       添加mvName为<<未完不待续 官方版>>的数据成功
+
+2016-08-20 00:50:31,528 INFO     king       添加mvName为<<不要再孤单 电影<微微一笑很倾城>主题曲>>的数据成功
+
+2016-08-20 00:50:31,532 INFO     king       添加mvName为<<贼 官方版>>的数据成功
+
+2016-08-20 00:50:31,536 INFO     king       添加mvName为<<余波荡漾 官方版>>的数据成功
+
+2016-08-20 00:50:31,539 INFO     king       添加mvName为<<如果我们不曾相遇 电视剧<青云志>张小凡人物主题曲>>的数据成功
+
+2016-08-20 00:50:31,543 INFO     king       添加mvName为<<忧伤来袭 官方版>>的数据成功
+
+2016-08-20 00:50:31,548 INFO     king       添加mvName为<<FLOW 官方版>>的数据成功
+
+2016-08-20 00:50:31,552 INFO     king       添加mvName为<<人间烟火 官方版>>的数据成功
+
+2016-08-20 00:50:31,555 INFO     king       添加mvName为<<说走就走 官方版>>的数据成功
+
+2016-08-20 00:50:31,559 INFO     king       添加mvName为<<钢琴键 官方版>>的数据成功
+
+2016-08-20 00:50:31,562 INFO     king       添加mvName为<<青蛙王子 官方版>>的数据成功
+
+2016-08-20 00:50:31,566 INFO     king       添加mvName为<<来不及再见 电影<精灵王座>推广曲>>的数据成功
+
+2016-08-20 00:50:31,571 INFO     king       添加mvName为<<久等了>>的数据成功
+
+2016-08-20 00:50:31,575 INFO     king       添加mvName为<<心底 电视剧<幻城>片尾曲>>的数据成功
+
+2016-08-20 00:50:32,516 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=2  数据成功
+
+2016-08-20 00:50:41,260 INFO     king       添加mvName为<<Boyz On Fire 官方版>>的数据成功
+
+2016-08-20 00:50:41,265 INFO     king       添加mvName为<<湫兮如风 电影<大鱼海棠>片尾曲>>的数据成功
+
+2016-08-20 00:50:41,269 INFO     king       添加mvName为<<诱惑的街 电影<天亮之前>主题曲>>的数据成功
+
+2016-08-20 00:50:41,273 INFO     king       添加mvName为<<一秒时光 官方版>>的数据成功
+
+2016-08-20 00:50:41,276 INFO     king       添加mvName为<<无痛的痛苦 电影<封神传奇>主题曲>>的数据成功
+
+2016-08-20 00:50:41,279 INFO     king       添加mvName为<<一个人也可以幸福 官方版>>的数据成功
+
+2016-08-20 00:50:41,282 INFO     king       添加mvName为<<不做陌生人 官方版>>的数据成功
+
+2016-08-20 00:50:41,286 INFO     king       添加mvName为<<Luv me Luv me要说出来 官方版>>的数据成功
+
+2016-08-20 00:50:41,290 INFO     king       添加mvName为<<借根烟 电视剧<左耳>主题曲>>的数据成功
+
+2016-08-20 00:50:41,295 INFO     king       添加mvName为<<Luv Me Luv Me 要说出来 舞蹈版>>的数据成功
+
+2016-08-20 00:50:41,298 INFO     king       添加mvName为<<十年 电影<我们的十年>主题曲>>的数据成功
+
+2016-08-20 00:50:41,302 INFO     king       添加mvName为<<钢铁心 电影<危城>宣传主题曲>>的数据成功
+
+2016-08-20 00:50:41,305 INFO     king       添加mvName为<<My Only Love 官方版>>的数据成功
+
+2016-08-20 00:50:50,552 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=HT&page=3  数据成功
+
+2016-08-20 00:50:50,813 INFO     king       添加mvName为<<终于 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,815 INFO     king       添加mvName为<<第一页 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,815 INFO     king       添加mvName为<<黑寡妇 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,815 INFO     king       添加mvName为<<超越无限 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,815 INFO     king       添加mvName为<<我就是傻 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,815 INFO     king       添加mvName为<<不害怕 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,815 INFO     king       添加mvName为<<未完不待续 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,815 INFO     king       添加mvName为<<不要再孤单 电影<微微一笑很倾城>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,815 INFO     king       添加mvName为<<贼 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,815 INFO     king       添加mvName为<<余波荡漾 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,815 INFO     king       添加mvName为<<如果我们不曾相遇 电视剧<青云志>张小凡人物主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,815 INFO     king       添加mvName为<<忧伤来袭 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,815 INFO     king       添加mvName为<<FLOW 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,816 INFO     king       添加mvName为<<人间烟火 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,816 INFO     king       添加mvName为<<说走就走 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,816 INFO     king       添加mvName为<<钢琴键 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,816 INFO     king       添加mvName为<<青蛙王子 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,816 INFO     king       添加mvName为<<来不及再见 电影<精灵王座>推广曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,816 INFO     king       添加mvName为<<久等了>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,816 INFO     king       添加mvName为<<心底 电视剧<幻城>片尾曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,816 INFO     king       添加mvName为<<Boyz On Fire 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,818 INFO     king       添加mvName为<<湫兮如风 电影<大鱼海棠>片尾曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,818 INFO     king       添加mvName为<<诱惑的街 电影<天亮之前>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,818 INFO     king       添加mvName为<<一秒时光 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,818 INFO     king       添加mvName为<<无痛的痛苦 电影<封神传奇>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,818 INFO     king       添加mvName为<<一个人也可以幸福 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,818 INFO     king       添加mvName为<<不做陌生人 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,819 INFO     king       添加mvName为<<Luv me Luv me要说出来 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,819 INFO     king       添加mvName为<<借根烟 电视剧<左耳>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,819 INFO     king       添加mvName为<<Luv Me Luv Me 要说出来 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,819 INFO     king       添加mvName为<<十年 电影<我们的十年>主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,819 INFO     king       添加mvName为<<钢铁心 电影<危城>宣传主题曲>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,819 INFO     king       添加mvName为<<My Only Love 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:50:50,819 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=1 到URLS
+
+2016-08-20 00:50:50,819 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=2 到URLS
+
+2016-08-20 00:50:50,819 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=3 到URLS
+
+2016-08-20 00:50:51,217 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=1  数据成功
+
+2016-08-20 00:50:52,101 INFO     king       添加mvName为<<We Don't Talk Anymore>>的数据成功
+
+2016-08-20 00:50:52,102 INFO     king       添加mvName为<<Rise>>的数据成功
+
+2016-08-20 00:50:52,105 INFO     king       添加mvName为<<WILD>>的数据成功
+
+2016-08-20 00:50:52,108 INFO     king       添加mvName为<<Superlove>>的数据成功
+
+2016-08-20 00:50:52,111 INFO     king       添加mvName为<<This House Is Not For Sale>>的数据成功
+
+2016-08-20 00:50:52,112 INFO     king       添加mvName为<<Goldmine>>的数据成功
+
+2016-08-20 00:50:52,115 INFO     king       添加mvName为<<Gangsta 电影<X特遣队>小丑女个人原声>>的数据成功
+
+2016-08-20 00:50:52,118 INFO     king       添加mvName为<<Purple Lamborghini>>的数据成功
+
+2016-08-20 00:50:52,121 INFO     king       添加mvName为<<Make Me...>>的数据成功
+
+2016-08-20 00:50:52,122 INFO     king       添加mvName为<<Carry On 官方版>>的数据成功
+
+2016-08-20 00:50:52,125 INFO     king       添加mvName为<<A Real Good Thing>>的数据成功
+
+2016-08-20 00:50:52,128 INFO     king       添加mvName为<<Weekend Millionaires>>的数据成功
+
+2016-08-20 00:50:52,131 INFO     king       添加mvName为<<In The Name Of Love>>的数据成功
+
+2016-08-20 00:50:52,132 INFO     king       添加mvName为<<Rise>>的数据成功
+
+2016-08-20 00:50:52,134 INFO     king       添加mvName为<<Guilty Flowers>>的数据成功
+
+2016-08-20 00:50:52,138 INFO     king       添加mvName为<<Say It Again>>的数据成功
+
+2016-08-20 00:50:52,141 INFO     king       添加mvName为<<Love Make The World Go Round>>的数据成功
+
+2016-08-20 00:50:52,144 INFO     king       添加mvName为<<Who Did You Love>>的数据成功
+
+2016-08-20 00:50:52,147 INFO     king       添加mvName为<<Gemini Feed>>的数据成功
+
+2016-08-20 00:50:52,148 INFO     king       添加mvName为<<Enough>>的数据成功
+
+2016-08-20 00:51:13,147 ERROR    king       Python 返回URL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=2  数据失败
+
+2016-08-20 00:51:13,881 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=US&page=3  数据成功
+
+2016-08-20 00:51:14,200 INFO     king       添加mvName为<<Go Off>>的数据成功
+
+2016-08-20 00:51:14,203 INFO     king       添加mvName为<<Scars To Your Beautiful>>的数据成功
+
+2016-08-20 00:51:14,206 INFO     king       添加mvName为<<Won't Stop Running 正式版>>的数据成功
+
+2016-08-20 00:51:14,209 INFO     king       添加mvName为<<Ruin>>的数据成功
+
+2016-08-20 00:51:14,210 INFO     king       添加mvName为<<Different For Girls>>的数据成功
+
+2016-08-20 00:51:14,213 INFO     king       添加mvName为<<Kids>>的数据成功
+
+2016-08-20 00:51:14,216 INFO     king       添加mvName为<<Saw It Coming>>的数据成功
+
+2016-08-20 00:51:14,219 INFO     king       添加mvName为<<The Spoils>>的数据成功
+
+2016-08-20 00:51:14,220 INFO     king       添加mvName为<<Ole>>的数据成功
+
+2016-08-20 00:51:14,223 INFO     king       添加mvName为<<FAINT OF HEART>>的数据成功
+
+2016-08-20 00:51:14,224 INFO     king       添加mvName为<<We Don't Talk Anymore>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,224 INFO     king       添加mvName为<<Rise>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,224 INFO     king       添加mvName为<<WILD>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,224 INFO     king       添加mvName为<<Superlove>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,224 INFO     king       添加mvName为<<This House Is Not For Sale>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,226 INFO     king       添加mvName为<<Goldmine>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,226 INFO     king       添加mvName为<<Gangsta 电影<X特遣队>小丑女个人原声>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,226 INFO     king       添加mvName为<<Purple Lamborghini>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,226 INFO     king       添加mvName为<<Make Me...>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,226 INFO     king       添加mvName为<<Carry On 官方版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,226 INFO     king       添加mvName为<<A Real Good Thing>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,226 INFO     king       添加mvName为<<Weekend Millionaires>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,226 INFO     king       添加mvName为<<In The Name Of Love>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,226 INFO     king       添加mvName为<<Rise>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,226 INFO     king       添加mvName为<<Guilty Flowers>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,226 INFO     king       添加mvName为<<Say It Again>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,226 INFO     king       添加mvName为<<Love Make The World Go Round>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,226 INFO     king       添加mvName为<<Who Did You Love>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,227 INFO     king       添加mvName为<<Gemini Feed>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,227 INFO     king       添加mvName为<<Enough>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,227 INFO     king       添加mvName为<<Go Off>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,227 INFO     king       添加mvName为<<Scars To Your Beautiful>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,227 INFO     king       添加mvName为<<Won't Stop Running 正式版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,227 INFO     king       添加mvName为<<Ruin>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,227 INFO     king       添加mvName为<<Different For Girls>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,227 INFO     king       添加mvName为<<Kids>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,229 INFO     king       添加mvName为<<Saw It Coming>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,229 INFO     king       添加mvName为<<The Spoils>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,229 INFO     king       添加mvName为<<Ole>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,229 INFO     king       添加mvName为<<FAINT OF HEART>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:14,229 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=1 到URLS
+
+2016-08-20 00:51:14,230 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=2 到URLS
+
+2016-08-20 00:51:14,230 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=3 到URLS
+
+2016-08-20 00:51:17,546 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=1  数据成功
+
+2016-08-20 00:51:18,921 INFO     king       添加mvName为<<Lotto 完整版>>的数据成功
+
+2016-08-20 00:51:18,924 INFO     king       添加mvName为<<Agust D 完整版>>的数据成功
+
+2016-08-20 00:51:18,927 INFO     king       添加mvName为<<Baby Ride 完整版>>的数据成功
+
+2016-08-20 00:51:18,930 INFO     king       添加mvName为<<Fantasy 完整版>>的数据成功
+
+2016-08-20 00:51:18,934 INFO     king       添加mvName为<<RECIPE 完整版>>的数据成功
+
+2016-08-20 00:51:18,938 INFO     king       添加mvName为<<Give It To Me 完整版>>的数据成功
+
+2016-08-20 00:51:18,941 INFO     king       添加mvName为<<怎样?(How's this?) 完整版>>的数据成功
+
+2016-08-20 00:51:18,944 INFO     king       添加mvName为<<是秘密啊 韩文版>>的数据成功
+
+2016-08-20 00:51:18,948 INFO     king       添加mvName为<<Whatta Man (Good man) 完整版>>的数据成功
+
+2016-08-20 00:51:18,953 INFO     king       添加mvName为<<Secret 完整版>>的数据成功
+
+2016-08-20 00:51:18,954 INFO     king       添加mvName为<<梦 完整版>>的数据成功
+
+2016-08-20 00:51:18,957 INFO     king       添加mvName为<<All Mine 完整版>>的数据成功
+
+2016-08-20 00:51:18,961 INFO     king       添加mvName为<<MOLAE MOLAE 完整版>>的数据成功
+
+2016-08-20 00:51:18,963 INFO     king       添加mvName为<<Lip 2 Lip 舞蹈版>>的数据成功
+
+2016-08-20 00:51:18,967 INFO     king       添加mvName为<<D.N.A 完整版>>的数据成功
+
+2016-08-20 00:51:18,969 INFO     king       添加mvName为<<Take Me Now 完整版>>的数据成功
+
+2016-08-20 00:51:18,970 INFO     king       添加mvName为<<夏日时光! (Summer Time! サマータイム!) 完整版>>的数据成功
+
+2016-08-20 00:51:18,973 INFO     king       添加mvName为<<夏天,冰淇淋 (EYESCREAM) 完整版>>的数据成功
+
+2016-08-20 00:51:18,977 INFO     king       添加mvName为<<Do Better 完整版>>的数据成功
+
+2016-08-20 00:51:18,980 INFO     king       添加mvName为<<Crying 完整版>>的数据成功
+
+2016-08-20 00:51:19,266 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=2  数据成功
+
+2016-08-20 00:51:20,612 INFO     king       添加mvName为<<听我说(A-ing) 完整版>>的数据成功
+
+2016-08-20 00:51:20,615 INFO     king       添加mvName为<<JUST DO IT 完整版>>的数据成功
+
+2016-08-20 00:51:20,618 INFO     king       添加mvName为<<That's My Jam 完整版>>的数据成功
+
+2016-08-20 00:51:20,619 INFO     king       添加mvName为<<只对你执着 完整版>>的数据成功
+
+2016-08-20 00:51:20,621 INFO     king       添加mvName为<<我做错了什么 (Narr.李国主) 完整版>>的数据成功
+
+2016-08-20 00:51:20,625 INFO     king       添加mvName为<<THINK ABOUT YOU 舞蹈版>>的数据成功
+
+2016-08-20 00:51:20,627 INFO     king       添加mvName为<<夜半逃走 (Dance ver.)>>的数据成功
+
+2016-08-20 00:51:20,631 INFO     king       添加mvName为<<没关系 没关系 Fantasy 完整版>>的数据成功
+
+2016-08-20 00:51:20,632 INFO     king       添加mvName为<<THINK ABOUT YOU 完整版>>的数据成功
+
+2016-08-20 00:51:20,634 INFO     king       添加mvName为<<Darling Darling 完整版>>的数据成功
+
+2016-08-20 00:51:20,638 INFO     king       添加mvName为<<我脑海里的照片 <任意依恋>OST Part.6>>的数据成功
+
+2016-08-20 00:51:20,641 INFO     king       添加mvName为<<Lip 2 Lip 完整版>>的数据成功
+
+2016-08-20 00:51:20,644 INFO     king       添加mvName为<<GOOD LUCK 日文版>>的数据成功
+
+2016-08-20 00:51:20,648 INFO     king       添加mvName为<<Love Spell 完整版>>的数据成功
+
+2016-08-20 00:51:20,651 INFO     king       添加mvName为<<Still 24K 完整版>>的数据成功
+
+2016-08-20 00:51:20,653 INFO     king       添加mvName为<<チャミスマ (Chamisma) 完整版>>的数据成功
+
+2016-08-20 00:51:20,657 INFO     king       添加mvName为<<Summer Time(サマータイム!) 舞蹈版>>的数据成功
+
+2016-08-20 00:51:20,660 INFO     king       添加mvName为<<消防车 舞蹈版>>的数据成功
+
+2016-08-20 00:51:20,664 INFO     king       添加mvName为<<Paradise 完整版>>的数据成功
+
+2016-08-20 00:51:20,665 INFO     king       添加mvName为<<Fly To High 完整版>>的数据成功
+
+2016-08-20 00:51:24,134 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=KR&page=3  数据成功
+
+2016-08-20 00:51:26,512 INFO     king       添加mvName为<<UPDATE 完整版>>的数据成功
+
+2016-08-20 00:51:26,516 INFO     king       添加mvName为<<Dream catcher 完整版>>的数据成功
+
+2016-08-20 00:51:26,519 INFO     king       添加mvName为<<CITY BREEZE 完整版>>的数据成功
+
+2016-08-20 00:51:26,523 INFO     king       添加mvName为<<Wonderland 舞蹈版>>的数据成功
+
+2016-08-20 00:51:26,526 INFO     king       添加mvName为<<And July (Feat. DEAN, DJ Friz) 完整版>>的数据成功
+
+2016-08-20 00:51:26,529 INFO     king       添加mvName为<<没关系 没关系 Fantasy 舞蹈版>>的数据成功
+
+2016-08-20 00:51:26,530 INFO     king       添加mvName为<<YOUNG FOREVER 完整版>>的数据成功
+
+2016-08-20 00:51:26,533 INFO     king       添加mvName为<<夜半逃走(Tonight) 完整版>>的数据成功
+
+2016-08-20 00:51:26,536 INFO     king       添加mvName为<<偶然的事 完整版>>的数据成功
+
+2016-08-20 00:51:26,539 INFO     king       添加mvName为<<待机室 完整版>>的数据成功
+
+2016-08-20 00:51:26,539 INFO     king       添加mvName为<<Lotto 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,539 INFO     king       添加mvName为<<Agust D 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,539 INFO     king       添加mvName为<<Baby Ride 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,539 INFO     king       添加mvName为<<Fantasy 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,539 INFO     king       添加mvName为<<RECIPE 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,539 INFO     king       添加mvName为<<Give It To Me 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,539 INFO     king       添加mvName为<<怎样?(How's this?) 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,540 INFO     king       添加mvName为<<是秘密啊 韩文版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,540 INFO     king       添加mvName为<<Whatta Man (Good man) 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,540 INFO     king       添加mvName为<<Secret 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,540 INFO     king       添加mvName为<<梦 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,540 INFO     king       添加mvName为<<All Mine 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,540 INFO     king       添加mvName为<<MOLAE MOLAE 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,540 INFO     king       添加mvName为<<Lip 2 Lip 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,542 INFO     king       添加mvName为<<D.N.A 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,542 INFO     king       添加mvName为<<Take Me Now 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,542 INFO     king       添加mvName为<<夏日时光! (Summer Time! サマータイム!) 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,542 INFO     king       添加mvName为<<夏天,冰淇淋 (EYESCREAM) 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,542 INFO     king       添加mvName为<<Do Better 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,542 INFO     king       添加mvName为<<Crying 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,542 INFO     king       添加mvName为<<听我说(A-ing) 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,542 INFO     king       添加mvName为<<JUST DO IT 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,542 INFO     king       添加mvName为<<That's My Jam 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,542 INFO     king       添加mvName为<<只对你执着 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,542 INFO     king       添加mvName为<<我做错了什么 (Narr.李国主) 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,542 INFO     king       添加mvName为<<THINK ABOUT YOU 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,542 INFO     king       添加mvName为<<夜半逃走 (Dance ver.)>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,542 INFO     king       添加mvName为<<没关系 没关系 Fantasy 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,543 INFO     king       添加mvName为<<THINK ABOUT YOU 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,543 INFO     king       添加mvName为<<Darling Darling 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,543 INFO     king       添加mvName为<<我脑海里的照片 <任意依恋>OST Part.6>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,543 INFO     king       添加mvName为<<Lip 2 Lip 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,543 INFO     king       添加mvName为<<GOOD LUCK 日文版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,543 INFO     king       添加mvName为<<Love Spell 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,543 INFO     king       添加mvName为<<Still 24K 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,545 INFO     king       添加mvName为<<チャミスマ (Chamisma) 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,545 INFO     king       添加mvName为<<Summer Time(サマータイム!) 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,545 INFO     king       添加mvName为<<消防车 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,545 INFO     king       添加mvName为<<Paradise 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,545 INFO     king       添加mvName为<<Fly To High 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,545 INFO     king       添加mvName为<<UPDATE 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,545 INFO     king       添加mvName为<<Dream catcher 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,546 INFO     king       添加mvName为<<CITY BREEZE 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,546 INFO     king       添加mvName为<<Wonderland 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,546 INFO     king       添加mvName为<<And July (Feat. DEAN, DJ Friz) 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,546 INFO     king       添加mvName为<<没关系 没关系 Fantasy 舞蹈版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,546 INFO     king       添加mvName为<<YOUNG FOREVER 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,546 INFO     king       添加mvName为<<夜半逃走(Tonight) 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,546 INFO     king       添加mvName为<<偶然的事 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,546 INFO     king       添加mvName为<<待机室 完整版>>的MV到mvTopList.txt...
+
+2016-08-20 00:51:26,546 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=JP&page=1 到URLS
+
+2016-08-20 00:51:26,546 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=JP&page=2 到URLS
+
+2016-08-20 00:51:26,546 INFO     king       添加URL:http://vchart.yinyuetai.com/vchart/trends?area=JP&page=3 到URLS
+
+2016-08-20 00:52:05,111 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=JP&page=1  数据成功
+
+2016-08-20 00:52:25,469 INFO     king       添加mvName为<<金の愛,銀の愛>>的数据成功
+
+2016-08-20 00:52:25,473 INFO     king       添加mvName为<<光と影の日々>>的数据成功
+
+2016-08-20 00:52:25,476 INFO     king       添加mvName为<<LOVE TRIP>>的数据成功
+
+2016-08-20 00:52:25,480 INFO     king       添加mvName为<<サヨナラが美しくて>>的数据成功
+
+2016-08-20 00:52:25,484 INFO     king       添加mvName为<<まだ君は知らない MY PRETTIEST GIRL>>的数据成功
+
+2016-08-20 00:52:25,487 INFO     king       添加mvName为<<blaze>>的数据成功
+
+2016-08-20 00:52:25,492 INFO     king       添加mvName为<<しあわせを分けなさい>>的数据成功
+
+2016-08-20 00:52:25,496 INFO     king       添加mvName为<<風の唄>>的数据成功
+
+2016-08-20 00:52:25,500 INFO     king       添加mvName为<<Pride>>的数据成功
+
+2016-08-20 00:52:25,503 INFO     king       添加mvName为<<Hero (NHK ver.)>>的数据成功
+
+2016-08-20 00:52:25,507 INFO     king       添加mvName为<<僕はいない (Dance Ver.)>>的数据成功
+
+2016-08-20 00:52:25,512 INFO     king       添加mvName为<<Mr.Flawless>>的数据成功
+
+2016-08-20 00:52:25,515 INFO     king       添加mvName为<<Masquerade>>的数据成功
+
+2016-08-20 00:52:25,519 INFO     king       添加mvName为<<起死回生>>的数据成功
+
+2016-08-20 00:52:25,523 INFO     king       添加mvName为<<クロスロード>>的数据成功
+
+2016-08-20 00:52:25,526 INFO     king       添加mvName为<<いい人いい人詐欺>>的数据成功
+
+2016-08-20 00:52:25,530 INFO     king       添加mvName为<<薔薇と太陽>>的数据成功
+
+2016-08-20 00:52:25,535 INFO     king       添加mvName为<<Show Me What You've Got>>的数据成功
+
+2016-08-20 00:52:25,539 INFO     king       添加mvName为<<窓際LOVER>>的数据成功
+
+2016-08-20 00:52:25,542 INFO     king       添加mvName为<<僕はいない>>的数据成功
+
+2016-08-20 00:52:26,734 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=JP&page=2  数据成功
+
+2016-08-20 00:52:27,194 INFO     king       添加mvName为<<ハッピーランキング>>的数据成功
+
+2016-08-20 00:52:27,198 INFO     king       添加mvName为<<ハプニング>>的数据成功
+
+2016-08-20 00:52:27,203 INFO     king       添加mvName为<<Hero>>的数据成功
+
+2016-08-20 00:52:27,207 INFO     king       添加mvName为<<BURN>>的数据成功
+
+2016-08-20 00:52:27,210 INFO     king       添加mvName为<<世界には愛しかない>>的数据成功
+
+2016-08-20 00:52:27,214 INFO     king       添加mvName为<<ひまわりに積もる雪>>的数据成功
+
+2016-08-20 00:52:27,219 INFO     king       添加mvName为<<翼>>的数据成功
+
+2016-08-20 00:52:27,221 INFO     king       添加mvName为<<ラストシーン>>的数据成功
+
+2016-08-20 00:52:27,226 INFO     king       添加mvName为<<イノセント>>的数据成功
+
+2016-08-20 00:52:27,230 INFO     king       添加mvName为<<光の破片>>的数据成功
+
+2016-08-20 00:52:27,233 INFO     king       添加mvName为<<INSIDE OF ME>>的数据成功
+
+2016-08-20 00:52:27,237 INFO     king       添加mvName为<<Pink Champagne>>的数据成功
+
+2016-08-20 00:52:27,242 INFO     king       添加mvName为<<語るなら未来を...>>的数据成功
+
+2016-08-20 00:52:27,246 INFO     king       添加mvName为<<オフショアガール>>的数据成功
+
+2016-08-20 00:52:27,250 INFO     king       添加mvName为<<渋谷からPARCOが消えた日>>的数据成功
+
+2016-08-20 00:52:27,253 INFO     king       添加mvName为<<beautiful days>>的数据成功
+
+2016-08-20 00:52:27,257 INFO     king       添加mvName为<<Deal with>>的数据成功
+
+2016-08-20 00:52:27,260 INFO     king       添加mvName为<<トモダチメートル>>的数据成功
+
+2016-08-20 00:52:27,265 INFO     king       添加mvName为<<Backstage>>的数据成功
+
+2016-08-20 00:52:27,269 INFO     king       添加mvName为<<また会ってください>>的数据成功
+
+2016-08-20 00:52:27,802 INFO     king       Python 返回URUL:http://vchart.yinyuetai.com/vchart/trends?area=JP&page=3  数据成功
+
+2016-08-20 00:52:28,375 INFO     king       添加mvName为<<恋を知らない君へ>>的数据成功
+
+2016-08-20 00:52:28,380 INFO     king       添加mvName为<<命の真実 ミュージカル>>的数据成功
+
+2016-08-20 00:52:28,384 INFO     king       添加mvName为<<空から愛が降って来る>>的数据成功
+
+2016-08-20 00:52:28,388 INFO     king       添加mvName为<<妄想マシーン3号機>>的数据成功
+
+2016-08-20 00:52:28,391 INFO     king       添加mvName为<<テイクミーアウト>>的数据成功
+
+2016-08-20 00:52:28,395 INFO     king       添加mvName为<<Shut up!! Shut up!! Shut up!!>>的数据成功
+
+2016-08-20 00:52:28,400 INFO     king       添加mvName为<<最後の五尺玉>>的数据成功
+
+2016-08-20 00:52:28,403 INFO     king       添加mvName为<<Joy-ride 〜歓喜のドライブ〜>>的数据成功
+
+2016-08-20 00:52:28,407 INFO     king       添加mvName为<<シークレットグラフィティー>>的数据成功
+
+2016-08-20 00:52:28,411 INFO     king       添加mvName为<<Gravity>>的数据成功
+
+2016-08-20 00:52:28,411 INFO     king       添加mvName为<<金の愛,銀の愛>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,411 INFO     king       添加mvName为<<光と影の日々>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,411 INFO     king       添加mvName为<<LOVE TRIP>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,411 INFO     king       添加mvName为<<サヨナラが美しくて>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,411 INFO     king       添加mvName为<<まだ君は知らない MY PRETTIEST GIRL>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,413 INFO     king       添加mvName为<<blaze>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,413 INFO     king       添加mvName为<<しあわせを分けなさい>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,413 INFO     king       添加mvName为<<風の唄>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,414 INFO     king       添加mvName为<<Pride>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,414 INFO     king       添加mvName为<<Hero (NHK ver.)>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,414 INFO     king       添加mvName为<<僕はいない (Dance Ver.)>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,414 INFO     king       添加mvName为<<Mr.Flawless>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,414 INFO     king       添加mvName为<<Masquerade>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,414 INFO     king       添加mvName为<<起死回生>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,414 INFO     king       添加mvName为<<クロスロード>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,414 INFO     king       添加mvName为<<いい人いい人詐欺>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,414 INFO     king       添加mvName为<<薔薇と太陽>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,414 INFO     king       添加mvName为<<Show Me What You've Got>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,414 INFO     king       添加mvName为<<窓際LOVER>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,414 INFO     king       添加mvName为<<僕はいない>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,414 INFO     king       添加mvName为<<ハッピーランキング>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,415 INFO     king       添加mvName为<<ハプニング>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,415 INFO     king       添加mvName为<<Hero>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,415 INFO     king       添加mvName为<<BURN>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,415 INFO     king       添加mvName为<<世界には愛しかない>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,415 INFO     king       添加mvName为<<ひまわりに積もる雪>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,415 INFO     king       添加mvName为<<翼>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,415 INFO     king       添加mvName为<<ラストシーン>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,417 INFO     king       添加mvName为<<イノセント>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,417 INFO     king       添加mvName为<<光の破片>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,417 INFO     king       添加mvName为<<INSIDE OF ME>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,417 INFO     king       添加mvName为<<Pink Champagne>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,417 INFO     king       添加mvName为<<語るなら未来を...>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,417 INFO     king       添加mvName为<<オフショアガール>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,417 INFO     king       添加mvName为<<渋谷からPARCOが消えた日>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,417 INFO     king       添加mvName为<<beautiful days>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,417 INFO     king       添加mvName为<<Deal with>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,417 INFO     king       添加mvName为<<トモダチメートル>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,417 INFO     king       添加mvName为<<Backstage>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,417 INFO     king       添加mvName为<<また会ってください>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,417 INFO     king       添加mvName为<<恋を知らない君へ>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,417 INFO     king       添加mvName为<<命の真実 ミュージカル>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,418 INFO     king       添加mvName为<<空から愛が降って来る>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,418 INFO     king       添加mvName为<<妄想マシーン3号機>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,418 INFO     king       添加mvName为<<テイクミーアウト>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,418 INFO     king       添加mvName为<<Shut up!! Shut up!! Shut up!!>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,418 INFO     king       添加mvName为<<最後の五尺玉>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,418 INFO     king       添加mvName为<<Joy-ride 〜歓喜のドライブ〜>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,418 INFO     king       添加mvName为<<シークレットグラフィティー>>的MV到mvTopList.txt...
+
+2016-08-20 00:52:28,420 INFO     king       添加mvName为<<Gravity>>的MV到mvTopList.txt...
+

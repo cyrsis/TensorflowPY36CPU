@@ -1,0 +1,9 @@
+{
+  "secure": false, 
+  "url": "http://localhost:8889/", 
+  "hostname": "localhost", 
+  "pid": 11764, 
+  "base_url": "/", 
+  "notebook_dir": "C:\\Users\\RY\\Documents\\DVD\\scipybook2\\notebooks", 
+  "port": 8889
+}

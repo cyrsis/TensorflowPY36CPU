@@ -1,0 +1,11 @@
+{
+  "stdin_port": 59383, 
+  "ip": "127.0.0.1", 
+  "control_port": 59384, 
+  "hb_port": 59385, 
+  "signature_scheme": "hmac-sha256", 
+  "key": "305dbf51-b18e-413b-9d79-7b3037081cb8", 
+  "shell_port": 59381, 
+  "transport": "tcp", 
+  "iopub_port": 59382
+}

@@ -1,0 +1,9 @@
+{
+  "secure": false, 
+  "url": "http://localhost:8889/", 
+  "hostname": "localhost", 
+  "pid": 8456, 
+  "base_url": "/", 
+  "notebook_dir": "D:\\teabreak", 
+  "port": 8889
+}

@@ -1,0 +1,61 @@
+{1: <__main__.Room object at 0x000001A8607D04E0>,
+ 2: <__main__.Room object at 0x000001A8607D0518>}
+
+{'_rooms': {1: <__main__.Room object at 0x000001A8607D04E0>,
+            2: <__main__.Room object at 0x000001A8607D0518>,
+            3: <__main__.Room object at 0x000001A8607D0780>,
+			...
+            99: <__main__.Room object at 0x000001A8608432E8>,
+            100: <__main__.Room object at 0x000001A860843320>}}
+
+{'_prototypeDoor': <__main__.Door object at 0x000001A8607D0390>,
+ '_prototypeMaze': <__main__.Maze object at 0x000001A8607D0278>,
+ '_prototypeRoom': <__main__.Room object at 0x000001A8607D0320>,
+ '_prototypeWall': <__main__.Wall object at 0x000001A8607D02E8>,
+ 'prototype_manager_registry': {}}
+
+<__main__.Room object at 0x000001A8608432E8>
+<class '__main__.MapSite'>
+<class '__main__.MapSite'>
+<class '__main__.MapSite'>
+
+<__main__.Wall object at 0x000001A860843438>
+<__main__.Wall object at 0x000001A860843358>
+<__main__.Wall object at 0x000001A860843400>
+...
+<__main__.Wall object at 0x000001A86084CA20>
+<__main__.Wall object at 0x000001A86084CA58>
+
+Room: 12 Direction.North <__main__.Wall object at 0x000001A860843B70>
+Room: 12 Direction.East <__main__.Wall object at 0x000001A860843BA8>
+Room: 12 Direction.South <__main__.Wall object at 0x000001A860843BE0>
+Room: 12 Direction.West <__main__.Wall object at 0x000001A860843C18>
+
+Room: 100 Direction.North <__main__.Wall object at 0x000001A86084C9B0>
+Room: 100 Direction.East <__main__.Wall object at 0x000001A86084C9E8>
+Room: 100 Direction.South <__main__.Wall object at 0x000001A86084CA20>
+Room: 100 Direction.West <__main__.Wall object at 0x000001A86084CA58>
+
+<__main__.Maze object at 0x000001A8607D0438>
+
+{'100_Rooms': <__main__.Maze object at 0x000001A8607D0438>}
+
+proto Maze: <__main__.Maze object at 0x000001A8607D0438> <class '__main__.Maze'>
+clone Maze: <__main__.Maze object at 0x000001A86084CAC8> <class '__main__.Maze'>
+
+<__main__.Wall object at 0x000001A86085CA58>
+<__main__.BombedWall object at 0x000001A86085C978>
+
+Doors in Rooms 1 to 100:
+------------------------
+Room: 1 <__main__.Door object at 0x000001A86084CBE0>
+Room: 2 <__main__.Door object at 0x000001A86084CBE0>
+
+Doors in Rooms 1 to 10:
+-----------------------
+Room: 1 <__main__.Door object at 0x000001A86084CBE0>
+Room: 2 <__main__.Door object at 0x000001A86085CA90>
+Room: 2 <__main__.Door object at 0x000001A86084CBE0>
+Room: 3 <__main__.Door object at 0x000001A86085CA90>
+
+another_clone: <__main__.Maze object at 0x000001A86084CCF8> <class '__main__.Maze'>

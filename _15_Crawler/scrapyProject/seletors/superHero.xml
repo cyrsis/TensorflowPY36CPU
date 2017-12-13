@@ -1,0 +1,23 @@
+<superhero>
+<class>
+	<name lang="en">Tony Stark </name>
+	<alias>Iron Man </alias>
+	<sex>male </sex>
+	<birthday>1969 </birthday>
+	<age>47 </age>
+</class>
+<class>
+	<name lang="en">Peter Benjamin Parker </name>
+	<alias>Spider Man </alias>
+	<sex>male </sex>
+	<birthday>unknow </birthday>
+	<age>unknown </age>
+</class>
+<class>
+	<name lang="en">Steven Rogers </name>
+	<alias>Captain America </alias>
+	<sex>male </sex>
+	<birthday>19200704 </birthday>
+	<age>96 </age>
+</class>
+</superhero>

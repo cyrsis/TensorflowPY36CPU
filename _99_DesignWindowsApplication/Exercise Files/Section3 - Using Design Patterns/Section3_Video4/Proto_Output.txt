@@ -1,0 +1,539 @@
+{1: <__main__.Room object at 0x000001A8607D04E0>,
+ 2: <__main__.Room object at 0x000001A8607D0518>}
+
+{'_rooms': {1: <__main__.Room object at 0x000001A8607D04E0>,
+            2: <__main__.Room object at 0x000001A8607D0518>,
+            3: <__main__.Room object at 0x000001A8607D0780>,
+            4: <__main__.Room object at 0x000001A8607D06D8>,
+            5: <__main__.Room object at 0x000001A8607DD7B8>,
+            6: <__main__.Room object at 0x000001A8607E3518>,
+            7: <__main__.Room object at 0x000001A8607E3588>,
+            8: <__main__.Room object at 0x000001A860831E80>,
+            9: <__main__.Room object at 0x000001A860831EB8>,
+            10: <__main__.Room object at 0x000001A860831EF0>,
+            11: <__main__.Room object at 0x000001A860831F28>,
+            12: <__main__.Room object at 0x000001A860831F60>,
+            13: <__main__.Room object at 0x000001A860831F98>,
+            14: <__main__.Room object at 0x000001A860831FD0>,
+            15: <__main__.Room object at 0x000001A860841048>,
+            16: <__main__.Room object at 0x000001A860841080>,
+            17: <__main__.Room object at 0x000001A8608410B8>,
+            18: <__main__.Room object at 0x000001A8608410F0>,
+            19: <__main__.Room object at 0x000001A860841128>,
+            20: <__main__.Room object at 0x000001A860841160>,
+            21: <__main__.Room object at 0x000001A860841198>,
+            22: <__main__.Room object at 0x000001A8608411D0>,
+            23: <__main__.Room object at 0x000001A860841208>,
+            24: <__main__.Room object at 0x000001A860841240>,
+            25: <__main__.Room object at 0x000001A860841278>,
+            26: <__main__.Room object at 0x000001A8608412B0>,
+            27: <__main__.Room object at 0x000001A8608412E8>,
+            28: <__main__.Room object at 0x000001A860841320>,
+            29: <__main__.Room object at 0x000001A860841358>,
+            30: <__main__.Room object at 0x000001A860841390>,
+            31: <__main__.Room object at 0x000001A8608413C8>,
+            32: <__main__.Room object at 0x000001A860841400>,
+            33: <__main__.Room object at 0x000001A860841438>,
+            34: <__main__.Room object at 0x000001A860841470>,
+            35: <__main__.Room object at 0x000001A8608414A8>,
+            36: <__main__.Room object at 0x000001A8608414E0>,
+            37: <__main__.Room object at 0x000001A860841518>,
+            38: <__main__.Room object at 0x000001A860841550>,
+            39: <__main__.Room object at 0x000001A860841588>,
+            40: <__main__.Room object at 0x000001A8608415C0>,
+            41: <__main__.Room object at 0x000001A8608415F8>,
+            42: <__main__.Room object at 0x000001A860841630>,
+            43: <__main__.Room object at 0x000001A860841668>,
+            44: <__main__.Room object at 0x000001A8608416A0>,
+            45: <__main__.Room object at 0x000001A8608416D8>,
+            46: <__main__.Room object at 0x000001A860841710>,
+            47: <__main__.Room object at 0x000001A860841748>,
+            48: <__main__.Room object at 0x000001A860841780>,
+            49: <__main__.Room object at 0x000001A8608417B8>,
+            50: <__main__.Room object at 0x000001A8608417F0>,
+            51: <__main__.Room object at 0x000001A860841828>,
+            52: <__main__.Room object at 0x000001A860841860>,
+            53: <__main__.Room object at 0x000001A860841898>,
+            54: <__main__.Room object at 0x000001A8608418D0>,
+            55: <__main__.Room object at 0x000001A860841908>,
+            56: <__main__.Room object at 0x000001A860841940>,
+            57: <__main__.Room object at 0x000001A860841978>,
+            58: <__main__.Room object at 0x000001A8608419B0>,
+            59: <__main__.Room object at 0x000001A8608419E8>,
+            60: <__main__.Room object at 0x000001A860841A20>,
+            61: <__main__.Room object at 0x000001A860841A58>,
+            62: <__main__.Room object at 0x000001A860841A90>,
+            63: <__main__.Room object at 0x000001A860841AC8>,
+            64: <__main__.Room object at 0x000001A860841B00>,
+            65: <__main__.Room object at 0x000001A860841B38>,
+            66: <__main__.Room object at 0x000001A860841B70>,
+            67: <__main__.Room object at 0x000001A860841BA8>,
+            68: <__main__.Room object at 0x000001A860841BE0>,
+            69: <__main__.Room object at 0x000001A860841C18>,
+            70: <__main__.Room object at 0x000001A860841C50>,
+            71: <__main__.Room object at 0x000001A860841C88>,
+            72: <__main__.Room object at 0x000001A860841CC0>,
+            73: <__main__.Room object at 0x000001A860841CF8>,
+            74: <__main__.Room object at 0x000001A860841D30>,
+            75: <__main__.Room object at 0x000001A860841D68>,
+            76: <__main__.Room object at 0x000001A860841DA0>,
+            77: <__main__.Room object at 0x000001A860841DD8>,
+            78: <__main__.Room object at 0x000001A860841E10>,
+            79: <__main__.Room object at 0x000001A860841E48>,
+            80: <__main__.Room object at 0x000001A860841E80>,
+            81: <__main__.Room object at 0x000001A860841EB8>,
+            82: <__main__.Room object at 0x000001A860841EF0>,
+            83: <__main__.Room object at 0x000001A860841F28>,
+            84: <__main__.Room object at 0x000001A860841F60>,
+            85: <__main__.Room object at 0x000001A860841F98>,
+            86: <__main__.Room object at 0x000001A860841FD0>,
+            87: <__main__.Room object at 0x000001A860843048>,
+            88: <__main__.Room object at 0x000001A860843080>,
+            89: <__main__.Room object at 0x000001A8608430B8>,
+            90: <__main__.Room object at 0x000001A8608430F0>,
+            91: <__main__.Room object at 0x000001A860843128>,
+            92: <__main__.Room object at 0x000001A860843160>,
+            93: <__main__.Room object at 0x000001A860843198>,
+            94: <__main__.Room object at 0x000001A8608431D0>,
+            95: <__main__.Room object at 0x000001A860843208>,
+            96: <__main__.Room object at 0x000001A860843240>,
+            97: <__main__.Room object at 0x000001A860843278>,
+            98: <__main__.Room object at 0x000001A8608432B0>,
+            99: <__main__.Room object at 0x000001A8608432E8>,
+            100: <__main__.Room object at 0x000001A860843320>}}
+
+{'_prototypeDoor': <__main__.Door object at 0x000001A8607D0390>,
+ '_prototypeMaze': <__main__.Maze object at 0x000001A8607D0278>,
+ '_prototypeRoom': <__main__.Room object at 0x000001A8607D0320>,
+ '_prototypeWall': <__main__.Wall object at 0x000001A8607D02E8>,
+ 'prototype_manager_registry': {}}
+
+<__main__.Room object at 0x000001A8608432E8>
+<class '__main__.MapSite'>
+<class '__main__.MapSite'>
+<class '__main__.MapSite'>
+
+<__main__.Wall object at 0x000001A860843438>
+<__main__.Wall object at 0x000001A860843358>
+<__main__.Wall object at 0x000001A860843400>
+<__main__.Wall object at 0x000001A860843470>
+<__main__.Wall object at 0x000001A8608433C8>
+<__main__.Wall object at 0x000001A8608434A8>
+<__main__.Wall object at 0x000001A8608434E0>
+<__main__.Wall object at 0x000001A860843518>
+<__main__.Wall object at 0x000001A860843550>
+<__main__.Wall object at 0x000001A860843588>
+<__main__.Wall object at 0x000001A8608435C0>
+<__main__.Wall object at 0x000001A8608435F8>
+<__main__.Wall object at 0x000001A860843630>
+<__main__.Wall object at 0x000001A860843668>
+<__main__.Wall object at 0x000001A8608436A0>
+<__main__.Wall object at 0x000001A8608436D8>
+<__main__.Wall object at 0x000001A860843710>
+<__main__.Wall object at 0x000001A860843748>
+<__main__.Wall object at 0x000001A860843780>
+<__main__.Wall object at 0x000001A8608437B8>
+<__main__.Wall object at 0x000001A8608437F0>
+<__main__.Wall object at 0x000001A860843828>
+<__main__.Wall object at 0x000001A860843860>
+<__main__.Wall object at 0x000001A860843898>
+<__main__.Wall object at 0x000001A8608438D0>
+<__main__.Wall object at 0x000001A860843908>
+<__main__.Wall object at 0x000001A860843940>
+<__main__.Wall object at 0x000001A860843978>
+<__main__.Wall object at 0x000001A8608439B0>
+<__main__.Wall object at 0x000001A8608439E8>
+<__main__.Wall object at 0x000001A860843A20>
+<__main__.Wall object at 0x000001A860843A58>
+<__main__.Wall object at 0x000001A860843A90>
+<__main__.Wall object at 0x000001A860843AC8>
+<__main__.Wall object at 0x000001A860843B00>
+<__main__.Wall object at 0x000001A860843B38>
+<__main__.Wall object at 0x000001A860843B70>
+<__main__.Wall object at 0x000001A860843BA8>
+<__main__.Wall object at 0x000001A860843BE0>
+<__main__.Wall object at 0x000001A860843C18>
+<__main__.Wall object at 0x000001A860843C50>
+<__main__.Wall object at 0x000001A860843C88>
+<__main__.Wall object at 0x000001A860843CC0>
+<__main__.Wall object at 0x000001A860843CF8>
+<__main__.Wall object at 0x000001A860843D30>
+<__main__.Wall object at 0x000001A860843D68>
+<__main__.Wall object at 0x000001A860843DA0>
+<__main__.Wall object at 0x000001A860843DD8>
+<__main__.Wall object at 0x000001A860843E10>
+<__main__.Wall object at 0x000001A860843E48>
+<__main__.Wall object at 0x000001A860843E80>
+<__main__.Wall object at 0x000001A860843EB8>
+<__main__.Wall object at 0x000001A860843EF0>
+<__main__.Wall object at 0x000001A860843F28>
+<__main__.Wall object at 0x000001A860843F60>
+<__main__.Wall object at 0x000001A860843F98>
+<__main__.Wall object at 0x000001A860843FD0>
+<__main__.Wall object at 0x000001A860843390>
+<__main__.Wall object at 0x000001A860848080>
+<__main__.Wall object at 0x000001A8608480B8>
+<__main__.Wall object at 0x000001A8608480F0>
+<__main__.Wall object at 0x000001A860848128>
+<__main__.Wall object at 0x000001A860848160>
+<__main__.Wall object at 0x000001A860848198>
+<__main__.Wall object at 0x000001A8608481D0>
+<__main__.Wall object at 0x000001A860848208>
+<__main__.Wall object at 0x000001A860848240>
+<__main__.Wall object at 0x000001A860848278>
+<__main__.Wall object at 0x000001A8608482B0>
+<__main__.Wall object at 0x000001A8608482E8>
+<__main__.Wall object at 0x000001A860848320>
+<__main__.Wall object at 0x000001A860848358>
+<__main__.Wall object at 0x000001A860848390>
+<__main__.Wall object at 0x000001A8608483C8>
+<__main__.Wall object at 0x000001A860848400>
+<__main__.Wall object at 0x000001A860848438>
+<__main__.Wall object at 0x000001A860848470>
+<__main__.Wall object at 0x000001A8608484A8>
+<__main__.Wall object at 0x000001A8608484E0>
+<__main__.Wall object at 0x000001A860848518>
+<__main__.Wall object at 0x000001A860848550>
+<__main__.Wall object at 0x000001A860848588>
+<__main__.Wall object at 0x000001A8608485C0>
+<__main__.Wall object at 0x000001A8608485F8>
+<__main__.Wall object at 0x000001A860848630>
+<__main__.Wall object at 0x000001A860848668>
+<__main__.Wall object at 0x000001A8608486A0>
+<__main__.Wall object at 0x000001A8608486D8>
+<__main__.Wall object at 0x000001A860848710>
+<__main__.Wall object at 0x000001A860848748>
+<__main__.Wall object at 0x000001A860848780>
+<__main__.Wall object at 0x000001A8608487B8>
+<__main__.Wall object at 0x000001A8608487F0>
+<__main__.Wall object at 0x000001A860848828>
+<__main__.Wall object at 0x000001A860848860>
+<__main__.Wall object at 0x000001A860848898>
+<__main__.Wall object at 0x000001A8608488D0>
+<__main__.Wall object at 0x000001A860848908>
+<__main__.Wall object at 0x000001A860848940>
+<__main__.Wall object at 0x000001A860848978>
+<__main__.Wall object at 0x000001A8608489B0>
+<__main__.Wall object at 0x000001A8608489E8>
+<__main__.Wall object at 0x000001A860848A20>
+<__main__.Wall object at 0x000001A860848A58>
+<__main__.Wall object at 0x000001A860848A90>
+<__main__.Wall object at 0x000001A860848AC8>
+<__main__.Wall object at 0x000001A860848B00>
+<__main__.Wall object at 0x000001A860848B38>
+<__main__.Wall object at 0x000001A860848B70>
+<__main__.Wall object at 0x000001A860848BA8>
+<__main__.Wall object at 0x000001A860848BE0>
+<__main__.Wall object at 0x000001A860848C18>
+<__main__.Wall object at 0x000001A860848C50>
+<__main__.Wall object at 0x000001A860848C88>
+<__main__.Wall object at 0x000001A860848CC0>
+<__main__.Wall object at 0x000001A860848CF8>
+<__main__.Wall object at 0x000001A860848D30>
+<__main__.Wall object at 0x000001A860848D68>
+<__main__.Wall object at 0x000001A860848DA0>
+<__main__.Wall object at 0x000001A860848DD8>
+<__main__.Wall object at 0x000001A860848E10>
+<__main__.Wall object at 0x000001A860848E48>
+<__main__.Wall object at 0x000001A860848E80>
+<__main__.Wall object at 0x000001A860848EB8>
+<__main__.Wall object at 0x000001A860848EF0>
+<__main__.Wall object at 0x000001A860848F28>
+<__main__.Wall object at 0x000001A860848F60>
+<__main__.Wall object at 0x000001A860848F98>
+<__main__.Wall object at 0x000001A860848FD0>
+<__main__.Wall object at 0x000001A860848048>
+<__main__.Wall object at 0x000001A860847080>
+<__main__.Wall object at 0x000001A8608470B8>
+<__main__.Wall object at 0x000001A8608470F0>
+<__main__.Wall object at 0x000001A860847128>
+<__main__.Wall object at 0x000001A860847160>
+<__main__.Wall object at 0x000001A860847198>
+<__main__.Wall object at 0x000001A8608471D0>
+<__main__.Wall object at 0x000001A860847208>
+<__main__.Wall object at 0x000001A860847240>
+<__main__.Wall object at 0x000001A860847278>
+<__main__.Wall object at 0x000001A8608472B0>
+<__main__.Wall object at 0x000001A8608472E8>
+<__main__.Wall object at 0x000001A860847320>
+<__main__.Wall object at 0x000001A860847358>
+<__main__.Wall object at 0x000001A860847390>
+<__main__.Wall object at 0x000001A8608473C8>
+<__main__.Wall object at 0x000001A860847400>
+<__main__.Wall object at 0x000001A860847438>
+<__main__.Wall object at 0x000001A860847470>
+<__main__.Wall object at 0x000001A8608474A8>
+<__main__.Wall object at 0x000001A8608474E0>
+<__main__.Wall object at 0x000001A860847518>
+<__main__.Wall object at 0x000001A860847550>
+<__main__.Wall object at 0x000001A860847588>
+<__main__.Wall object at 0x000001A8608475C0>
+<__main__.Wall object at 0x000001A8608475F8>
+<__main__.Wall object at 0x000001A860847630>
+<__main__.Wall object at 0x000001A860847668>
+<__main__.Wall object at 0x000001A8608476A0>
+<__main__.Wall object at 0x000001A8608476D8>
+<__main__.Wall object at 0x000001A860847710>
+<__main__.Wall object at 0x000001A860847748>
+<__main__.Wall object at 0x000001A860847780>
+<__main__.Wall object at 0x000001A8608477B8>
+<__main__.Wall object at 0x000001A8608477F0>
+<__main__.Wall object at 0x000001A860847828>
+<__main__.Wall object at 0x000001A860847860>
+<__main__.Wall object at 0x000001A860847898>
+<__main__.Wall object at 0x000001A8608478D0>
+<__main__.Wall object at 0x000001A860847908>
+<__main__.Wall object at 0x000001A860847940>
+<__main__.Wall object at 0x000001A860847978>
+<__main__.Wall object at 0x000001A8608479B0>
+<__main__.Wall object at 0x000001A8608479E8>
+<__main__.Wall object at 0x000001A860847A20>
+<__main__.Wall object at 0x000001A860847A58>
+<__main__.Wall object at 0x000001A860847A90>
+<__main__.Wall object at 0x000001A860847AC8>
+<__main__.Wall object at 0x000001A860847B00>
+<__main__.Wall object at 0x000001A860847B38>
+<__main__.Wall object at 0x000001A860847B70>
+<__main__.Wall object at 0x000001A860847BA8>
+<__main__.Wall object at 0x000001A860847BE0>
+<__main__.Wall object at 0x000001A860847C18>
+<__main__.Wall object at 0x000001A860847C50>
+<__main__.Wall object at 0x000001A860847C88>
+<__main__.Wall object at 0x000001A860847CC0>
+<__main__.Wall object at 0x000001A860847CF8>
+<__main__.Wall object at 0x000001A860847D30>
+<__main__.Wall object at 0x000001A860847D68>
+<__main__.Wall object at 0x000001A860847DA0>
+<__main__.Wall object at 0x000001A860847DD8>
+<__main__.Wall object at 0x000001A860847E10>
+<__main__.Wall object at 0x000001A860847E48>
+<__main__.Wall object at 0x000001A860847E80>
+<__main__.Wall object at 0x000001A860847EB8>
+<__main__.Wall object at 0x000001A860847EF0>
+<__main__.Wall object at 0x000001A860847F28>
+<__main__.Wall object at 0x000001A860847F60>
+<__main__.Wall object at 0x000001A860847F98>
+<__main__.Wall object at 0x000001A860847FD0>
+<__main__.Wall object at 0x000001A860847048>
+<__main__.Wall object at 0x000001A86084A080>
+<__main__.Wall object at 0x000001A86084A0B8>
+<__main__.Wall object at 0x000001A86084A0F0>
+<__main__.Wall object at 0x000001A86084A128>
+<__main__.Wall object at 0x000001A86084A160>
+<__main__.Wall object at 0x000001A86084A198>
+<__main__.Wall object at 0x000001A86084A1D0>
+<__main__.Wall object at 0x000001A86084A208>
+<__main__.Wall object at 0x000001A86084A240>
+<__main__.Wall object at 0x000001A86084A278>
+<__main__.Wall object at 0x000001A86084A2B0>
+<__main__.Wall object at 0x000001A86084A2E8>
+<__main__.Wall object at 0x000001A86084A320>
+<__main__.Wall object at 0x000001A86084A358>
+<__main__.Wall object at 0x000001A86084A390>
+<__main__.Wall object at 0x000001A86084A3C8>
+<__main__.Wall object at 0x000001A86084A400>
+<__main__.Wall object at 0x000001A86084A438>
+<__main__.Wall object at 0x000001A86084A470>
+<__main__.Wall object at 0x000001A86084A4A8>
+<__main__.Wall object at 0x000001A86084A4E0>
+<__main__.Wall object at 0x000001A86084A518>
+<__main__.Wall object at 0x000001A86084A550>
+<__main__.Wall object at 0x000001A86084A588>
+<__main__.Wall object at 0x000001A86084A5C0>
+<__main__.Wall object at 0x000001A86084A5F8>
+<__main__.Wall object at 0x000001A86084A630>
+<__main__.Wall object at 0x000001A86084A668>
+<__main__.Wall object at 0x000001A86084A6A0>
+<__main__.Wall object at 0x000001A86084A6D8>
+<__main__.Wall object at 0x000001A86084A710>
+<__main__.Wall object at 0x000001A86084A748>
+<__main__.Wall object at 0x000001A86084A780>
+<__main__.Wall object at 0x000001A86084A7B8>
+<__main__.Wall object at 0x000001A86084A7F0>
+<__main__.Wall object at 0x000001A86084A828>
+<__main__.Wall object at 0x000001A86084A860>
+<__main__.Wall object at 0x000001A86084A898>
+<__main__.Wall object at 0x000001A86084A8D0>
+<__main__.Wall object at 0x000001A86084A908>
+<__main__.Wall object at 0x000001A86084A940>
+<__main__.Wall object at 0x000001A86084A978>
+<__main__.Wall object at 0x000001A86084A9B0>
+<__main__.Wall object at 0x000001A86084A9E8>
+<__main__.Wall object at 0x000001A86084AA20>
+<__main__.Wall object at 0x000001A86084AA58>
+<__main__.Wall object at 0x000001A86084AA90>
+<__main__.Wall object at 0x000001A86084AAC8>
+<__main__.Wall object at 0x000001A86084AB00>
+<__main__.Wall object at 0x000001A86084AB38>
+<__main__.Wall object at 0x000001A86084AB70>
+<__main__.Wall object at 0x000001A86084ABA8>
+<__main__.Wall object at 0x000001A86084ABE0>
+<__main__.Wall object at 0x000001A86084AC18>
+<__main__.Wall object at 0x000001A86084AC50>
+<__main__.Wall object at 0x000001A86084AC88>
+<__main__.Wall object at 0x000001A86084ACC0>
+<__main__.Wall object at 0x000001A86084ACF8>
+<__main__.Wall object at 0x000001A86084AD30>
+<__main__.Wall object at 0x000001A86084AD68>
+<__main__.Wall object at 0x000001A86084ADA0>
+<__main__.Wall object at 0x000001A86084ADD8>
+<__main__.Wall object at 0x000001A86084AE10>
+<__main__.Wall object at 0x000001A86084AE48>
+<__main__.Wall object at 0x000001A86084AE80>
+<__main__.Wall object at 0x000001A86084AEB8>
+<__main__.Wall object at 0x000001A86084AEF0>
+<__main__.Wall object at 0x000001A86084AF28>
+<__main__.Wall object at 0x000001A86084AF60>
+<__main__.Wall object at 0x000001A86084AF98>
+<__main__.Wall object at 0x000001A86084AFD0>
+<__main__.Wall object at 0x000001A86084A048>
+<__main__.Wall object at 0x000001A86084B080>
+<__main__.Wall object at 0x000001A86084B0B8>
+<__main__.Wall object at 0x000001A86084B0F0>
+<__main__.Wall object at 0x000001A86084B128>
+<__main__.Wall object at 0x000001A86084B160>
+<__main__.Wall object at 0x000001A86084B198>
+<__main__.Wall object at 0x000001A86084B1D0>
+<__main__.Wall object at 0x000001A86084B208>
+<__main__.Wall object at 0x000001A86084B240>
+<__main__.Wall object at 0x000001A86084B278>
+<__main__.Wall object at 0x000001A86084B2B0>
+<__main__.Wall object at 0x000001A86084B2E8>
+<__main__.Wall object at 0x000001A86084B320>
+<__main__.Wall object at 0x000001A86084B358>
+<__main__.Wall object at 0x000001A86084B390>
+<__main__.Wall object at 0x000001A86084B3C8>
+<__main__.Wall object at 0x000001A86084B400>
+<__main__.Wall object at 0x000001A86084B438>
+<__main__.Wall object at 0x000001A86084B470>
+<__main__.Wall object at 0x000001A86084B4A8>
+<__main__.Wall object at 0x000001A86084B4E0>
+<__main__.Wall object at 0x000001A86084B518>
+<__main__.Wall object at 0x000001A86084B550>
+<__main__.Wall object at 0x000001A86084B588>
+<__main__.Wall object at 0x000001A86084B5C0>
+<__main__.Wall object at 0x000001A86084B5F8>
+<__main__.Wall object at 0x000001A86084B630>
+<__main__.Wall object at 0x000001A86084B668>
+<__main__.Wall object at 0x000001A86084B6A0>
+<__main__.Wall object at 0x000001A86084B6D8>
+<__main__.Wall object at 0x000001A86084B710>
+<__main__.Wall object at 0x000001A86084B748>
+<__main__.Wall object at 0x000001A86084B780>
+<__main__.Wall object at 0x000001A86084B7B8>
+<__main__.Wall object at 0x000001A86084B7F0>
+<__main__.Wall object at 0x000001A86084B828>
+<__main__.Wall object at 0x000001A86084B860>
+<__main__.Wall object at 0x000001A86084B898>
+<__main__.Wall object at 0x000001A86084B8D0>
+<__main__.Wall object at 0x000001A86084B908>
+<__main__.Wall object at 0x000001A86084B940>
+<__main__.Wall object at 0x000001A86084B978>
+<__main__.Wall object at 0x000001A86084B9B0>
+<__main__.Wall object at 0x000001A86084B9E8>
+<__main__.Wall object at 0x000001A86084BA20>
+<__main__.Wall object at 0x000001A86084BA58>
+<__main__.Wall object at 0x000001A86084BA90>
+<__main__.Wall object at 0x000001A86084BAC8>
+<__main__.Wall object at 0x000001A86084BB00>
+<__main__.Wall object at 0x000001A86084BB38>
+<__main__.Wall object at 0x000001A86084BB70>
+<__main__.Wall object at 0x000001A86084BBA8>
+<__main__.Wall object at 0x000001A86084BBE0>
+<__main__.Wall object at 0x000001A86084BC18>
+<__main__.Wall object at 0x000001A86084BC50>
+<__main__.Wall object at 0x000001A86084BC88>
+<__main__.Wall object at 0x000001A86084BCC0>
+<__main__.Wall object at 0x000001A86084BCF8>
+<__main__.Wall object at 0x000001A86084BD30>
+<__main__.Wall object at 0x000001A86084BD68>
+<__main__.Wall object at 0x000001A86084BDA0>
+<__main__.Wall object at 0x000001A86084BDD8>
+<__main__.Wall object at 0x000001A86084BE10>
+<__main__.Wall object at 0x000001A86084BE48>
+<__main__.Wall object at 0x000001A86084BE80>
+<__main__.Wall object at 0x000001A86084BEB8>
+<__main__.Wall object at 0x000001A86084BEF0>
+<__main__.Wall object at 0x000001A86084BF28>
+<__main__.Wall object at 0x000001A86084BF60>
+<__main__.Wall object at 0x000001A86084BF98>
+<__main__.Wall object at 0x000001A86084BFD0>
+<__main__.Wall object at 0x000001A86084B048>
+<__main__.Wall object at 0x000001A86084C080>
+<__main__.Wall object at 0x000001A86084C0B8>
+<__main__.Wall object at 0x000001A86084C0F0>
+<__main__.Wall object at 0x000001A86084C128>
+<__main__.Wall object at 0x000001A86084C160>
+<__main__.Wall object at 0x000001A86084C198>
+<__main__.Wall object at 0x000001A86084C1D0>
+<__main__.Wall object at 0x000001A86084C208>
+<__main__.Wall object at 0x000001A86084C240>
+<__main__.Wall object at 0x000001A86084C278>
+<__main__.Wall object at 0x000001A86084C2B0>
+<__main__.Wall object at 0x000001A86084C2E8>
+<__main__.Wall object at 0x000001A86084C320>
+<__main__.Wall object at 0x000001A86084C358>
+<__main__.Wall object at 0x000001A86084C390>
+<__main__.Wall object at 0x000001A86084C3C8>
+<__main__.Wall object at 0x000001A86084C400>
+<__main__.Wall object at 0x000001A86084C438>
+<__main__.Wall object at 0x000001A86084C470>
+<__main__.Wall object at 0x000001A86084C4A8>
+<__main__.Wall object at 0x000001A86084C4E0>
+<__main__.Wall object at 0x000001A86084C518>
+<__main__.Wall object at 0x000001A86084C550>
+<__main__.Wall object at 0x000001A86084C588>
+<__main__.Wall object at 0x000001A86084C5C0>
+<__main__.Wall object at 0x000001A86084C5F8>
+<__main__.Wall object at 0x000001A86084C630>
+<__main__.Wall object at 0x000001A86084C668>
+<__main__.Wall object at 0x000001A86084C6A0>
+<__main__.Wall object at 0x000001A86084C6D8>
+<__main__.Wall object at 0x000001A86084C710>
+<__main__.Wall object at 0x000001A86084C748>
+<__main__.Wall object at 0x000001A86084C780>
+<__main__.Wall object at 0x000001A86084C7B8>
+<__main__.Wall object at 0x000001A86084C7F0>
+<__main__.Wall object at 0x000001A86084C828>
+<__main__.Wall object at 0x000001A86084C860>
+<__main__.Wall object at 0x000001A86084C898>
+<__main__.Wall object at 0x000001A86084C8D0>
+<__main__.Wall object at 0x000001A86084C908>
+<__main__.Wall object at 0x000001A86084C940>
+<__main__.Wall object at 0x000001A86084C978>
+<__main__.Wall object at 0x000001A86084C9B0>
+<__main__.Wall object at 0x000001A86084C9E8>
+<__main__.Wall object at 0x000001A86084CA20>
+<__main__.Wall object at 0x000001A86084CA58>
+
+Room: 12 Direction.North <__main__.Wall object at 0x000001A860843B70>
+Room: 12 Direction.East <__main__.Wall object at 0x000001A860843BA8>
+Room: 12 Direction.South <__main__.Wall object at 0x000001A860843BE0>
+Room: 12 Direction.West <__main__.Wall object at 0x000001A860843C18>
+
+Room: 100 Direction.North <__main__.Wall object at 0x000001A86084C9B0>
+Room: 100 Direction.East <__main__.Wall object at 0x000001A86084C9E8>
+Room: 100 Direction.South <__main__.Wall object at 0x000001A86084CA20>
+Room: 100 Direction.West <__main__.Wall object at 0x000001A86084CA58>
+
+<__main__.Maze object at 0x000001A8607D0438>
+
+{'100_Rooms': <__main__.Maze object at 0x000001A8607D0438>}
+
+proto Maze: <__main__.Maze object at 0x000001A8607D0438> <class '__main__.Maze'>
+clone Maze: <__main__.Maze object at 0x000001A86084CAC8> <class '__main__.Maze'>
+
+<__main__.Wall object at 0x000001A86085CA58>
+<__main__.BombedWall object at 0x000001A86085C978>
+
+Doors in Rooms 1 to 100
+Room: 1 <__main__.Door object at 0x000001A86084CBE0>
+Room: 2 <__main__.Door object at 0x000001A86084CBE0>
+
+Doors in Rooms 1 to 10
+Room: 1 <__main__.Door object at 0x000001A86084CBE0>
+Room: 2 <__main__.Door object at 0x000001A86085CA90>
+Room: 2 <__main__.Door object at 0x000001A86084CBE0>
+Room: 3 <__main__.Door object at 0x000001A86085CA90>
+
+another_clone: <__main__.Maze object at 0x000001A86084CCF8> <class '__main__.Maze'>

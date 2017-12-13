@@ -1,0 +1,1075 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>NOAA - National Weather Service - XML data feeds - Current Conditions</title>
+<meta name="author" content="National Weather Service Corporate Image Web Team" />
+<meta name="Description" content="" />
+<meta name="Keywords" content="Weather, Forecasts, graphical, National Oceanic Atmospheric Administration, National Weather Service" />
+<meta name="DC.date.reviewed" scheme="ISO8601" content="2010-03-01" />
+<meta name="DC.date.created" scheme="ISO8601" content="2003-04-10" />
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="/main.css" />
+<meta name="rating" content="general" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="robot" content="all" />
+<meta name="Content-Language" content="en-US" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript" language="JavaScript" src="/master.js"></script>
+</head>
+<body leftmargin="0" topmargin="0" rightmargin="0" marginwidth="0" marginheight="0" bgcolor="#FFFFFF" background="/images/background1.gif">
+<!--background="/images/background1.gif">-->
+<!-- Start banner -->
+<!-- start banner inc -->
+
+<table cellspacing="0" cellpadding="0" border="0" width="100%" background="/images/topbanner.jpg">
+
+  <tr>
+
+    <td align="right" height="19"><a href="#contents"><img src="/images/skipgraphic.gif" alt="Skip Navigation Links" width="1" height="1" border="0" /></a> <a href="http://www.weather.gov/"><span class="nwslink">weather.gov</span></a>&nbsp;</td>
+
+  </tr>
+
+</table>
+
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+
+  <tr>
+
+    <td width="85" rowspan="2"><a href="http://www.noaa.gov"><img src="/images/noaaleft.jpg" alt="NOAA logo-Select to go to the NOAA homepage" width="85" height="78" border="0" /></a></td>
+
+    <td width="500" height="20" align="center" nowrap="nowrap" background="/images/blank_title.jpg"><div class="source">National Oceanic and Atmospheric Administration's&nbsp;&nbsp;&nbsp;</div></td>
+
+    <td rowspan="2" background="/images/wfo_bkgrnd.jpg">&nbsp;</td>
+
+    <td width="85" rowspan="2" align="right"><a href="/"><img src="/images/nwsright.jpg" alt="Select to go to the NWS homepage" width="85" height="78" border="0" /></a></td>
+
+  </tr>
+
+  <tr>
+
+    <td width="500" height="58" align="center" nowrap="nowrap" background="/images/blank_name.jpg"><div class="location">National Weather Service&nbsp;&nbsp;&nbsp;</div></td>
+
+  </tr>
+
+</table>
+
+<table cellspacing="0" cellpadding="0" border="0" background="/images/navbkgrnd.gif" width="100%">
+
+  <tr>
+
+    <td align="left" valign="top" width="94"><img src="/images/navbarleft.jpg" alt="" width="94" height="23" border="0" /></td>
+
+    <td class="nav" width="15%" align="center" id="menuitem" nowrap="nowrap"><a href="http://www.weather.gov/sitemap.php">Site Map</a></td>
+
+    <td class="nav" width="15%" align="right" id="menuitem"><a href="http://www.weather.gov/pa/">News</a></td>
+
+    <td class="nav" width="20%" align="right" id="menuitem"><a href="http://www.weather.gov/organization.php">Organization</a> </td>
+
+    <td width="20%">&nbsp;</td>
+
+    <td align="left" class="searchinput" width="20%" nowrap="nowrap">    
+
+    
+
+    <!-- Begin search code -->
+
+      <form method="get" action="http://search.usa.gov/search" style="margin-bottom:0; margin-top:0;">
+
+        <input type="hidden" name="v:project" value="firstgov" />
+
+        <label for="query" class="yellow">Search&nbsp;&nbsp;</label>
+
+        <input type="text" name="query" id="query" size="10"/>
+
+        <input type="radio" name="affiliate" checked="checked" value="nws.noaa.gov" id="nws" />
+
+        <label for="nws" class="yellow">NWS</label>
+
+        <input type="radio" name="affiliate" value="noaa.gov" id="noaa" />
+
+        <label for="noaa" class="yellow">All NOAA</label>
+
+        <input type="submit" value="Go" />
+
+      </form>
+
+      <!-- End search code -->
+
+    
+
+    </td>
+
+    <td width="10%">&nbsp;</td>
+
+    <td align="right" valign="bottom" width="24"><img src="/images/navbarendcap.jpg" alt="" width="24" height="23" border="0" /></td>
+
+  </tr>
+
+</table>
+
+<!-- end banner inc -->
+
+<!-- end banner -->
+<!-- Start Content area... 525px wide -->
+<table width="700" border="0" cellspacing="0">
+  <tr>
+    <td width="119" valign="top"><!-- start leftmenu -->
+      <!-- ========== start leftmenu inc ========== -->
+
+<table width="119" border="0" cellpadding="2" cellspacing="0" bgcolor="#0A2390">
+
+  <!-- ********** local forecast search ********** -->
+
+  <tr>
+
+    <td class="yellow" align="center">Local forecast by<br />
+
+      &quot;City, St&quot; </td>
+
+  </tr>
+
+  <tr align="center" valign="top">
+
+    <td align="left" valign="bottom" nowrap="nowrap" class="searchinput"><form method="post" action="http://forecast.weather.gov/zipcity.php" style="margin-bottom:0; margin-top:0; ">
+
+        <div id="Layer2" style="position:absolute; width:200px;  height:115px; z-index:2; visibility: hidden">Search
+
+          by city. Press enter or select the go button to submit request</div>
+
+        <label for="zipcity" accesskey="z"></label>
+
+        <input type="text" id="zipcity" name="inputstring" size="9" value="City, St" onfocus="this.value='';" />
+
+        <input type="submit" name="Go2" value="Go" />
+
+      </form></td>
+
+  </tr>
+
+  <!-- ********** end local forecast search ********** -->
+
+  <tr>
+
+    <td class="white" id="menuitem"><a href="http://www.weather.gov/emailupdates/index.php">Sign-up
+
+      for Email Alerts</a><br />
+
+      &#160;<a href="http://www.weather.gov/rss/"><img src="/images/xml.gif" alt="RSS Feeds" title="RSS Feeds" width="36" height="14" border="0" /> RSS Feeds</a><br />
+
+      <a href="http://www.weather.gov/warnings.php"><span class="yellow">Warnings</span></a><br />
+
+      &#160;<a href="http://www.weather.gov/view/nationalwarnings.php?map=on">Current</a><br />
+
+      &#160;<a href="http://www.weather.gov/alerts-beta/">By State/County...</a><br />
+
+      &#160;<a href="http://www.cpc.ncep.noaa.gov/products/stratosphere/uv_index/uv_alert.shtml">UV
+
+      Alerts</a><br /></td>
+
+  </tr>
+
+  <tr>
+
+    <td class="white" id="menuitem"><a href="http://www.weather.gov/observations.php"><span class="yellow">Observations</span></a><br />
+
+      &#160;<a href="http://www.weather.gov/radar_tab.php">Radar</a><br />
+
+      &#160;<a href="http://www.goes.noaa.gov/">Satellite</a><br />
+
+      &#160;<a href="http://www.nohrsc.nws.gov/">Snow Cover</a><br />
+
+      &#160;<a href="http://www.weather.gov/om/osd/portal.shtml">Surface Weather...</a><br />
+
+      &#160;<a href="http://water.weather.gov/precip/">Observed Precip</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td class="white" id="menuitem"><a href="http://www.weather.gov/forecasts.php"><span class="yellow">Forecasts</span></a><br />
+
+      &#160;<a href="http://www.weather.gov/organization.php">Local</a><br />
+
+      &#160;<a href="http://www.weather.gov/forecasts/graphical/">Graphical</a><br />
+
+      &#160;<a href="http://www.aviationweather.gov/">Aviation</a><br />
+
+      &#160;<a href="http://www.weather.gov/om/marine/home.htm">Marine</a><br />
+
+      &#160;<a href="http://www.nhc.noaa.gov/">Hurricanes</a><br />
+
+      &#160;<a href="http://www.spc.noaa.gov/">Severe Weather</a><br />
+
+      &#160;<a href="http://www.swpc.noaa.gov/">Space Weather</a><br />
+
+      &#160;<a href="http://www.weather.gov/fire/">Fire Weather</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td class="white" id="menuitem"><span class="yellow">Text Bulletins</span><br />
+
+      &#160;<a href="http://www.weather.gov/view/states.php">By State</a><br />
+
+      &#160;<a href="http://www.weather.gov/view/validProds.php">By Message Type</a><br />
+
+      &#160;<a href="http://www.weather.gov/view/national.php?map=on">National</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td class="white" id="menuitem"><a href="http://www.weather.gov/maps.php"><span class="yellow">Forecast
+
+      Models</span></a><br />
+
+      &#160;<a href="http://www.nco.ncep.noaa.gov/pmb/nwprod/analysis/">Numerical
+
+      Models</a><br />
+
+      &#160;Statistical Models...<br />
+
+      &#160;&#160;&#160;<a href="http://www.weather.gov/mdl/synop/products.php">MOS
+
+      Prod</a><br />
+
+      &#160;&#160;&#160;<a href="http://www.weather.gov/mdl/gfslamp/gfslamp.shtml">GFS-LAMP
+
+      Prod</a><br /></td>
+
+  </tr>
+
+  <tr>
+
+    <td class="white" id="menuitem"><span class="yellow">Climate</span><br />
+
+      &#160;<a href="http://www.weather.gov/climate/">Past Weather</a><br />
+
+      &#160;<a href="http://www.weather.gov/predictions.php">Predictions</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td class="white" id="menuitem"><a href="http://www.weather.gov/safety.php"><span class="yellow">Weather
+
+      Safety</span></a><br />
+
+      &#160;<a href="http://www.weather.gov/nwr/">Weather Radio</a><br />
+
+      &#160;<a href="http://www.cpc.noaa.gov/products/expert_assessment/threats.html">Hazard
+
+      Assmt...</a><br />
+
+      &#160;<a href="http://www.stormready.noaa.gov/">StormReady</a> /<br />
+
+      &#160;<a href="http://www.stormready.noaa.gov/tsunamiready/">TsunamiReady</a> <br />
+
+      &#160;<a href="http://weather.gov/skywarn/">Skywarn&#8482;</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td class="white" id="menuitem"><a href="http://www.weather.gov/education.php"><span class="yellow">Education/Outreach</span></a></td>
+
+  </tr>
+
+  <tr>
+
+    <td class="white" id="menuitem"><a href="http://www.weather.gov/information_center.php"><span class="yellow">Information
+
+      Center</span></a><br />
+
+      &#160;<a href="http://tsunami.gov/">Tsunamis</a><br />
+
+      &#160;<a href="http://www.weather.gov/om/publications.shtml">Publications...</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td class="white" id="menuitem"><a href="http://www.weather.gov/feedback.php"><span class="yellow">Contact
+
+      Us</span></a><br />
+
+      &#160;<a href="http://www.weather.gov/pa/faq.php">FAQ</a><br />
+
+      &#160;<a href="http://www.weather.gov/feedback.php">Comments...</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td class="white" id="menuitem" align="center">
+
+      <a href="http://www.nws.noaa.gov/com/weatherreadynation/">
+
+      	<img border="0" width="110" height="36" title="WRN Logo" alt="WRN Logo" src="/images/wrn.gif"></img>
+
+      </a><br />
+
+      <a href="http://www.nws.noaa.gov/com/weatherreadynation/">Weather-Ready Nation</a>
+
+     </td>  
+
+  </tr>
+
+  <tr>
+
+    <td align="center"><a href="http://www.usa.gov/"><img src="/images/usagov_logo_color_110w.gif" alt="USA.gov is the U.S. government's official web portal to all federal, state and local government web resources and services." width="110" height="30" border="0" title="USA.gov is the U.S. government's official web portal to all federal, state and local government web resources and services." /></a></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="center" class="white" id="menuitem"><a href="http://www.weather.gov/cgi-bin/nwsexit.pl?url=http://www.facebook.com/US.National.Weather.Service.gov"><img src="/images/facebook_logo.gif" alt="Follow the National Weather Service on FaceBook" width="110" height="33" border="0" title="Follow the National Weather Service on FaceBook" /></a><br />
+
+      <a href="http://www.weather.gov/cgi-bin/nwsexit.pl?url=http://www.facebook.com/US.National.Weather.Service.gov">NWS
+
+      on Facebook</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="center" class="white" id="menuitem"><a href="https://twitter.com/usNWSgov"><img src="/images/twitter_logo.jpg" width="110" height="40" alt="NWS on Twitter" title="NWS on Twitter" /></a><br />
+
+      <a href="https://twitter.com/usNWSgov">NWS on Twitter</a>
+
+    </td>
+
+  </tr>
+
+  <tr>
+
+    <td align="center" class="white" id="menuitem"><a href="http://www.youtube.com/user/usweathergov"><img src="/images/youtube.png" width="110" height="35" alt="NWS on YouTube" title="NWS on YouTube" /></a><br />
+
+      <a href="http://www.youtube.com/user/usweathergov">NWS on YouTube</a>
+
+    </td>
+
+  </tr>
+
+</table>
+
+<!-- ========== end leftmenu inc ========== -->
+
+      <!-- end leftmenu --></td>
+    <td width="525" valign="top"><!-- TemplateBeginEditable name="Content" -->
+      <p><a name="contents" id="contents"></a><a href="/">&nbsp;&nbsp;Home</a>&nbsp;&nbsp;Home</a> &gt;<a href="/xml/">&nbsp;&nbsp;XML
+          Feeds</a> &gt; Current Observations - XML data feeds </p>
+      <table width="525" border="0" cellspacing="0">
+        <tr>
+          <td width="10">&nbsp;</td>
+          <td><h3>XML Feeds of Current Weather Conditions</h3>
+            This page provides access to observed current weather conditions
+              for about 2,500 locations across the United States and US Territories.
+              Two file formats designed for computer to computer data transfer
+              are provided. RSS and XML lists are provided to aid the automated
+              dissemination of this information. More information on <a href="#rss">RSS</a> and <a href="#XML">XML</a> formats/feeds. <a href="/feedback.php">Comments
+              and feedback</a> are welcome.
+            <p> Select a State or Territory to locate XML weather observations
+              feeds available:</p>
+            <p>
+              <!--<form name='seek' method="GET" action="/data/current_obs/seek.php">  -->
+            </p>
+            <form action="/xml/current_obs/seek.php" method="get" name='seek' id="seek">
+              <select name="state">
+                <option value=""> - Select a State - </option>
+                <option value="ak">Alaska</option>
+                <option value="al">Alabama</option>
+                <option value="ar">Arkansas</option>
+                <option value="as">American Samoa</option>
+                <option value="az">Arizona</option>
+                <option value="ca">California</option>
+                <option value="co">Colorado</option>
+                <option value="ct">Connecticut</option>
+                <option value="de">Delaware</option>
+                <option value="dc">District of Columbia</option>
+                <option value="fm">Federated States of Micronesia</option>
+                <option value="fl">Florida</option>
+                <option value="ga">Georgia</option>
+                <option value="gu">Guam</option>
+                <option value="hi">Hawaii</option>
+                <option value="ia">Iowa</option>
+                <option value="id">Idaho</option>
+                <option value="il">Illinois</option>
+                <option value="in">Indiana</option>
+                <option value="ks">Kansas</option>
+                <option value="ky">Kentucky</option>
+                <option value="la">Louisiana</option>
+                <option value="mh">Marshall Islands</option>
+                <option value="ma">Massachusetts</option>
+                <option value="md">Maryland</option>
+                <option value="me">Maine</option>
+                <option value="mi">Michigan</option>
+                <option value="mn">Minnesota</option>
+                <option value="mo">Missouri</option>
+                <option value="ms">Mississippi</option>
+                <option value="mt">Montana</option>
+                <option value="nc">North Carolina</option>
+                <option value="nd">North Dakota</option>
+                <option value="ne">Nebraska</option>
+                <option value="nh">New Hampshire</option>
+                <option value="nj">New Jersey</option>
+                <option value="nm">New Mexico</option>
+                <option value="nv">Nevada</option>
+                <option value="ny">New York</option>
+                <option value="oh">Ohio</option>
+                <option value="ok">Oklahoma</option>
+                <option value="or">Oregon</option>
+                <option value="pw">Palau</option>
+                <option value="pa">Pennsylvania</option>
+                <option value="pr">Puerto Rico</option>
+                <option value="ri">Rhoda Island</option>
+                <option value="sc">South Carolina</option>
+                <option value="sd">South Dakota</option>
+                <option value="tn">Tennessee</option>
+                <option value="tx">Texas</option>
+                <option value="ut">Utah</option>
+                <option value="va">Virginia</option>
+                <option value="vi">Virgin Islands</option>
+                <option value="vt">Vermont</option>
+                <option value="wa">Washington</option>
+                <option value="wi">Wisconsin</option>
+                <option value="wv">West Virginia</option>
+                <option value="wy">Wyoming</option>
+              </select>
+              <input type="submit" name="Find" value="Find" />
+            </form>
+            </p>
+            <p>
+              <table cellpadding="3" cellspacing="0" border="0" width="100%" summary="Table summary - Listing Locations with XML data feeds."><tr bgcolor="#F2F9FF">
+                  <th width="60%" align="left" id="State" abbr="state">Observation Location&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                  <th width="20%" id="rss" abbr="rss"><a href="#rss">RSS</a></th>
+                  <th width="20%" id="xml" abbr="xml"><a href="#xml">XML</a></th>
+                </tr><tr><td headers="Station Name"><a href="display.php?stid=KAAT">Alturas</a> (KAAT)</td>
+<td headers="rss"><div align="center"><a href="KAAT.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KAAT.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KACV">Arcata / Eureka, Arcata Airport</a> (KACV)</td>
+<td headers="rss"><div align="center"><a href="KACV.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KACV.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KAUN">Auburn, Auburn Municipal Airport</a> (KAUN)</td>
+<td headers="rss"><div align="center"><a href="KAUN.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KAUN.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KAVX">Avalon, Catalina Airport</a> (KAVX)</td>
+<td headers="rss"><div align="center"><a href="KAVX.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KAVX.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KBFL">Bakersfield, Meadows Field Airport</a> (KBFL)</td>
+<td headers="rss"><div align="center"><a href="KBFL.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KBFL.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KL35">Big Bear City Airport</a> (KL35)</td>
+<td headers="rss"><div align="center"><a href="KL35.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KL35.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KBIH">Bishop, Bishop Airport</a> (KBIH)</td>
+<td headers="rss"><div align="center"><a href="KBIH.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KBIH.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KBLH">Blythe, Blythe Airport</a> (KBLH)</td>
+<td headers="rss"><div align="center"><a href="KBLH.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KBLH.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KBUR">Burbank - Bob Hope Airport</a> (KBUR)</td>
+<td headers="rss"><div align="center"><a href="KBUR.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KBUR.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KCMA">Camarillo, Camarillo Airport</a> (KCMA)</td>
+<td headers="rss"><div align="center"><a href="KCMA.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KCMA.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KCZZ">Campo</a> (KCZZ)</td>
+<td headers="rss"><div align="center"><a href="KCZZ.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KCZZ.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KCRQ">Carlsbad, McClellan-Palomar Airport</a> (KCRQ)</td>
+<td headers="rss"><div align="center"><a href="KCRQ.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KCRQ.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KCIC">Chico Municipal</a> (KCIC)</td>
+<td headers="rss"><div align="center"><a href="KCIC.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KCIC.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KNID">China Lake, Naval Air Facility</a> (KNID)</td>
+<td headers="rss"><div align="center"><a href="KNID.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KNID.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KCNO">Chino, Chino Airport</a> (KCNO)</td>
+<td headers="rss"><div align="center"><a href="KCNO.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KCNO.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KO22">COLUMBIA</a> (KO22)</td>
+<td headers="rss"><div align="center"><a href="KO22.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KO22.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KCCR">Concord, Buchanan Field</a> (KCCR)</td>
+<td headers="rss"><div align="center"><a href="KCCR.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KCCR.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KAJO">Corona Airport</a> (KAJO)</td>
+<td headers="rss"><div align="center"><a href="KAJO.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KAJO.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KCEC">Crescent City, Jack McNamara Field Airport</a> (KCEC)</td>
+<td headers="rss"><div align="center"><a href="KCEC.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KCEC.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KDAG">Daggett, Barstow-Daggett Airport</a> (KDAG)</td>
+<td headers="rss"><div align="center"><a href="KDAG.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KDAG.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KEDW">Edwards Air Force Base</a> (KEDW)</td>
+<td headers="rss"><div align="center"><a href="KEDW.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KEDW.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=K9L2">Edwards, Edwards Air Force Auxiliary North Base</a> (K9L2)</td>
+<td headers="rss"><div align="center"><a href="K9L2.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="K9L2.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KNJK">El Centro, Naval Air Facility</a> (KNJK)</td>
+<td headers="rss"><div align="center"><a href="KNJK.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KNJK.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KEMT">El Monte</a> (KEMT)</td>
+<td headers="rss"><div align="center"><a href="KEMT.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KEMT.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KBLU">Emigrant Gap, Blue Canyon Nyack Airport</a> (KBLU)</td>
+<td headers="rss"><div align="center"><a href="KBLU.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KBLU.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KSUU">Fairfield / Travis Air Force Base</a> (KSUU)</td>
+<td headers="rss"><div align="center"><a href="KSUU.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSUU.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KL18">Fallbrook Community Airpark</a> (KL18)</td>
+<td headers="rss"><div align="center"><a href="KL18.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KL18.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KBYS">Fort Irwin/Barstow, Bicycle Lake Army Airfield</a> (KBYS)</td>
+<td headers="rss"><div align="center"><a href="KBYS.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KBYS.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KFOT">Fortuna Rohnerville Airport</a> (KFOT)</td>
+<td headers="rss"><div align="center"><a href="KFOT.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KFOT.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KFCH">Fresno Chandler Executive Airport</a> (KFCH)</td>
+<td headers="rss"><div align="center"><a href="KFCH.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KFCH.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KFAT">Fresno, Fresno Air Terminal</a> (KFAT)</td>
+<td headers="rss"><div align="center"><a href="KFAT.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KFAT.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KFUL">Fullerton, Fullerton Municipal Airport</a> (KFUL)</td>
+<td headers="rss"><div align="center"><a href="KFUL.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KFUL.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KHAF">Half Moon Bay Airport</a> (KHAF)</td>
+<td headers="rss"><div align="center"><a href="KHAF.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KHAF.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KHJO">Hanford, Hanford Municipal Airport</a> (KHJO)</td>
+<td headers="rss"><div align="center"><a href="KHJO.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KHJO.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KHHR">Hawthorne, Hawthorne Municipal Airport</a> (KHHR)</td>
+<td headers="rss"><div align="center"><a href="KHHR.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KHHR.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KHWD">Hayward, Hayward Air Terminal</a> (KHWD)</td>
+<td headers="rss"><div align="center"><a href="KHWD.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KHWD.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KCVH">Hollister, CA</a> (KCVH)</td>
+<td headers="rss"><div align="center"><a href="KCVH.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KCVH.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KNRS">Imperial Beach, Naval Auxiliary Landing Field</a> (KNRS)</td>
+<td headers="rss"><div align="center"><a href="KNRS.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KNRS.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KIPL">Imperial, Imperial County Airport</a> (KIPL)</td>
+<td headers="rss"><div align="center"><a href="KIPL.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KIPL.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KPOC">La Verne / Brackett</a> (KPOC)</td>
+<td headers="rss"><div align="center"><a href="KPOC.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KPOC.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KWJF">Lancaster, General William J. Fox Airfield Airport</a> (KWJF)</td>
+<td headers="rss"><div align="center"><a href="KWJF.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KWJF.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KNLC">Lemoore, Naval Air Station</a> (KNLC)</td>
+<td headers="rss"><div align="center"><a href="KNLC.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KNLC.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KLHM">Lincoln Regional Karl Harder Field</a> (KLHM)</td>
+<td headers="rss"><div align="center"><a href="KLHM.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KLHM.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KLVK">Livermore, Livermore Municipal Airport</a> (KLVK)</td>
+<td headers="rss"><div align="center"><a href="KLVK.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KLVK.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KLPC">Lompoc, Lompoc Airport</a> (KLPC)</td>
+<td headers="rss"><div align="center"><a href="KLPC.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KLPC.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KVBG">Lompoc, Vandenberg Air Force Base</a> (KVBG)</td>
+<td headers="rss"><div align="center"><a href="KVBG.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KVBG.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KLGB">Long Beach, Long Beach Airport</a> (KLGB)</td>
+<td headers="rss"><div align="center"><a href="KLGB.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KLGB.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KSLI">Los Alamitos U. S. Army Airfield</a> (KSLI)</td>
+<td headers="rss"><div align="center"><a href="KSLI.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSLI.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KCQT">Los Angeles / USC Campus Downtown</a> (KCQT)</td>
+<td headers="rss"><div align="center"><a href="KCQT.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KCQT.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KLAX">Los Angeles, Los Angeles International Airport</a> (KLAX)</td>
+<td headers="rss"><div align="center"><a href="KLAX.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KLAX.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KWHP">Los Angeles, Whiteman Airport</a> (KWHP)</td>
+<td headers="rss"><div align="center"><a href="KWHP.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KWHP.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KMAE">Madera, Madera Municipal Airport</a> (KMAE)</td>
+<td headers="rss"><div align="center"><a href="KMAE.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KMAE.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KMMH">Mammoth / June Lakes</a> (KMMH)</td>
+<td headers="rss"><div align="center"><a href="KMMH.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KMMH.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KBAB">Marysville, Beale Air Force Base</a> (KBAB)</td>
+<td headers="rss"><div align="center"><a href="KBAB.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KBAB.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KMYV">Marysville, Yuba County Airport</a> (KMYV)</td>
+<td headers="rss"><div align="center"><a href="KMYV.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KMYV.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KBAN">MCMWTC BRIDGEPORT</a> (KBAN)</td>
+<td headers="rss"><div align="center"><a href="KBAN.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KBAN.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KNXF">Mcolf Camp Pendleton (Red Beach)</a> (KNXF)</td>
+<td headers="rss"><div align="center"><a href="KNXF.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KNXF.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KMER">Merced / Castle Air Force Base</a> (KMER)</td>
+<td headers="rss"><div align="center"><a href="KMER.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KMER.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KMCE">Merced Regional Airport</a> (KMCE)</td>
+<td headers="rss"><div align="center"><a href="KMCE.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KMCE.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KMOD">Modesto, Modesto City-County-Sham Field</a> (KMOD)</td>
+<td headers="rss"><div align="center"><a href="KMOD.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KMOD.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KMHV">Mojave</a> (KMHV)</td>
+<td headers="rss"><div align="center"><a href="KMHV.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KMHV.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KSIY">Montague, Siskiyou County Airport</a> (KSIY)</td>
+<td headers="rss"><div align="center"><a href="KSIY.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSIY.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KMRY">Monterey, Monterey Peninsula Airport</a> (KMRY)</td>
+<td headers="rss"><div align="center"><a href="KMRY.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KMRY.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KMHS">Mount Shasta</a> (KMHS)</td>
+<td headers="rss"><div align="center"><a href="KMHS.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KMHS.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KNUQ">Mountain View, Moffett Field</a> (KNUQ)</td>
+<td headers="rss"><div align="center"><a href="KNUQ.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KNUQ.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KF70">Murrieta/Temecula French Valley</a> (KF70)</td>
+<td headers="rss"><div align="center"><a href="KF70.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KF70.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KAPC">Napa, Napa County Airport</a> (KAPC)</td>
+<td headers="rss"><div align="center"><a href="KAPC.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KAPC.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KEED">Needles, Needles Airport</a> (KEED)</td>
+<td headers="rss"><div align="center"><a href="KEED.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KEED.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KGOO">Nevada County Air Park</a> (KGOO)</td>
+<td headers="rss"><div align="center"><a href="KGOO.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KGOO.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KDVO">Novato / Gnoss Field</a> (KDVO)</td>
+<td headers="rss"><div align="center"><a href="KDVO.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KDVO.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KOAK">Oakland, Metro Oakland International Airport</a> (KOAK)</td>
+<td headers="rss"><div align="center"><a href="KOAK.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KOAK.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KNFG">Oceanside, Camp Pendleton, Marine Corps Air Station</a> (KNFG)</td>
+<td headers="rss"><div align="center"><a href="KNFG.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KNFG.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KOKB">Oceanside, Oceanside Municipal Airport</a> (KOKB)</td>
+<td headers="rss"><div align="center"><a href="KOKB.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KOKB.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KONT">Ontario, Ontario International Airport</a> (KONT)</td>
+<td headers="rss"><div align="center"><a href="KONT.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KONT.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KOVE">Oroville, Oroville Municipal Airport</a> (KOVE)</td>
+<td headers="rss"><div align="center"><a href="KOVE.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KOVE.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KOXR">Oxnard, Oxnard Airport</a> (KOXR)</td>
+<td headers="rss"><div align="center"><a href="KOXR.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KOXR.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KPSP">Palm Springs Regional Airport</a> (KPSP)</td>
+<td headers="rss"><div align="center"><a href="KPSP.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KPSP.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KTRM">Palm Springs, Jacqueline Cochran Regional Airport</a> (KTRM)</td>
+<td headers="rss"><div align="center"><a href="KTRM.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KTRM.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KPMD">Palmdale, Palmdale Production Flight Plant</a> (KPMD)</td>
+<td headers="rss"><div align="center"><a href="KPMD.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KPMD.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KPAO">Palo Alto Airport</a> (KPAO)</td>
+<td headers="rss"><div align="center"><a href="KPAO.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KPAO.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KPRB">Paso Robles, Paso Robles Municipal Airport</a> (KPRB)</td>
+<td headers="rss"><div align="center"><a href="KPRB.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KPRB.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KO69">Petaluma Municipal Airport</a> (KO69)</td>
+<td headers="rss"><div align="center"><a href="KO69.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KO69.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KPVF">Placerville Airport</a> (KPVF)</td>
+<td headers="rss"><div align="center"><a href="KPVF.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KPVF.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KNTD">Point Mugu, Naval Air Warfare Center</a> (KNTD)</td>
+<td headers="rss"><div align="center"><a href="KNTD.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KNTD.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KPTV">Porterville, Porterville Municipal Airport</a> (KPTV)</td>
+<td headers="rss"><div align="center"><a href="KPTV.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KPTV.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KRNM">Ramona, Ramona Airport</a> (KRNM)</td>
+<td headers="rss"><div align="center"><a href="KRNM.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KRNM.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KRBL">Red Bluff, Red Bluff Municipal Airport</a> (KRBL)</td>
+<td headers="rss"><div align="center"><a href="KRBL.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KRBL.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KRDD">Redding Municipal Airport</a> (KRDD)</td>
+<td headers="rss"><div align="center"><a href="KRDD.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KRDD.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KRIV">Riverside / March Air Force Base</a> (KRIV)</td>
+<td headers="rss"><div align="center"><a href="KRIV.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KRIV.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KRAL">Riverside, Riverside Municipal Airport</a> (KRAL)</td>
+<td headers="rss"><div align="center"><a href="KRAL.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KRAL.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KSMF">Sacramento International Airport</a> (KSMF)</td>
+<td headers="rss"><div align="center"><a href="KSMF.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSMF.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KMCC">Sacramento, McClellan Airfield Airport</a> (KMCC)</td>
+<td headers="rss"><div align="center"><a href="KMCC.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KMCC.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KSAC">Sacramento, Sacramento Executive Airport</a> (KSAC)</td>
+<td headers="rss"><div align="center"><a href="KSAC.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSAC.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KMHR">Sacramento, Sacramento Mather Airport</a> (KMHR)</td>
+<td headers="rss"><div align="center"><a href="KMHR.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KMHR.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KSNS">Salinas, Salinas Municipal Airport</a> (KSNS)</td>
+<td headers="rss"><div align="center"><a href="KSNS.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSNS.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KSBD">San Bernardino Intl. Airport</a> (KSBD)</td>
+<td headers="rss"><div align="center"><a href="KSBD.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSBD.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KSQL">San Carlos Airport</a> (KSQL)</td>
+<td headers="rss"><div align="center"><a href="KSQL.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSQL.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KNUC">San Clemente Island, San Clemente Island NALF</a> (KNUC)</td>
+<td headers="rss"><div align="center"><a href="KNUC.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KNUC.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KSDM">San Diego, Brown Field Municipal Airport</a> (KSDM)</td>
+<td headers="rss"><div align="center"><a href="KSDM.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSDM.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KNKX">San Diego, Miramar MCAS/Mitscher Field Airport</a> (KNKX)</td>
+<td headers="rss"><div align="center"><a href="KNKX.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KNKX.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KMYF">San Diego, Montgomery Field</a> (KMYF)</td>
+<td headers="rss"><div align="center"><a href="KMYF.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KMYF.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KNZY">San Diego, North Island, Naval Air Station</a> (KNZY)</td>
+<td headers="rss"><div align="center"><a href="KNZY.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KNZY.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KSAN">San Diego, San Diego International-Lindbergh Field</a> (KSAN)</td>
+<td headers="rss"><div align="center"><a href="KSAN.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSAN.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KSEE">San Diego/El Cajon, Gillespie Field Airport</a> (KSEE)</td>
+<td headers="rss"><div align="center"><a href="KSEE.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSEE.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KSFO">San Francisco, San Francisco International Airport</a> (KSFO)</td>
+<td headers="rss"><div align="center"><a href="KSFO.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSFO.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KRHV">San Jose / Reid / Hillv</a> (KRHV)</td>
+<td headers="rss"><div align="center"><a href="KRHV.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KRHV.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KSJC">San Jose, San Jose International Airport</a> (KSJC)</td>
+<td headers="rss"><div align="center"><a href="KSJC.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSJC.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KSBP">San Luis Obispo, San Luis Obispo County-Mc Chesney Field</a> (KSBP)</td>
+<td headers="rss"><div align="center"><a href="KSBP.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSBP.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KNSI">San Nicholas Island</a> (KNSI)</td>
+<td headers="rss"><div align="center"><a href="KNSI.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KNSI.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KSDB">Sandberg</a> (KSDB)</td>
+<td headers="rss"><div align="center"><a href="KSDB.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSDB.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KSNA">Santa Ana, John Wayne Airport-Orange County Airport</a> (KSNA)</td>
+<td headers="rss"><div align="center"><a href="KSNA.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSNA.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KSBA">Santa Barbara, Santa Barbara Municipal Airport</a> (KSBA)</td>
+<td headers="rss"><div align="center"><a href="KSBA.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSBA.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KSMX">Santa Maria, Santa Maria Public Airport</a> (KSMX)</td>
+<td headers="rss"><div align="center"><a href="KSMX.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSMX.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KSMO">Santa Monica, Santa Monica Municipal Airport</a> (KSMO)</td>
+<td headers="rss"><div align="center"><a href="KSMO.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSMO.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KSTS">Santa Rosa, Santa Rosa Sonoma County Airport</a> (KSTS)</td>
+<td headers="rss"><div align="center"><a href="KSTS.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSTS.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KIZA">Santa Ynez, Santa Ynez Airport</a> (KIZA)</td>
+<td headers="rss"><div align="center"><a href="KIZA.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KIZA.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KE16">South County Airport of Santa Clara County</a> (KE16)</td>
+<td headers="rss"><div align="center"><a href="KE16.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KE16.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KTVL">South Lake Tahoe, Lake Tahoe Airport</a> (KTVL)</td>
+<td headers="rss"><div align="center"><a href="KTVL.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KTVL.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KSCK">Stockton, Stockton Metropolitan Airport</a> (KSCK)</td>
+<td headers="rss"><div align="center"><a href="KSCK.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KSCK.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KTSP">Tehachapi Municipal Airport</a> (KTSP)</td>
+<td headers="rss"><div align="center"><a href="KTSP.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KTSP.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KTOA">Torrance, Zamperini Field Airport</a> (KTOA)</td>
+<td headers="rss"><div align="center"><a href="KTOA.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KTOA.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KO86">Trinity Center</a> (KO86)</td>
+<td headers="rss"><div align="center"><a href="KO86.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KO86.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KTRK">Truckee-Tahoe</a> (KTRK)</td>
+<td headers="rss"><div align="center"><a href="KTRK.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KTRK.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KNXP">Twenty-Nine Palms, Marine Corps Air-Ground Combat Center</a> (KNXP)</td>
+<td headers="rss"><div align="center"><a href="KNXP.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KNXP.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KUKI">Ukiah, Ukiah Municipal Airport</a> (KUKI)</td>
+<td headers="rss"><div align="center"><a href="KUKI.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KUKI.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KEDU">University Airport</a> (KEDU)</td>
+<td headers="rss"><div align="center"><a href="KEDU.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KEDU.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KVCB">Vacaville, Nut Tree Airport</a> (KVCB)</td>
+<td headers="rss"><div align="center"><a href="KVCB.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KVCB.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KVNY">Van Nuys, Van Nuys Airport</a> (KVNY)</td>
+<td headers="rss"><div align="center"><a href="KVNY.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KVNY.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KVCV">Victorville, Southern California Logistics Airport</a> (KVCV)</td>
+<td headers="rss"><div align="center"><a href="KVCV.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KVCV.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr bgcolor="#F2F9FF"><td headers="Station Name"><a href="display.php?stid=KVIS">Visalia, Visalia Municipal Airport</a> (KVIS)</td>
+<td headers="rss"><div align="center"><a href="KVIS.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KVIS.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td headers="Station Name"><a href="display.php?stid=KWVI">Watsonville, Watsonville Municipal Airport</a> (KWVI)</td>
+<td headers="rss"><div align="center"><a href="KWVI.rss"><img src="/images/rss.jpg" alt="RSS Format" width="36" height="14" border="0"></a></div></td>
+<td headers="xml"><div align="center"><a href="KWVI.xml"><img src="/images/xml.gif" alt="XML Format" width="36" height="14" border="0"></a></div></td>
+</tr>
+<tr><td>There are 131 land stations in CA.<br /></td></tr></table></p>               <a name="rss">
+<h3><a name="rss" id="rss"></a>About RSS</h3>
+RSS is an XML based document format for syndicating news and other timely news-like
+information. It provides headlines, URLs to the source document and brief description
+information in an easy to understand and use format. RSS based &quot;News Readers&quot; and &quot;News
+Aggregators&quot; allow the display of RSS headlines on workstation desktops. Software
+libraries exist to read the RSS format and present RSS headlines on webpages
+and other online applications.
+            <p> These NWS supplied RSS documents use the RSS 2.0 format. Each
+              RSS item links to the html/web documents described above. Additional
+              technical information is available from the following non-US Government
+              website:</p>            
+            <p> <a href="http://weather.gov/cgi-bin/nwsexit.pl?url=http://blogs.law.harvard.edu/tech/rss">RSS
+                2.0 Specification</a></p>            
+            <p> A non-US Government maintained list of RSS readers, aggregators
+              and related software:</p>            
+            <p> <a href="http://weather.gov/cgi-bin/nwsexit.pl?url=http://www.google.com/search?q=rss+software&amp;rls=com.microsoft:en-us&amp;ie=UTF-8&amp;oe=UTF-8&amp;startIndex=&amp;startPage=1">RSS
+    Software</a></p>            
+            <p> <a href="http://weather.gov/survey/nws-survey.php?code=rss-cap-wwa">Comments</a> on
+              this service are welcome.
+</p>
+<a name="xml">
+        <h3><a name="xml" id="xml"></a>About XML</h3>
+NWS offers hourly weather observations formatted with xml tags to aid in the parsing
+of the information by automated programs used to populate databases, display
+information on webpages or other similar applications. This format is not to
+be confused with RSS and cannot be read by RSS readers and aggregators. These
+files present more detailed information than the RSS feeds in strings friendly
+for parsing. Both the RSS and XML feeds offer URLs to icon images. Additionally,
+A list of what <a href="weather.php">phrases</a> may appear
+in the
+        <weather>
+XML tag and suggested icons is available. To access these feeds, select a state
+and then the last XML link in the column.
+            </p></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <!-- TemplateEndEditable --></td>
+    <!-- end content area -->
+  </tr>
+  <tr>
+    <td valign="top">&nbsp;</td>
+    <td><!-- start footer -->
+      <!-- start footer inc -->
+
+
+
+<table width="98%" border="0" cellpadding="2" cellspacing="0">
+
+  <tr>
+
+    <td colspan="3"><hr align="right" width="98%" /></td>
+
+  </tr>
+
+  <tr valign="top">
+
+    <td align="left" nowrap="nowrap" class="gray">&#160;&#160;&#160;&#160;<a href="http://www.doc.gov"><span class="gray">US Dept of Commerce</span></a><br />
+
+      &#160;&#160;&#160;&#160;<a href="http://www.noaa.gov"><span class="gray">National Oceanic and Atmospheric Administration</span></a><br />
+
+      &#160;&#160;&#160;&#160;National Weather Service<br />
+
+      &#160;&#160;&#160;&#160;1325 East West Highway<br />
+
+      &#160;&#160;&#160;&#160;Silver Spring, MD 20910<br />
+
+      &#160;&#160;&#160;&#160;Page Author: <a href="mailto:w-nws.webmaster@noaa.gov"> <span class="gray">NWS Internet Services Team</span></a></td>
+
+    <td nowrap="nowrap"><a href="http://www.weather.gov/disclaimer.php"><span class="gray">Disclaimer</span></a><br />
+
+      <a href="http://www.cio.noaa.gov/Policy_Programs/info_quality.html"><span class="gray">Information Quality</span></a><br />
+
+      <a href="http://www.weather.gov/credits.php"><span class="gray">Credits</span></a><br />
+
+      <a href="http://www.weather.gov/glossary/"><span class="gray">Glossary</span></a><br /></td>
+
+    <td align="right" nowrap="nowrap"><a href="http://www.weather.gov/privacy.php"><span class="gray">Privacy Policy</span></a><br />
+
+      <a href="http://www.rdc.noaa.gov/%7Efoia/"><span class="gray">Freedom of Information Act (FOIA)</span></a><br />
+
+      <a href="http://www.weather.gov/admin.php"><span class="gray">About Us</span></a><br />
+
+      <a href="http://www.weather.gov/careers.php"><span class="gray">Career Opportunities</span></a></td>
+
+  </tr>
+
+</table>
+
+<!-- end footer inc -->
+
+      <!-- end footer -->
+      &nbsp;&nbsp;&nbsp;&nbsp; <span class="gray">Page last Modified:</span> <!-- TemplateBeginEditable name="Date" --><span class="gray">
+      <!-- start modified date -->
+      <!-- #BeginDate format:aSw1a -->Fri 20 April, 2007 7:50 AM<!-- #EndDate -->
+      <!-- end modified date -->
+      </span><!-- TemplateEndEditable --></td>
+  </tr>
+</table>
+</body>
+</html>

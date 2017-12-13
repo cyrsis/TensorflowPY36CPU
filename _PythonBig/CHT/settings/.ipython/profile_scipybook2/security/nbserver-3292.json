@@ -1,0 +1,8 @@
+{
+  "secure": false, 
+  "url": "http://127.0.0.1:8888/", 
+  "hostname": "127.0.0.1", 
+  "base_url": "/", 
+  "notebook_dir": "C:\\Users\\RY\\Dropbox\\scipybook2", 
+  "port": 8888
+}
