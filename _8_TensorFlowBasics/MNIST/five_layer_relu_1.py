@@ -1,3 +1,8 @@
+# ========================================================================= #
+#                             MNIST Excerise with
+#   5 Layers and 1 Relu Accuracy:  0.9773                                    #
+# :                                                     #
+# ========================================================================= #
 import tensorflow as tf
 import math
 from tensorflow.examples.tutorials.mnist import input_data
@@ -7,25 +12,29 @@ BATCH_SIZE = 100
 LEARNING_RATE = 0.5
 TRAINING_EPOCHS = 10
 
-minst = input_data.read_data_sets("tmp/mnist_data", one_hot=True)
+mnist = input_data.read_data_sets("tmp/mnist_data", one_hot=True)
 
 X = tf.placeholder(tf.float32, [None, 784])
 Y_ = tf.placeholder(tf.float32, [None, 10])  # Output
 lr = tf.placeholder(tf.float32)
 
-L = 200
-M = 100
-N = 60
-O = 30
+L = 392
+M = 196
+N = 80
+O = 40
 
 W1 = tf.Variable(tf.truncated_normal([784, L], stddev=0.1))
 B1 = tf.Variable(tf.ones([L]) / 10)
+
 W2 = tf.Variable(tf.truncated_normal([L, M], stddev=0.1))
 B2 = tf.Variable(tf.ones([M]) / 10)
+
 W3 = tf.Variable(tf.truncated_normal([M, N], stddev=0.1))
 B3 = tf.Variable(tf.ones([N]) / 10)
+
 W4 = tf.Variable(tf.truncated_normal([N, O], stddev=0.1))
 B4 = tf.Variable(tf.ones([O]) / 10)
+
 W5 = tf.Variable(tf.truncated_normal([O, 10], stddev=0.1))
 B5 = tf.Variable(tf.zeros([10]))
 
@@ -58,9 +67,9 @@ with tf.Session() as sess:
     writer = tf.summary.FileWriter(LOGS_PATH, \
                                    graph=tf.get_default_graph())
     for epoch in range(TRAINING_EPOCHS):
-        batch_count = int(mnist.train.num_examples / batch_size)
+        batch_count = int(mnist.train.num_examples / BATCH_SIZE)
         for i in range(batch_count):
-            batch_x, batch_y = mnist.train.next_batch(batch_size)
+            batch_x, batch_y = mnist.train.next_batch(BATCH_SIZE)
             max_learning_rate = 0.003
             min_learning_rate = 0.0001
             decay_speed = 2000
