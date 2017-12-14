@@ -1,3 +1,7 @@
+#http://arbu00.blogspot.hk/2017/05/4-tensorflowlenet5.html
+
+This one is really really good
+
 # Working on the study of tensorflow
 
 This is really good one
