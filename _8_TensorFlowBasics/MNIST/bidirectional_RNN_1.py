@@ -3,6 +3,8 @@ import numpy as np
 from tensorflow.contrib import rnn
 
 from tensorflow.examples.tutorials.mnist import input_data
+
+#1 .Data
 mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
 
 learning_rate = 0.001
@@ -10,6 +12,7 @@ training_iters = 100000
 batch_size = 128
 display_step = 10
 
+#2.Varirable
 n_input = 28 
 n_steps = 28 
 n_hidden = 128 
@@ -25,6 +28,7 @@ biases = {
     'out': tf.Variable(tf.random_normal([n_classes]))
 }
 
+#3.Model
 def BiRNN(x, weights, biases):
     x = tf.transpose(x, [1, 0, 2])
     x = tf.reshape(x, [-1, n_input])
@@ -40,12 +44,17 @@ def BiRNN(x, weights, biases):
     return tf.matmul(outputs[-1], weights['out']) + biases['out']
 
 pred = BiRNN(x, weights, biases)
+
+#4. Cost and Optimizer
 cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=pred, labels=y))
 optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(cost)
 correct_pred = tf.equal(tf.argmax(pred,1), tf.argmax(y,1))
+
+#.Accuracy
 accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
 init = tf.global_variables_initializer()
 
+#Train
 with tf.Session() as sess:
     sess.run(init)
     step = 1

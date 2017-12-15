@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # Import MINST data
 from tensorflow.examples.tutorials.mnist import input_data
-mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
+mnist = input_data.read_data_sets("tmp/mnist_data/", one_hot=True)
 
 #mnist = mnist_data.read_data_sets("data/")
 
