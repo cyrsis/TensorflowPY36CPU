@@ -151,6 +151,8 @@ Edit on Aug 14, 2017: "clinicalgraphics" channel provides relatively newer vtk v
 
 conda install -c clinicalgraphics vtk
 
+Mac OS 
+conda install --channel https://conda.anaconda.org/menpo opencv3
 gym
 
 pip install gym
