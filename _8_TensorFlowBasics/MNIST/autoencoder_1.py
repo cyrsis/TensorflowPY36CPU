@@ -1,3 +1,9 @@
+# ========================================================================= #
+#                 Autoencoder 是一種無監督 (unsupervised) 的訓練方式
+#
+# 可以看到 Autoencoder 的效果比 PCA 來得好．                                      #
+# :                                                     #
+# ========================================================================= #
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt

@@ -157,7 +157,18 @@ pip install moviepy
 brew install ffmpeg
 
 
+#Requirements
 
+pip install -r requirements.txt
+
+#Export Conda environment
+
+Export to .yml file
+
+conda env export > freeze.yml
+To reproduce:
+
+conda env create -f freeze.yml
 
 
 
