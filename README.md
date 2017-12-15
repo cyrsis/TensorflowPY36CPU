@@ -1,3 +1,8 @@
+#AI machine learning END TO END
+
+From Data pipline to get the machine up and running with Tensorflow 
+
+
 #http://arbu00.blogspot.hk/2017/05/4-tensorflowlenet5.html
 
 This one is really really good
@@ -78,7 +83,7 @@ pip install SomePackage --upgrade
 
  python -V
  
-#Library will be using (anaconda Python 3.6)
+#Library will be using (anaconda Python 3.5)
 
 NLTk
 XgBoost
