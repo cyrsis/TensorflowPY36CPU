@@ -28,7 +28,7 @@ def inputs():
                   [59, 46], [67, 23], [85, 37], [55, 40], [63, 30]]
     blood_fat_content = [354, 190, 405, 263, 451, 302, 288, 385, 402, 365, 209, 290, 346, 254, 395, 434, 220, 374, 308,
                          220, 311, 181, 274, 303, 244]
-
+    
     return tf.to_float(weight_age), tf.to_float(blood_fat_content)
 
 def loss(X, Y):

@@ -8,6 +8,8 @@ ops.reset_default_graph()
 # victor
 # 16/12/2017
 # Created @ 2017-12-16 00:57
+def inputs():
+    pass
 
 
 def train(total_loss):
@@ -26,8 +28,6 @@ def evaluate(sess, X, Y):
     pass
 
 
-def inputs():
-    pass
 
 model_saver = tf.train.Saver()
 
