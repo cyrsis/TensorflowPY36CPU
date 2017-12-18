@@ -53,7 +53,7 @@ with tf.Session() as sess:
             print("Loss ", sess.run([total_loss]))
 
 
-    evaluate(sess.X, Y)
+    evaluate(sess, X, Y)
 
     coord.request_stop()
     coord.join(threads)
