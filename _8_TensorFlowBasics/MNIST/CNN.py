@@ -20,14 +20,14 @@ mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
 
 # Parameters
 learning_rate = 0.001
-training_iters = 400000  #迭帶400000次
-batch_size = 128 #使用minibatch方式
-display_step = 10
+training_iters = 40000  #迭帶400000次
+batch_size = 500 #使用minibatch方式
+display_step = 100
 
 # Network Parameters
 n_input = 784  #原本MNIST數據集為1x784，會被reshape回28x28，當作原始輸入
 n_classes = 10  # MNIST total classes (0-9 digits)
-dropout = 0.75  #dropout = 0.75意義為：為了減少過度適合(Overfitting)的問題，應用了丟棄(dropout)正則化技術。
+dropout = 0.6  #dropout = 0.75意義為：為了減少過度適合(Overfitting)的問題，應用了丟棄(dropout)正則化技術。
 #意旨在神經網路中丟棄一些連接的單元(輸入，隱藏，和輸出)，決定丟棄那些神經元是隨機
 #的也可以用機率決定。s
 
@@ -38,8 +38,8 @@ keep_prob = tf.placeholder(tf.float32)  # dropout (keep probability)
 
 
 # Create model
-def conv2d(img, w, b):
-    return tf.nn.relu(tf.nn.bias_add(tf.nn.conv2d(img, w, strides=[1, 1, 1, 1], padding='SAME'), b))
+def conv2d(img, filter, b):
+    return tf.nn.relu(tf.nn.bias_add(tf.nn.conv2d(input=img,filter=filter, strides=[1, 1, 1, 1], padding='SAME'), b))
 
 
 def max_pool(img, k):
@@ -75,6 +75,7 @@ bout = tf.Variable(tf.random_normal([n_classes]))
 _X = tf.reshape(x, shape=[-1, 28, 28, 1])
 
 # Convolution Layer
+# Computes 32 features using a 5x5 filter with ReLU activation.
 conv1 = conv2d(_X, wc1, bc1)
 # Max Pooling (down-sampling)
 conv1 = max_pool(conv1, k=2)
@@ -93,14 +94,16 @@ conv2 = tf.nn.dropout(conv2, keep_prob)
 # Fully connected layer
 dense1 = tf.reshape(conv2, [-1, wd1.get_shape().as_list()[0]])  # Reshape conv2 output to fit dense layer input
 dense1 = tf.nn.relu(tf.add(tf.matmul(dense1, wd1), bd1))  # Relu activation
-dense1 = tf.nn.dropout(dense1, keep_prob)  # Apply Dropout
+dense1 = tf.nn.dropout(dense1,keep_prob=keep_prob)  # Apply Dropout
 #定義F5層全連接層使用ReLu激勵函數及dropout正則化
+
 
 # Output, class prediction
 pred = tf.add(tf.matmul(dense1, wout), bout)
 
 # pred = conv_net(x, weights, biases, keep_prob)
 # Define loss and optimizer
+
 cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=y, logits=pred))
 #計算成本函數的方式並使用softmax_cross_entropy_with_logits
 #注意，在Tensorflow R1.0.1版，注意這兩個參數(labels=y, logits=pred)的放法跟以前版本不同
