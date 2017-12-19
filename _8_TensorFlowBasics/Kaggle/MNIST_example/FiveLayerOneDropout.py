@@ -54,176 +54,193 @@ parser.add_argument(
     default=None,
     choices=['channels_first', 'channels_last'],
     help='A flag to override the data format used in the model. channels_first '
-    'provides a performance boost on GPU but is not always compatible '
-    'with CPU. If left unspecified, the data format will be chosen '
-    'automatically based on whether TensorFlow was built for CPU or GPU.')
+         'provides a performance boost on GPU but is not always compatible '
+         'with CPU. If left unspecified, the data format will be chosen '
+         'automatically based on whether TensorFlow was built for CPU or GPU.')
+
+parser.add_argument(
+    '--export_dir',
+    type=str,
+    help='The directory where the exported SavedModel will be stored.')
 
 
 def train_dataset(data_dir):
-  """Returns a tf.data.Dataset yielding (image, label) pairs for training."""
-  data = input_data.read_data_sets(data_dir, one_hot=True).train
-  return tf.data.Dataset.from_tensor_slices((data.images, data.labels))
+    """Returns a tf.data.Dataset yielding (image, label) pairs for training."""
+    data = input_data.read_data_sets(data_dir, one_hot=True).train
+    return tf.data.Dataset.from_tensor_slices((data.images, data.labels))
 
 
 def eval_dataset(data_dir):
-  """Returns a tf.data.Dataset yielding (image, label) pairs for evaluation."""
-  data = input_data.read_data_sets(data_dir, one_hot=True).test
-  return tf.data.Dataset.from_tensors((data.images, data.labels))
+    """Returns a tf.data.Dataset yielding (image, label) pairs for evaluation."""
+    data = input_data.read_data_sets(data_dir, one_hot=True).test
+    return tf.data.Dataset.from_tensors((data.images, data.labels))
 
 
 def mnist_model(inputs, mode, data_format):
-  """Takes the MNIST inputs and mode and outputs a tensor of logits."""
-  # Input Layer
-  # Reshape X to 4-D tensor: [batch_size, width, height, channels]
-  # MNIST images are 28x28 pixels, and have one color channel
-  inputs = tf.reshape(inputs, [-1, 28, 28, 1])
+    """Takes the MNIST inputs and mode and outputs a tensor of logits."""
+    # Input Layer
+    # Reshape X to 4-D tensor: [batch_size, width, height, channels]
+    # MNIST images are 28x28 pixels, and have one color channel
+    inputs = tf.reshape(inputs, [-1, 28, 28, 1])
 
-  if data_format is None:
-    # When running on GPU, transpose the data from channels_last (NHWC) to
-    # channels_first (NCHW) to improve performance.
-    # See https://www.tensorflow.org/performance/performance_guide#data_formats
-    data_format = ('channels_first'
-                   if tf.test.is_built_with_cuda() else 'channels_last')
+    if data_format is None:
+        # When running on GPU, transpose the data from channels_last (NHWC) to
+        # channels_first (NCHW) to improve performance.
+        # See https://www.tensorflow.org/performance/performance_guide#data_formats
+        data_format = ('channels_first'
+        if tf.test.is_built_with_cuda() else 'channels_last')
 
-  if data_format == 'channels_first':
-    inputs = tf.transpose(inputs, [0, 3, 1, 2])
+    if data_format == 'channels_first':
+        inputs = tf.transpose(inputs, [0, 3, 1, 2])
 
-  # Convolutional Layer #1
-  # Computes 32 features using a 5x5 filter with ReLU activation.
-  # Padding is added to preserve width and height.
-  # Input Tensor Shape: [batch_size, 28, 28, 1]
-  # Output Tensor Shape: [batch_size, 28, 28, 32]
-  conv1 = tf.layers.conv2d(
-      inputs=inputs,
-      filters=32,
-      kernel_size=[5, 5],
-      padding='same',
-      activation=tf.nn.relu,
-      data_format=data_format)
+    # Convolutional Layer #1
+    # Computes 32 features using a 5x5 filter with ReLU activation.
+    # Padding is added to preserve width and height.
+    # Input Tensor Shape: [batch_size, 28, 28, 1]
+    # Output Tensor Shape: [batch_size, 28, 28, 32]
+    conv1 = tf.layers.conv2d(
+        inputs=inputs,
+        filters=32,
+        kernel_size=[5, 5],
+        padding='same',
+        activation=tf.nn.relu,
+        data_format=data_format)
 
-  # Pooling Layer #1
-  # First max pooling layer with a 2x2 filter and stride of 2
-  # Input Tensor Shape: [batch_size, 28, 28, 32]
-  # Output Tensor Shape: [batch_size, 14, 14, 32]
-  pool1 = tf.layers.max_pooling2d(
-      inputs=conv1, pool_size=[2, 2], strides=2, data_format=data_format)
+    # Pooling Layer #1
+    # First max pooling layer with a 2x2 filter and stride of 2
+    # Input Tensor Shape: [batch_size, 28, 28, 32]
+    # Output Tensor Shape: [batch_size, 14, 14, 32]
+    pool1 = tf.layers.max_pooling2d(
+        inputs=conv1, pool_size=[2, 2], strides=2, data_format=data_format)
 
-  # Convolutional Layer #2
-  # Computes 64 features using a 5x5 filter.
-  # Padding is added to preserve width and height.
-  # Input Tensor Shape: [batch_size, 14, 14, 32]
-  # Output Tensor Shape: [batch_size, 14, 14, 64]
-  conv2 = tf.layers.conv2d(
-      inputs=pool1,
-      filters=64,
-      kernel_size=[5, 5],
-      padding='same',
-      activation=tf.nn.relu,
-      data_format=data_format)
+    # Convolutional Layer #2
+    # Computes 64 features using a 5x5 filter.
+    # Padding is added to preserve width and height.
+    # Input Tensor Shape: [batch_size, 14, 14, 32]
+    # Output Tensor Shape: [batch_size, 14, 14, 64]
+    conv2 = tf.layers.conv2d(
+        inputs=pool1,
+        filters=64,
+        kernel_size=[5, 5],
+        padding='same',
+        activation=tf.nn.relu,
+        data_format=data_format)
 
-  # Pooling Layer #2
-  # Second max pooling layer with a 2x2 filter and stride of 2
-  # Input Tensor Shape: [batch_size, 14, 14, 64]
-  # Output Tensor Shape: [batch_size, 7, 7, 64]
-  pool2 = tf.layers.max_pooling2d(
-      inputs=conv2, pool_size=[2, 2], strides=2, data_format=data_format)
+    # Pooling Layer #2
+    # Second max pooling layer with a 2x2 filter and stride of 2
+    # Input Tensor Shape: [batch_size, 14, 14, 64]
+    # Output Tensor Shape: [batch_size, 7, 7, 64]
+    pool2 = tf.layers.max_pooling2d(
+        inputs=conv2, pool_size=[2, 2], strides=2, data_format=data_format)
 
-  # Flatten tensor into a batch of vectors
-  # Input Tensor Shape: [batch_size, 7, 7, 64]
-  # Output Tensor Shape: [batch_size, 7 * 7 * 64]
-  pool2_flat = tf.reshape(pool2, [-1, 7 * 7 * 64])
+    # Flatten tensor into a batch of vectors
+    # Input Tensor Shape: [batch_size, 7, 7, 64]
+    # Output Tensor Shape: [batch_size, 7 * 7 * 64]
+    pool2_flat = tf.reshape(pool2, [-1, 7 * 7 * 64])
 
-  # Dense Layer
-  # Densely connected layer with 1024 neurons
-  # Input Tensor Shape: [batch_size, 7 * 7 * 64]
-  # Output Tensor Shape: [batch_size, 1024]
-  dense = tf.layers.dense(inputs=pool2_flat, units=1024, activation=tf.nn.relu)
+    # Dense Layer
+    # Densely connected layer with 1024 neurons
+    # Input Tensor Shape: [batch_size, 7 * 7 * 64]
+    # Output Tensor Shape: [batch_size, 1024]
+    dense = tf.layers.dense(inputs=pool2_flat, units=1024, activation=tf.nn.relu)
 
-  # Add dropout operation; 0.6 probability that element will be kept
-  dropout = tf.layers.dropout(
-      inputs=dense, rate=0.4, training=(mode == tf.estimator.ModeKeys.TRAIN))
+    # Add dropout operation; 0.6 probability that element will be kept
+    dropout = tf.layers.dropout(
+        inputs=dense, rate=0.4, training=(mode == tf.estimator.ModeKeys.TRAIN))
 
-  # Logits layer
-  # Input Tensor Shape: [batch_size, 1024]
-  # Output Tensor Shape: [batch_size, 10]
-  logits = tf.layers.dense(inputs=dropout, units=10)
-  return logits
+    # Logits layer
+    # Input Tensor Shape: [batch_size, 1024]
+    # Output Tensor Shape: [batch_size, 10]
+    logits = tf.layers.dense(inputs=dropout, units=10)
+    return logits
 
 
 def mnist_model_fn(features, labels, mode, params):
-  """Model function for MNIST."""
-  logits = mnist_model(features, mode, params['data_format'])
+    """Model function for MNIST."""
+    if mode == tf.estimator.ModeKeys.PREDICT and isinstance(features, dict):
+        features = features['image_raw']
 
-  predictions = {
-      'classes': tf.argmax(input=logits, axis=1),
-      'probabilities': tf.nn.softmax(logits, name='softmax_tensor')
-  }
+    logits = mnist_model(features, mode, params['data_format'])
 
-  if mode == tf.estimator.ModeKeys.PREDICT:
-    return tf.estimator.EstimatorSpec(mode=mode, predictions=predictions)
+    predictions = {
+        'classes': tf.argmax(input=logits, axis=1),
+        'probabilities': tf.nn.softmax(logits, name='softmax_tensor')
+    }
 
-  loss = tf.losses.softmax_cross_entropy(onehot_labels=labels, logits=logits)
+    if mode == tf.estimator.ModeKeys.PREDICT:
+        export_outputs = {'classify': tf.estimator.export.PredictOutput(predictions)}
+        return tf.estimator.EstimatorSpec(mode=mode, predictions=predictions,
+                                          export_outputs=export_outputs)
 
-  # Configure the training op
-  if mode == tf.estimator.ModeKeys.TRAIN:
-    optimizer = tf.train.AdamOptimizer(learning_rate=1e-4)
-    train_op = optimizer.minimize(loss, tf.train.get_or_create_global_step())
-  else:
-    train_op = None
+    loss = tf.losses.softmax_cross_entropy(onehot_labels=labels, logits=logits)
 
-  accuracy = tf.metrics.accuracy(
-      tf.argmax(labels, axis=1), predictions['classes'])
-  metrics = {'accuracy': accuracy}
+    # Configure the training op
+    if mode == tf.estimator.ModeKeys.TRAIN:
+        optimizer = tf.train.AdamOptimizer(learning_rate=1e-4)
+        train_op = optimizer.minimize(loss, tf.train.get_or_create_global_step())
+    else:
+        train_op = None
 
-  # Create a tensor named train_accuracy for logging purposes
-  tf.identity(accuracy[1], name='train_accuracy')
-  tf.summary.scalar('train_accuracy', accuracy[1])
+    accuracy = tf.metrics.accuracy(
+        tf.argmax(labels, axis=1), predictions['classes'])
+    metrics = {'accuracy': accuracy}
 
-  return tf.estimator.EstimatorSpec(
-      mode=mode,
-      predictions=predictions,
-      loss=loss,
-      train_op=train_op,
-      eval_metric_ops=metrics)
+    # Create a tensor named train_accuracy for logging purposes
+    tf.identity(accuracy[1], name='train_accuracy')
+    tf.summary.scalar('train_accuracy', accuracy[1])
+
+    return tf.estimator.EstimatorSpec(
+        mode=mode,
+        predictions=predictions,
+        loss=loss,
+        train_op=train_op,
+        eval_metric_ops=metrics)
 
 
 def main(unused_argv):
-  # Create the Estimator
-  mnist_classifier = tf.estimator.Estimator(
-      model_fn=mnist_model_fn,
-      model_dir=FLAGS.model_dir,
-      params={
-          'data_format': FLAGS.data_format
-      })
+    # Create the Estimator
+    mnist_classifier = tf.estimator.Estimator(
+        model_fn=mnist_model_fn,
+        model_dir=FLAGS.model_dir,
+        params={
+            'data_format': FLAGS.data_format
+        })
 
-  # Set up training hook that logs the training accuracy every 100 steps.
-  tensors_to_log = {'train_accuracy': 'train_accuracy'}
-  logging_hook = tf.train.LoggingTensorHook(
-      tensors=tensors_to_log, every_n_iter=100)
+    # Set up training hook that logs the training accuracy every 100 steps.
+    tensors_to_log = {'train_accuracy': 'train_accuracy'}
+    logging_hook = tf.train.LoggingTensorHook(
+        tensors=tensors_to_log, every_n_iter=100)
 
-  # Train the model
-  def train_input_fn():
-    # When choosing shuffle buffer sizes, larger sizes result in better
-    # randomness, while smaller sizes use less memory. MNIST is a small
-    # enough dataset that we can easily shuffle the full epoch.
-    dataset = train_dataset(FLAGS.data_dir)
-    dataset = dataset.shuffle(buffer_size=50000).batch(FLAGS.batch_size).repeat(
-        FLAGS.train_epochs)
-    (images, labels) = dataset.make_one_shot_iterator().get_next()
-    return (images, labels)
+    # Train the model
+    def train_input_fn():
+        # When choosing shuffle buffer sizes, larger sizes result in better
+        # randomness, while smaller sizes use less memory. MNIST is a small
+        # enough dataset that we can easily shuffle the full epoch.
+        dataset = train_dataset(FLAGS.data_dir)
+        dataset = dataset.shuffle(buffer_size=50000).batch(FLAGS.batch_size).repeat(
+            FLAGS.train_epochs)
+        (images, labels) = dataset.make_one_shot_iterator().get_next()
+        return (images, labels)
 
-  mnist_classifier.train(input_fn=train_input_fn, hooks=[logging_hook])
+    mnist_classifier.train(input_fn=train_input_fn, hooks=[logging_hook])
 
-  # Evaluate the model and print results
-  def eval_input_fn():
-    return eval_dataset(FLAGS.data_dir).make_one_shot_iterator().get_next()
+    # Evaluate the model and print results
+    def eval_input_fn():
+        return eval_dataset(FLAGS.data_dir).make_one_shot_iterator().get_next()
 
-  eval_results = mnist_classifier.evaluate(input_fn=eval_input_fn)
-  print()
-  print('Evaluation results:\n\t%s' % eval_results)
+    eval_results = mnist_classifier.evaluate(input_fn=eval_input_fn)
+    print()
+    print('Evaluation results:\n\t%s' % eval_results)
+
+    # Export the model
+    if FLAGS.export_dir is not None:
+        image = tf.placeholder(tf.float32, [None, 28, 28])
+        serving_input_fn = tf.estimator.export.build_raw_serving_input_receiver_fn(
+            {"image_raw": image})
+        mnist_classifier.export_savedmodel(FLAGS.export_dir, serving_input_fn)
 
 
 if __name__ == '__main__':
-  tf.logging.set_verbosity(tf.logging.INFO)
-  FLAGS, unparsed = parser.parse_known_args()
-  tf.app.run(main=main, argv=[sys.argv[0]] + unparsed)
+    tf.logging.set_verbosity(tf.logging.INFO)
+    FLAGS, unparsed = parser.parse_known_args()
+    tf.app.run(main=main, argv=[sys.argv[0]] + unparsed)
