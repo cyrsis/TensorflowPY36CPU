@@ -1,246 +1,176 @@
-#  Copyright 2017 The TensorFlow Authors. All Rights Reserved.
+# Copyright 2015 The TensorFlow Authors. All Rights Reserved.
 #
-#  Licensed under the Apache License, Version 2.0 (the "License");
-#  you may not use this file except in compliance with the License.
-#  You may obtain a copy of the License at
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
 #
-#   http://www.apache.org/licenses/LICENSE-2.0
+#     http://www.apache.org/licenses/LICENSE-2.0
 #
-#  Unless required by applicable law or agreed to in writing, software
-#  distributed under the License is distributed on an "AS IS" BASIS,
-#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-#  See the License for the specific language governing permissions and
-#  limitations under the License.
-"""Convolutional Neural Network Estimator for MNIST, built with tf.layers."""
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# ==============================================================================
+
+"""A deep MNIST classifier using convolutional layers.
+
+See extensive documentation at
+https://www.tensorflow.org/get_started/mnist/pros
+"""
+# Disable linter warnings to maintain consistency with tutorial.
+# pylint: disable=invalid-name
+# pylint: disable=g-bad-import-order
 
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
 import argparse
-import os
 import sys
+import tempfile
 
-import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
-parser = argparse.ArgumentParser()
+import tensorflow as tf
 
-# Basic model parameters.
-parser.add_argument(
-    '--batch_size',
-    type=int,
-    default=100,
-    help='Number of images to process in a batch')
-
-parser.add_argument(
-    '--data_dir',
-    type=str,
-    default='/tmp/mnist_data',
-    help='Path to directory containing the MNIST dataset')
-
-parser.add_argument(
-    '--model_dir',
-    type=str,
-    default='/tmp/mnist_model',
-    help='The directory where the model will be stored.')
-
-parser.add_argument(
-    '--train_epochs', type=int, default=40, help='Number of epochs to train.')
-
-parser.add_argument(
-    '--data_format',
-    type=str,
-    default=None,
-    choices=['channels_first', 'channels_last'],
-    help='A flag to override the data format used in the model. channels_first '
-         'provides a performance boost on GPU but is not always compatible '
-         'with CPU. If left unspecified, the data format will be chosen '
-         'automatically based on whether TensorFlow was built for CPU or GPU.')
-
-parser.add_argument(
-    '--export_dir',
-    type=str,
-    help='The directory where the exported SavedModel will be stored.')
+FLAGS = None
 
 
-def train_dataset(data_dir):
-    """Returns a tf.data.Dataset yielding (image, label) pairs for training."""
-    data = input_data.read_data_sets(data_dir, one_hot=True).train
-    return tf.data.Dataset.from_tensor_slices((data.images, data.labels))
+def deepnn(x):
+  """deepnn builds the graph for a deep net for classifying digits.
+
+  Args:
+    x: an input tensor with the dimensions (N_examples, 784), where 784 is the
+    number of pixels in a standard MNIST image.
+
+  Returns:
+    A tuple (y, keep_prob). y is a tensor of shape (N_examples, 10), with values
+    equal to the logits of classifying the digit into one of 10 classes (the
+    digits 0-9). keep_prob is a scalar placeholder for the probability of
+    dropout.
+  """
+  # Reshape to use within a convolutional neural net.
+  # Last dimension is for "features" - there is only one here, since images are
+  # grayscale -- it would be 3 for an RGB image, 4 for RGBA, etc.
+  with tf.name_scope('reshape'):
+    x_image = tf.reshape(x, [-1, 28, 28, 1])
+
+  # First convolutional layer - maps one grayscale image to 32 feature maps.
+  with tf.name_scope('conv1'):
+    W_conv1 = weight_variable([5, 5, 1, 32])
+    b_conv1 = bias_variable([32])
+    h_conv1 = tf.nn.relu(conv2d(x_image, W_conv1) + b_conv1)
+
+  # Pooling layer - downsamples by 2X.
+  with tf.name_scope('pool1'):
+    h_pool1 = max_pool_2x2(h_conv1)
+
+  # Second convolutional layer -- maps 32 feature maps to 64.
+  with tf.name_scope('conv2'):
+    W_conv2 = weight_variable([5, 5, 32, 64])
+    b_conv2 = bias_variable([64])
+    h_conv2 = tf.nn.relu(conv2d(h_pool1, W_conv2) + b_conv2)
+
+  # Second pooling layer.
+  with tf.name_scope('pool2'):
+    h_pool2 = max_pool_2x2(h_conv2)
+
+  # Fully connected layer 1 -- after 2 round of downsampling, our 28x28 image
+  # is down to 7x7x64 feature maps -- maps this to 1024 features.
+  with tf.name_scope('fc1'):
+    W_fc1 = weight_variable([7 * 7 * 64, 1024])
+    b_fc1 = bias_variable([1024])
+
+    h_pool2_flat = tf.reshape(h_pool2, [-1, 7*7*64])
+    h_fc1 = tf.nn.relu(tf.matmul(h_pool2_flat, W_fc1) + b_fc1)
+
+  # Dropout - controls the complexity of the model, prevents co-adaptation of
+  # features.
+  with tf.name_scope('dropout'):
+    keep_prob = tf.placeholder(tf.float32)
+    h_fc1_drop = tf.nn.dropout(h_fc1, keep_prob)
+
+  # Map the 1024 features to 10 classes, one for each digit
+  with tf.name_scope('fc2'):
+    W_fc2 = weight_variable([1024, 10])
+    b_fc2 = bias_variable([10])
+
+    y_conv = tf.matmul(h_fc1_drop, W_fc2) + b_fc2
+  return y_conv, keep_prob
 
 
-def eval_dataset(data_dir):
-    """Returns a tf.data.Dataset yielding (image, label) pairs for evaluation."""
-    data = input_data.read_data_sets(data_dir, one_hot=True).test
-    return tf.data.Dataset.from_tensors((data.images, data.labels))
+def conv2d(x, W):
+  """conv2d returns a 2d convolution layer with full stride."""
+  return tf.nn.conv2d(x, W, strides=[1, 1, 1, 1], padding='SAME')
 
 
-def mnist_model(inputs, mode, data_format):
-    """Takes the MNIST inputs and mode and outputs a tensor of logits."""
-    # Input Layer
-    # Reshape X to 4-D tensor: [batch_size, width, height, channels]
-    # MNIST images are 28x28 pixels, and have one color channel
-    inputs = tf.reshape(inputs, [-1, 28, 28, 1])
-
-    if data_format is None:
-        # When running on GPU, transpose the data from channels_last (NHWC) to
-        # channels_first (NCHW) to improve performance.
-        # See https://www.tensorflow.org/performance/performance_guide#data_formats
-        data_format = ('channels_first'
-        if tf.test.is_built_with_cuda() else 'channels_last')
-
-    if data_format == 'channels_first':
-        inputs = tf.transpose(inputs, [0, 3, 1, 2])
-
-    # Convolutional Layer #1
-    # Computes 32 features using a 5x5 filter with ReLU activation.
-    # Padding is added to preserve width and height.
-    # Input Tensor Shape: [batch_size, 28, 28, 1]
-    # Output Tensor Shape: [batch_size, 28, 28, 32]
-    conv1 = tf.layers.conv2d(
-        inputs=inputs,
-        filters=32,
-        kernel_size=[5, 5],
-        padding='same',
-        activation=tf.nn.relu,
-        data_format=data_format)
-
-    # Pooling Layer #1
-    # First max pooling layer with a 2x2 filter and stride of 2
-    # Input Tensor Shape: [batch_size, 28, 28, 32]
-    # Output Tensor Shape: [batch_size, 14, 14, 32]
-    pool1 = tf.layers.max_pooling2d(
-        inputs=conv1, pool_size=[2, 2], strides=2, data_format=data_format)
-
-    # Convolutional Layer #2
-    # Computes 64 features using a 5x5 filter.
-    # Padding is added to preserve width and height.
-    # Input Tensor Shape: [batch_size, 14, 14, 32]
-    # Output Tensor Shape: [batch_size, 14, 14, 64]
-    conv2 = tf.layers.conv2d(
-        inputs=pool1,
-        filters=64,
-        kernel_size=[5, 5],
-        padding='same',
-        activation=tf.nn.relu,
-        data_format=data_format)
-
-    # Pooling Layer #2
-    # Second max pooling layer with a 2x2 filter and stride of 2
-    # Input Tensor Shape: [batch_size, 14, 14, 64]
-    # Output Tensor Shape: [batch_size, 7, 7, 64]
-    pool2 = tf.layers.max_pooling2d(
-        inputs=conv2, pool_size=[2, 2], strides=2, data_format=data_format)
-
-    # Flatten tensor into a batch of vectors
-    # Input Tensor Shape: [batch_size, 7, 7, 64]
-    # Output Tensor Shape: [batch_size, 7 * 7 * 64]
-    pool2_flat = tf.reshape(pool2, [-1, 7 * 7 * 64])
-
-    # Dense Layer
-    # Densely connected layer with 1024 neurons
-    # Input Tensor Shape: [batch_size, 7 * 7 * 64]
-    # Output Tensor Shape: [batch_size, 1024]
-    dense = tf.layers.dense(inputs=pool2_flat, units=1024, activation=tf.nn.relu)
-
-    # Add dropout operation; 0.6 probability that element will be kept
-    dropout = tf.layers.dropout(
-        inputs=dense, rate=0.4, training=(mode == tf.estimator.ModeKeys.TRAIN))
-
-    # Logits layer
-    # Input Tensor Shape: [batch_size, 1024]
-    # Output Tensor Shape: [batch_size, 10]
-    logits = tf.layers.dense(inputs=dropout, units=10)
-    return logits
+def max_pool_2x2(x):
+  """max_pool_2x2 downsamples a feature map by 2X."""
+  return tf.nn.max_pool(x, ksize=[1, 2, 2, 1],
+                        strides=[1, 2, 2, 1], padding='SAME')
 
 
-def mnist_model_fn(features, labels, mode, params):
-    """Model function for MNIST."""
-    if mode == tf.estimator.ModeKeys.PREDICT and isinstance(features, dict):
-        features = features['image_raw']
-
-    logits = mnist_model(features, mode, params['data_format'])
-
-    predictions = {
-        'classes': tf.argmax(input=logits, axis=1),
-        'probabilities': tf.nn.softmax(logits, name='softmax_tensor')
-    }
-
-    if mode == tf.estimator.ModeKeys.PREDICT:
-        export_outputs = {'classify': tf.estimator.export.PredictOutput(predictions)}
-        return tf.estimator.EstimatorSpec(mode=mode, predictions=predictions,
-                                          export_outputs=export_outputs)
-
-    loss = tf.losses.softmax_cross_entropy(onehot_labels=labels, logits=logits)
-
-    # Configure the training op
-    if mode == tf.estimator.ModeKeys.TRAIN:
-        optimizer = tf.train.AdamOptimizer(learning_rate=1e-4)
-        train_op = optimizer.minimize(loss, tf.train.get_or_create_global_step())
-    else:
-        train_op = None
-
-    accuracy = tf.metrics.accuracy(
-        tf.argmax(labels, axis=1), predictions['classes'])
-    metrics = {'accuracy': accuracy}
-
-    # Create a tensor named train_accuracy for logging purposes
-    tf.identity(accuracy[1], name='train_accuracy')
-    tf.summary.scalar('train_accuracy', accuracy[1])
-
-    return tf.estimator.EstimatorSpec(
-        mode=mode,
-        predictions=predictions,
-        loss=loss,
-        train_op=train_op,
-        eval_metric_ops=metrics)
+def weight_variable(shape):
+  """weight_variable generates a weight variable of a given shape."""
+  initial = tf.truncated_normal(shape, stddev=0.1)
+  return tf.Variable(initial)
 
 
-def main(unused_argv):
-    # Create the Estimator
-    mnist_classifier = tf.estimator.Estimator(
-        model_fn=mnist_model_fn,
-        model_dir=FLAGS.model_dir,
-        params={
-            'data_format': FLAGS.data_format
-        })
+def bias_variable(shape):
+  """bias_variable generates a bias variable of a given shape."""
+  initial = tf.constant(0.1, shape=shape)
+  return tf.Variable(initial)
 
-    # Set up training hook that logs the training accuracy every 100 steps.
-    tensors_to_log = {'train_accuracy': 'train_accuracy'}
-    logging_hook = tf.train.LoggingTensorHook(
-        tensors=tensors_to_log, every_n_iter=100)
 
-    # Train the model
-    def train_input_fn():
-        # When choosing shuffle buffer sizes, larger sizes result in better
-        # randomness, while smaller sizes use less memory. MNIST is a small
-        # enough dataset that we can easily shuffle the full epoch.
-        dataset = train_dataset(FLAGS.data_dir)
-        dataset = dataset.shuffle(buffer_size=50000).batch(FLAGS.batch_size).repeat(
-            FLAGS.train_epochs)
-        (images, labels) = dataset.make_one_shot_iterator().get_next()
-        return (images, labels)
+def main(_):
+  # Import data
+  mnist = input_data.read_data_sets(FLAGS.data_dir, one_hot=True)
 
-    mnist_classifier.train(input_fn=train_input_fn, hooks=[logging_hook])
+  # Create the model
+  x = tf.placeholder(tf.float32, [None, 784])
 
-    # Evaluate the model and print results
-    def eval_input_fn():
-        return eval_dataset(FLAGS.data_dir).make_one_shot_iterator().get_next()
+  # Define loss and optimizer
+  y_ = tf.placeholder(tf.float32, [None, 10])
 
-    eval_results = mnist_classifier.evaluate(input_fn=eval_input_fn)
-    print()
-    print('Evaluation results:\n\t%s' % eval_results)
+  # Build the graph for the deep net
+  y_conv, keep_prob = deepnn(x)
 
-    # Export the model
-    if FLAGS.export_dir is not None:
-        image = tf.placeholder(tf.float32, [None, 28, 28])
-        serving_input_fn = tf.estimator.export.build_raw_serving_input_receiver_fn(
-            {"image_raw": image})
-        mnist_classifier.export_savedmodel(FLAGS.export_dir, serving_input_fn)
+  with tf.name_scope('loss'):
+    cross_entropy = tf.nn.softmax_cross_entropy_with_logits(labels=y_,
+                                                            logits=y_conv)
+  cross_entropy = tf.reduce_mean(cross_entropy)
 
+  with tf.name_scope('adam_optimizer'):
+    train_step = tf.train.AdamOptimizer(1e-4).minimize(cross_entropy)
+
+  with tf.name_scope('accuracy'):
+    correct_prediction = tf.equal(tf.argmax(y_conv, 1), tf.argmax(y_, 1))
+    correct_prediction = tf.cast(correct_prediction, tf.float32)
+  accuracy = tf.reduce_mean(correct_prediction)
+
+  graph_location = tempfile.mkdtemp()
+  print('Saving graph to: %s' % graph_location)
+  train_writer = tf.summary.FileWriter(graph_location)
+  train_writer.add_graph(tf.get_default_graph())
+
+  with tf.Session() as sess:
+    sess.run(tf.global_variables_initializer())
+    for i in range(20000):
+      batch = mnist.train.next_batch(50)
+      if i % 100 == 0:
+        train_accuracy = accuracy.eval(feed_dict={
+            x: batch[0], y_: batch[1], keep_prob: 1.0})
+        print('step %d, training accuracy %g' % (i, train_accuracy))
+      train_step.run(feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5})
+
+    print('test accuracy %g' % accuracy.eval(feed_dict={
+        x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0}))
 
 if __name__ == '__main__':
-    tf.logging.set_verbosity(tf.logging.INFO)
-    FLAGS, unparsed = parser.parse_known_args()
-    tf.app.run(main=main, argv=[sys.argv[0]] + unparsed)
+  parser = argparse.ArgumentParser()
+  parser.add_argument('--data_dir', type=str,
+                      default='/tmp/tensorflow/mnist/input_data',
+                      help='Directory for storing input data')
+  FLAGS, unparsed = parser.parse_known_args()
+  tf.app.run(main=main, argv=[sys.argv[0]] + unparsed)
