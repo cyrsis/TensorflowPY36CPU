@@ -10,6 +10,11 @@ def speak(text):
     print("[%s] %s" % (current_speaker, text))
 
 
+
+def f_speak(text, speaker=None):
+    print("[%s] %s" % (speaker, text))
+
+    
 class Speaker(): # OOP Approach
 
     def __init__(self, name):
@@ -30,3 +35,7 @@ if __name__ == '__main__':
     victor.speak("Hello world")
     mary= Speaker("Mary")
     mary.speak("I am Mary")
+
+    f_speak("Hello there from Function","Victor")
+    f_speak(speaker="Victor",text="This may work")
+
