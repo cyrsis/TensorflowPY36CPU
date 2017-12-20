@@ -16,3 +16,6 @@ def f_factorial(n):
 print(f_factorial(0))
 print(f_factorial(2))
 print(f_factorial(4))
+
+#There is a problem with limited depth of functional limited to 1000
+#print(f_factorial(1000))
