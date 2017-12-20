@@ -10,3 +10,7 @@ def p_grade_description(gp):
 if __name__ == '__main__':
     print(p_grade_description(8))
     print(lambda gp : "good" if gp>7 else "sufficient" if gp>5 else "insufficient",(8))
+
+    gender_code =  1
+    gender = "female" if gender_code else "male"
+    print(gender)
