@@ -45,5 +45,5 @@ def BSM_call_value(S0, K, T, r, vola):
     return call_value
 
 # Output
-print "Value of European call option is %8.3f" \
-      % BSM_call_value(S0, K, T, r, vola)
+print("Value of European call option is %8.3f"
+      % BSM_call_value(S0, K, T, r, vola))

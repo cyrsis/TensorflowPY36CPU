@@ -6,9 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import treePlotter as tp 
 
-# 配置utf-8输出环境
-reload(sys)
-sys.setdefaultencoding('utf-8')
+
 
 # 绘制树
 

@@ -22,4 +22,4 @@ plot_confusion_matrix(confusion_mat)
 # Print classification report
 from sklearn.metrics import classification_report
 target_names = ['Class-0', 'Class-1', 'Class-2', 'Class-3']
-print classification_report(y_true, y_pred, target_names=target_names)
+print(classification_report(y_true, y_pred, target_names=target_names))
