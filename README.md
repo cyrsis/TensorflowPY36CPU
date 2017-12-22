@@ -1,3 +1,12 @@
+#Switch to Docker for pycharm
+
+
+docker build -t keras.
+
+linux
+sudo docker run --rm -v /home:/data alpine ls /data
+sudo nvidia-docker run --rm -v /home:/data alpine ls /data
+
 #AI machine learning END TO END
 
 From Data pipline to get the machine up and running with Tensorflow 
