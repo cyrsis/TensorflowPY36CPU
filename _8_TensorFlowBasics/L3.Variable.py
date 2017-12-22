@@ -14,7 +14,7 @@ state = tf.Variable(0, name='counter')
 # 定义常量 one
 one = tf.constant(1)
 
-# 定义加法步骤 (注: 此步并没有直接计算)
+# 定义加法步骤 (注: 此步并没有直接计算)# Very expensive operation
 stateAddOne = tf.add(state, one)
 
 # 将 State 更新成 new_value

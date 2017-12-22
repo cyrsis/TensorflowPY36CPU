@@ -1,6 +1,6 @@
 import asyncio
 
-from .animals import zoo
+from animals import zoo
 
 
 if __name__ == '__main__':
