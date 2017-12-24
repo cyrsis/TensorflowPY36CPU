@@ -21,8 +21,9 @@
       <sourceFolder url="file://$MODULE_DIR$/_8_TensorFlowBasics/EmotionDetector" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/_8_TensorFlowBasics/MNIST" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/_1_PythonBasic/Reactive/rxzoo" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/ZB1605/chapter01/testdata" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.5 (TensorflowCPUPY35)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Remote Python 3.6.2 Docker (keras:latest)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
