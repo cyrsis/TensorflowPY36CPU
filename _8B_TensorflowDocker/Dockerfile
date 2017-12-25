@@ -25,10 +25,10 @@ RUN useradd -m -s /bin/bash -N -u $NB_UID $NB_USER && \
     chown keras /src
 
 #conda installing python, then tensorflow and keras for deep learning
-RUN conda install -y python=3.6 && \
+RUN conda install -y python=3.5 && \
     pip install --upgrade pip && \
-    pip install tensorflow==1.2.1 && \
-    pip install keras==2.0.5 && \
+    pip install tensorflow==1.4.1 && \
+    pip install keras==2.1.2 && \
     conda clean -yt
 
 #all the code samples for the video series

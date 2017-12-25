@@ -5,7 +5,7 @@
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
-from tensorflow.contrib.keras.models
+import keras.models as model
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Activation, Flatten
 from keras.layers import Convolution2D, MaxPooling2D

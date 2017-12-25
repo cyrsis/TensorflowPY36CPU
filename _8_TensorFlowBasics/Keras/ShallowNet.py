@@ -10,6 +10,8 @@ from keras.optimizers import SGD
 # :                       x as in put y is the label                        #
 # ========================================================================= #
 # load Data
+from keras.utils import to_categorical
+
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
 
 # Inspect the samples
@@ -33,10 +35,10 @@ X_test /= 255
 
 # Do One Hot
 n_classes = 10  # 10 different type of numbers
-y_train = tf.keras.utils.to_categorical(y_train, n_classes)
-y_test = tf.keras.utils.to_categorical(y_test, n_classes)
+y_train =to_categorical(y_train, n_classes)
+y_test = to_categorical(y_test, n_classes)
 
-print(y_train[0])
+
 
 # Design network
 
