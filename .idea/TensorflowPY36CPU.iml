@@ -23,7 +23,7 @@
       <sourceFolder url="file://$MODULE_DIR$/_1_PythonBasic/Reactive/rxzoo" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/ZB1605/chapter01/testdata" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.5.4 (~/anaconda3/envs/TensorflorGPU35/bin/python)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.5.4 (C:\Users\user\AppData\Local\conda\conda\envs\TensorflowGPU35\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
