@@ -14,8 +14,6 @@ ops.reset_default_graph()
 
 sess = tf.Session()
 
-mnist = input_data("/Data/MNIST/", one_hot=True)
+mnist = input_data("/temp/MNIST/", one_hot=True)
 
-train = pd.read(mnist)
-
-print(train.shape)
+print(mnist.shape)
