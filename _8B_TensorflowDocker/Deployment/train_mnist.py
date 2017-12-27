@@ -45,4 +45,4 @@ history = model.fit(x_train, y_train,
                     validation_data=(x_test, y_test))
 
 # save the model in an HDF5 file, built in to keras
-model.save('var/data/mnist.h5')
+model.save('mnist.h5')

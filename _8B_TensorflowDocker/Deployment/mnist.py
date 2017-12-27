@@ -10,7 +10,7 @@ from keras.models import load_model
 from PIL import Image
 from PIL.ImageOps import fit, grayscale
 
-MNIST_MODEL = load_model('var/data/mnist.h5')
+MNIST_MODEL = load_model('mnist.h5')
 print(MNIST_MODEL.summary())
 
 def post_image(file):
