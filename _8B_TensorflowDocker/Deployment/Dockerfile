@@ -31,7 +31,7 @@ COPY . /src
 RUN pip install -r /src/requirements.txt
 
 #train the machine learning model
-RUN cd /src && python train_mnist.py
+#RUN cd /src && python train_mnist.py
 
 #serve up a jupyter notebook 
 USER keras
