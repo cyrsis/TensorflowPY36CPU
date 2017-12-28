@@ -1,3 +1,7 @@
+#Come back for it
+
+https://github.com/the-deep-learners/TensorFlow-LiveLessons/tree/master/notebooks
+
 #Switch to Docker for pycharm
 
 
