@@ -1,6 +1,0 @@
-tensorflow>=1.0
-Pillow
-matplotlib
-numpy
-scipy
-jupyter
