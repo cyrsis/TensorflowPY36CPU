@@ -29,7 +29,7 @@ from __future__ import print_function
 import argparse
 import sys
 import tempfile
-from rx import Observable
+
 
 from tensorflow.examples.tutorials.mnist import input_data
 
