@@ -74,8 +74,8 @@ optimizer = Adam(lr=0.001)
 
 model.compile(optimizer=optimizer, loss="categorical_crossentropy", metrics=["accuracy"])
 
-epochs = 200
-batch_size = 86
+epochs = 8000
+batch_size = 100
 
 datagen = ImageDataGenerator(
     featurewise_center=False,  # set input mean to 0 over the dataset
