@@ -22,4 +22,4 @@ x = preprocess_input(x)
 # get the features from this block
 features = model.predict(x)
 
-print features
+print(features)
