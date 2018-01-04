@@ -1,9 +1,11 @@
 import asyncio
 import random
 
+
 async def delayed_print(value):
     await asyncio.sleep(random.randrange(5))
     print(value)
+
 
 main = asyncio.gather(
     asyncio.ensure_future(delayed_print(1)),

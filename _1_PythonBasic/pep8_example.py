@@ -9,11 +9,13 @@ import sys
 import re
 from pickle import loads, dumps
 
+
 class Elephant:
     """Tracks elephants and their optional associated dormice.
 
     """
-    def __init__(self, dormouse = None):
+
+    def __init__(self, dormouse=None):
         """Create an Elephant, and optionally tie it to a DorMouse.
 
         If specified, the dormouse parameter should be a DorMouse
@@ -34,6 +36,7 @@ class DorMouse:
     association.
 
     """
+
     def __init__(self):
         """Initialize the DorMouse, setting the Elephant to None."""
         self.elephant = None

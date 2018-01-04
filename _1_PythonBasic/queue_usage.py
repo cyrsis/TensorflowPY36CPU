@@ -1,5 +1,6 @@
 import asyncio
 
+
 async def using_queues():
     q = asyncio.Queue()
 
@@ -10,7 +11,6 @@ async def using_queues():
     await q.put('world')
 
     q.get_nowait()
-
 
     pq = asyncio.PriorityQueue()
 
