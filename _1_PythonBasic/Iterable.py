@@ -1,30 +1,29 @@
-# anything iterable is
-# __iter__
-# __getitem__
+import asyncio
 
-var = "Some string"
-listOfNumber = [2, 4, 5, 6, 7]
+class SlowSequence:
+    class Iterator:
+        def __init__(self, slowseq):
+            self.values = list(slowseq.values)
 
-# Why we need iterator, because we need to save memory
+        async def __anext__(self):
+            await asyncio.sleep(2)
+            try:
+                return self.values.pop(0)
+            except IndexError:
+                raise StopAsyncIteration
 
+    def __init__(self, *values):
+        self.values = values
 
-my_string = "Yasoob"
-my_iter = iter(my_string)
-print(next(my_iter))
-print(next(my_iter))
-print(next(my_iter))
-print(next(my_iter))
-print(next(my_iter))
-print(next(my_iter))
-print(next(my_iter))
-print(next(my_iter)) #For loop would stop the errors
+    async def __aiter__(self):
+        return SlowSequence.Iterator(self)
 
+async def main():
+    seq = SlowSequence(1, 2, 3, 4, 5)
 
-def genenerateFunction():
-    for i in range(10):
-        yield i
-# yield is fancy for pop put 1 item at the time.
-# kind of important for async world
+    async for value in seq:
+        print(value)
 
-for variable1 in genenerateFunction():
-    print(variable1)
+loop = asyncio.get_event_loop()
+loop.run_until_complete(asyncio.ensure_future(main()))
+loop.close()
