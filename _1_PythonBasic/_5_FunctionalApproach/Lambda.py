@@ -2,6 +2,7 @@
 # Just a way to pass function (expression)
 
 
+
 from math import sqrt
 
 
