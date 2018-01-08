@@ -17,11 +17,9 @@ from keras.optimizers import Adam , RMSprop
 from keras.preprocessing.image import ImageDataGenerator
 from keras.callbacks import ReduceLROnPlateau
 
-train_data = pd.read_csv(
-    "K:\\TensorflowPY36CPU\\TensorflowPY36CPU\\_8_TensorFlowBasics\\Kaggle\\MNIST_example\\train.csv")
+train_data = pd.read_csv("train.csv")
 
-test = pd.read_csv(
-    "K:\\TensorflowPY36CPU\\TensorflowPY36CPU\\_8_TensorFlowBasics\\Kaggle\\MNIST_example\\test.csv")
+test = pd.read_csv("test.csv")
 
 X_train = train_data.drop("label", axis=1)
 Y_train = train_data["label"]
