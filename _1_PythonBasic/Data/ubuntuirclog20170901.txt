@@ -1,0 +1,28 @@
+[03:04] <roasted> hi friends. just curious about something. I spun up 17.10 on an old laptop with a 2nd gen i5. When I log in to wayland, it flips over to xorg. Is this intended behavior at the moment?
+[05:14] <lotuspsychje> welcome
+[05:15] <tsquar3d> Hey all -- I'm getting a login cycle when trying to boot into the new desktop environment... 
+[05:15] <lotuspsychje> tsimonq2: its recommended to help testing on a fresh iso daily install
+[05:15] <lotuspsychje> tsquar3d: not upgrade yet
+[05:16] <lotuspsychje> tsquar3d: from wich version did you upgrade test?
+[05:16] <tsquar3d> Right... I am just wondering if this is a common issue as of right now. 
+[05:17] <tsquar3d> lotuspsychje: The current one in apt-get dist-upgrade -d
+[05:17] <lotuspsychje> tsquar3d: you was on 16.04?
+[05:19] <tsquar3d> Yep
+[05:21] <Bashing-om> tsquar3d: https://ubuntuforums.org/showthread.php?t=2370233 .
+[05:22] <lotuspsychje_> tsquar3d: i tested fresh installs, all went good here
+=== lotuspsychje_ is now known as lotuspsychje
+[10:37] <deepesh> Hello
+[10:37] <deepesh> I accidentally started the download of 17.10 and cancelled in between
+[10:38] <deepesh> but my sudo apt-get upgrade shows still shows to upgrade something
+[10:41] <ducasse> deepesh: try to edit your sources.list back to zesty and see if that is all that is needed. if not you might have a problem.
+[10:46] <deepesh> can you please explain in detail @ducasse
+[10:48] <ducasse> edit /etc/apt/sources.list, replace all occurrences of 'artful' with 'zesty'
+[11:46] <jtaylor> that won't really help, you cannot easily downgrade a half upgraded distro
+[11:46] <jtaylor> best option is to fully upgrade or reinstall
+[11:47] <ducasse> if it was aborted during downloading as he says it might work, if the only change made has been to sources.list
+[12:12] <luc4> Hello! Anyone who had the chance to test the new wayland session on nvidia quadro by any chance?
+[14:33] <AureliusO> Hey all, since updating yesterday I have been unable to change any display settings via the Displays tool.  I did not see something posted for a bug yet and was wondering if anyone had experienced anything similar.
+[14:49] <AureliusO> Please disregard, I was able to locate a bug report.
+[14:49] <AureliusO>  /w 2
+=== JanC is now known as Guest2554
+=== JanC_ is now known as JanC
