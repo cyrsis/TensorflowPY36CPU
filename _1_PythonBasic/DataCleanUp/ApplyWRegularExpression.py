@@ -11,6 +11,8 @@ def recode_sex(sex_value):
     if sex_value == 'Male':
         return 1
 
+
+
     # Return 0 if sex_value is 'Female'
     elif sex_value == 'Female':
         return 0
