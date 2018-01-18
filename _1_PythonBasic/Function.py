@@ -1,30 +1,20 @@
-def sum_sum(x=2, y=4):
-    return x+y
+# Create a list of strings: mutants
+mutants = ['charles xavier',
+            'bobby drake',
+            'kurt wagner',
+            'max eisenhardt',
+            'kitty pride']
 
+# Create a list of tuples: mutant_list
+mutant_list = list(enumerate(mutants))
 
-print(sum_sum(1,2))
+# Print the list of tuples
+print(mutant_list)
 
-print("#" * 40)
-print("Function return True or False")
+# Unpack and print the tuple pairs
+for ____ in ____:
+    print(index1, value1)
 
-def isCity(city):
-    citys = ['Hong Kong', 'China', 'Canada']
-    if city in citys:
-        return True
-
-    else:
-        return False
-
-
-
-print(isCity('State'))
-
-print("#" * 40)
-print("Function can do concat too")
-print(sum_sum("one","two"))
-
-print("#" * 40)
-print("Default pararmenters")
-print(sum_sum())
-
-
+# Change the start index
+for ____ in ____:
+    print(index2, value2)
