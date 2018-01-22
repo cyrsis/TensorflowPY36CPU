@@ -1,0 +1,6 @@
+branch_id,city       ,revenue,state,units
+10.0     ,Austin     ,100.0  ,TX   ,2
+20.0     ,Denver     ,83.0   ,CO   ,4
+30.0     ,Springfield,4.0    ,IL   ,1
+47.0     ,Mendocino  ,200.0  ,CA   ,1
+NaN      ,Springfield,NaN    ,MO   ,5

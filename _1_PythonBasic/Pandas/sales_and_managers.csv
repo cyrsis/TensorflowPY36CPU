@@ -1,0 +1,6 @@
+city       ,state,units        ,branch,branch_id,manager
+Mendocino  ,CA   ,1   Mendocino,47.0  ,Brett
+Denver     ,CO   ,4      Denver,20.0  ,Joel
+Austin     ,TX   ,2      Austin,10.0  ,Charlers
+Springfield,MO   ,5 Springfield,31.0  ,Sally
+Springfield,IL   ,1         NaN,NaN   ,NaN
