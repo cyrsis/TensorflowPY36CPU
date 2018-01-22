@@ -1,0 +1,5 @@
+branch_id,city,revenue    ,state
+0        ,10  ,Austin     ,100  ,TX
+1        ,20  ,Denver     ,83   ,CO
+2        ,30  ,Springfield,4    ,IL
+3        ,47  ,Mendocino  ,200  ,CA

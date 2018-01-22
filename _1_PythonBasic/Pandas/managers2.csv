@@ -1,0 +1,5 @@
+branch,branch_id  ,manager,state
+0     ,Austin     ,10     ,Charlers,TX
+1     ,Denver     ,20     ,Joel    ,CO
+2     ,Mendocino  ,47     ,Brett   ,CA
+3     ,Springfield,31     ,Sally   ,MO
