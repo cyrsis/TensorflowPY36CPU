@@ -6,7 +6,7 @@ def foo(x, y):
 with futures.ProcessPoolExecutor() as pool:
     pool.map(foo, [1, 2, 3], [4, 5, 6])
 
-<<< means >>>
+#<<< means >>>
 
 foo(1, 4)
 foo(2, 5)
