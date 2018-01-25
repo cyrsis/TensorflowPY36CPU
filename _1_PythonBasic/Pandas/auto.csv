@@ -1,0 +1,7 @@
+mpg,cyl,displ,hp,weight,accel,yr,origin,name
+18.0,8  ,307.0,130,3504  ,12.0 ,1970-01-01,US  ,chevrolet chevelle malibu
+15.0,8  ,350.0,165,3693  ,11.5 ,1970-01-01,US  ,buick skylark 320
+18.0,8  ,318.0,150,3436  ,11.0 ,1970-01-01,US  ,plymouth satellite
+16.0,8  ,304.0,150,3433  ,12.0 ,1970-01-01,US  ,amc rebel sst
+17.0,8  ,302.0,140,3449  ,10.5 ,1970-01-01,US  ,ford torino
+
