@@ -9,6 +9,9 @@ def fbis(num):
         result.append(result[-2]+result[-1])
     return result
 
+
+l_factorial = lambda n: 1 if n == 0 else n * l_factorial(n - 1)
+
 def main():
     result = fbis(10)
     fobj = open('C:\\ZZ_Disc_D\\Temp\\result.txt', 'w+')
