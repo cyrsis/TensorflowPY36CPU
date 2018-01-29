@@ -14,6 +14,8 @@ while selector > 0:
 for x in ['a', 'b', 'c', 'd']:
     print(x)
 
+for x in ['A','C','D']:
+    print(x )
 for x in range(5):
     print(x)
 

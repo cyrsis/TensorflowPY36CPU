@@ -8,12 +8,13 @@ class MyError(Exception):
 	
 def main():	
     try:
-        print "**********Start of main()************"
+        print("**********Start of main()************")
         if len(sys.argv)==1:
             raise MyError()
-        print "**********End of main()************"
-    except MyError, e:
-        print e
+        print("**********End of main()************")
+    except MyError as e:
+        print(e)
+
 
 if __name__ == '__main__':
     main()
