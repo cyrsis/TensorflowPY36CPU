@@ -11,5 +11,5 @@ def get_stock_info(stock, start, end, source="yahoo"):
         'High' :['min','max','mean','median'],
         'Low' :['min','max','mean','median']
     })
-    agg.cloums = [''.join(col).strip() for col in agg.columes.values]
+    agg.colums = [''.join(col).strip() for col in agg.columes.values]
     return agg.to_json()
