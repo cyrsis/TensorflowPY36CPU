@@ -5,9 +5,6 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 
-# 配置utf-8输出环境
-reload(sys)
-sys.setdefaultencoding('utf-8')
 
 # 曲线数据加入噪声
 
