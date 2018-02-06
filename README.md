@@ -90,42 +90,6 @@ house_size = tf.placeholder("float", name="house_size")
 price = tf.placeholder("float", name="price")
 
 
-# Upgrade the backage
-
-pip install SomePackage --upgrade
-
-#Check Pyton Version 
-
- python -V
- 
-#Library will be using (anaconda Python 3.5)
-
-NLTk
-XgBoost
-scikit-learn
-keras
-Networkx
-Lasagne (Python 2)
-Theao
-Mxnet
-gym
-PyMc3
-Cmake
-pyTorch
-CNTK
-beautifulsoup
-sympy
-psycopg2
-flask
-Pil (Python 2)
-pillow
-jupyter
-ipython
-msgpack-python
-Requests
-
-
-
 tensorpack
 pip install -U git+https://github.com/ppwwyyxx/tensorpack.git
 

@@ -1,0 +1,17 @@
+NLTk
+scikit-learn
+keras
+Networkx
+PyMc3
+Cmake
+pyTorch
+beautifulsoup
+sympy
+psycopg2
+flask
+pillow
+jupyter
+ipython
+msgpack-python
+Requests
+notebook
