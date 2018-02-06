@@ -1,3 +1,0 @@
-LIBRARY multisearch.pyd
-EXPORTS
-initmultisearch

@@ -1,3 +1,0 @@
-LIBRARY fastfractal.pyd
-EXPORTS
-initfastfractal

@@ -1,3 +1,0 @@
-LIBRARY cycosat.pyd
-EXPORTS
-initcycosat
