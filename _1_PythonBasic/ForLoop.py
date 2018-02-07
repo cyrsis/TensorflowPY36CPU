@@ -34,3 +34,6 @@ print(list)
 getListOfInt = [i for i in range(200) if i != 10]
 square = [i ** 2 for i in range(10)]
 print(square)
+
+for x in range(2000):
+    print(x)
