@@ -23,6 +23,7 @@
       <sourceFolder url="file://$MODULE_DIR$/_1_PythonBasic/Reactive/rxzoo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/_8_TensorFlowBasics/Kaggle/MNIST_example" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CS294/hw2" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/_14_Plot/data" />
       <excludeFolder url="file://$MODULE_DIR$/_8_TensorFlowBasics/MNIST/mnist_data" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.5 (TensorflowPY36CPU)" jdkType="Python SDK" />
