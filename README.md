@@ -204,14 +204,5 @@ Do not have GPU, I still can use AMD one
  - [A Friendly Introduction to Cross-Entropy Loss by Rob DiPietro](http://rdipietro.github.io/friendly-intro-to-cross-entropy-loss/)
 
 
-###Additional Resources
 
- - [A Curated List of Dedicated TensorFlow Resources](https://github.com/jtoy/awesome-tensorflow/)
 
-###Arxiv Papers
-
- - [TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://arxiv.org/abs/1603.04467)
- - [TensorFlow: A system for large-scale machine learning](http://arxiv.org/abs/1605.08695)
- - [Distributed TensorFlow with MPI](https://arxiv.org/abs/1603.02339)
- - [Comparative Study of Deep Learning Software Frameworks](https://arxiv.org/abs/1511.06435)
- - [Wide & Deep Learning for Recommender Systems](https://arxiv.org/abs/1606.07792)
