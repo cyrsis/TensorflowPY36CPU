@@ -7,6 +7,7 @@ def find_accounts(search_text):
     return db_search(search_text)
 
 accounts = find_accounts('python')
+
 if accounts is None:
     print("Error: DB not available")
 else:
