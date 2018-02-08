@@ -1,4 +1,5 @@
 import socket
+
 s = socket.socket()
 s.settimeout(2)
 
@@ -27,16 +28,19 @@ Cookie: __cfduid=d9bcadd4725c25185e7270b90dc73eb101466470070
 """
 
 for password in ['passworb', 'passworc', 'password']:
-   length = len(username) + len(password) + 5
+    length = len(username) + len(password) + 5
 
-   req = req1 + str(length) + req2 + "u=" + username + "&p=" + password
+    req = req1 + str(length) + req2 + "u=" + username + "&p=" + password
 
-   print 'Sending: '
-   print req
-   s.send(req)
+    print
+    'Sending: '
+    print
+    req
+    s.send(req)
 
-   print 'Received: '
-   print s.recv(1024)
+    print
+    'Received: '
+    print
+    s.recv(1024)
 
 s.close()
-
