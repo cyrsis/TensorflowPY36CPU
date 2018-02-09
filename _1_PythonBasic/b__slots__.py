@@ -1,4 +1,5 @@
-# ############ __slots__ for improved memory usage #############
+df.value_counts()
+##  ############ __slots__ for improved memory usage #############
 # Create by Michael Kennedy (@mkennedy)
 #
 # Overview:

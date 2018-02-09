@@ -17,4 +17,7 @@ for n in range(2, 2000):
         # loop fell through without finding a factor
         print(n, 'is a prime number')
 
-
+for n in range(2, 200):
+    print(n)
+else:
+    print("Sum of all number are {}".format(sum(range(2, ))))
