@@ -41,7 +41,7 @@ high_measurements3 = list(high_measurements_gen)
 
 # dict comprehension
 high_m_by_id = {m.id: m.value for m in measurements if m.value > 70}
-
+fordic
 # set comprehension
 high_values_distinct = {m.value for m in measurements if m.value > 70}
 

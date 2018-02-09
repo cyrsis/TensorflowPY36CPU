@@ -24,7 +24,6 @@ def classic_fibonacci(limit):
 # fib via generators
 def generator_fib():
     current, nxt = 0, 1
-
     while True:
         current, nxt = nxt, nxt + current
         yield current

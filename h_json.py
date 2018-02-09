@@ -1,7 +1,6 @@
 
 # from: http://www.omdbapi.com/
 import json
-
 import requests
 
 movie_json = """
