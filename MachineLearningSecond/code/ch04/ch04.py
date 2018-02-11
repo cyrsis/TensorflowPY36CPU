@@ -78,11 +78,6 @@ csv_data = '''A,B,C,D
 5.0,6.0,,8.0
 10.0,11.0,12.0,'''
 
-# If you are using Python 2.7, you need
-# to convert the string to unicode:
-
-if (sys.version_info < (3, 0)):
-    csv_data = unicode(csv_data)
 
 df = pd.read_csv(StringIO(csv_data))
 df
@@ -90,7 +85,6 @@ df
 
 
 
-df.isnull().sum()
 
 
 
@@ -105,31 +99,25 @@ df.values
 
 
 
-# remove rows that contain missing values
 
-df.dropna(axis=0)
+
+df.dropna(axis=0) # remove rows wiith missing values
+
+
+# remove columns that contain missing values
+
+df.dropna(axis=1) # remove columns contains missing values
 
 
 
 
 # remove columns that contain missing values
 
-df.dropna(axis=1)
-
-
-
-
-# remove columns that contain missing values
-
-df.dropna(axis=1)
 
 
 
 
 # only drop rows where all columns are NaN
-
-df.dropna(how='all')  
-
 
 
 
@@ -140,12 +128,14 @@ df.dropna(thresh=4)
 
 
 
-# only drop rows where NaN appear in specific columns (here: 'C')
-
-df.dropna(subset=['C'])
 
 
+df.dropna(subset=['C']) #drop rows where NaN columns (here: 'C')
 
+df.dropna(subset=['C'])  # drop rows where NaN columns (here: 'C')
+df.dropna(axis=1)  # remove columns contains missing values
+
+df.dropna(axis=1)  # remove rows wiith missing values
 # ## Imputing missing values
 
 
@@ -157,13 +147,6 @@ df.values
 
 
 # impute missing values via the column mean
-
-
-imr = Imputer(missing_values='NaN', strategy='mean', axis=0)
-imr = imr.fit(df.values)
-imputed_data = imr.transform(df.values)
-imputed_data
-
 
 
 # ## Understanding the scikit-learn estimator API
@@ -202,10 +185,11 @@ size_mapping = {'XL': 3,
                 'M': 1}
 
 df['size'] = df['size'].map(size_mapping)
-df
+size = {'XL': 3,
+        'L': 2,
+        'M': 1}
 
-
-
+df[''] = df[''].map(size)
 
 inv_size_mapping = {v: k for k, v in size_mapping.items()}
 df['size'].map(inv_size_mapping)
@@ -246,6 +230,7 @@ class_le = LabelEncoder()
 y = class_le.fit_transform(df['classlabel'].values)
 y
 
+df
 
 
 
@@ -270,7 +255,6 @@ X
 
 ohe = OneHotEncoder(categorical_features=[0])
 ohe.fit_transform(X).toarray()
-
 
 
 
