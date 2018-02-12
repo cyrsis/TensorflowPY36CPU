@@ -3,8 +3,11 @@ scikit-learn
 keras
 Networkx
 PyMc3
-Cmake
+matplotlib
 pyTorch
+sympy
+jupyter
+numpy
 beautifulsoup
 sympy
 psycopg2
@@ -12,6 +15,7 @@ flask
 pillow
 jupyter
 ipython
+notebook
 msgpack-python
 Requests
 notebook
