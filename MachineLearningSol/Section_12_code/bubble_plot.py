@@ -8,6 +8,14 @@ num_vals = 40
 x = np.random.rand(num_vals)
 y = np.random.rand(num_vals)
 
+num_vals = 10
+x = np.random.rand(num_vals)
+y = np.random.rand(num_vals)
+
+
+
+
+
 # Define area for each bubble
 # Max radius is set to a specified value
 max_radius = 25
