@@ -1,3 +1,4 @@
+rx
 NLTk
 scikit-learn
 keras
@@ -35,3 +36,4 @@ scikit-learn
 dautil
 appdirs
 mpld3
+html5lib
