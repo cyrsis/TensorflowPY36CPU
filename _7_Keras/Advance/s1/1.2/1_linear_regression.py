@@ -13,10 +13,10 @@ def get_data():
     y_ = 3 * x_ + 10
     return x_, y_
 
-
 model = Sequential()
 model.add(Dense(1, input_shape=(1,), activation=None))
 
+model.add(Dense(1, input_shape=(1,), activation=None))
 model.summary()
 
 adam = Adam(lr=0.5)
