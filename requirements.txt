@@ -1,3 +1,6 @@
+lxml
+html5lib
+BeautifulSoup4
 bokeh
 rx
 NLTk
@@ -37,4 +40,3 @@ scikit-learn
 dautil
 appdirs
 mpld3
-html5lib
