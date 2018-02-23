@@ -29,3 +29,5 @@ plt.scatter(class_1[:,0], class_1[:,1], color='black', marker='x')
 plt.plot(line_x, line_y, color='black', linewidth=3)
 
 plt.show()
+
+

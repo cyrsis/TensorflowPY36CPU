@@ -79,5 +79,5 @@ input_data_encoded = np.array(input_data_encoded)
 
 # Predict and print output for a particular datapoint
 output_class = classifier_gaussiannb.predict(input_data_encoded)
-print label_encoder[-1].inverse_transform(output_class)[0]
+print(label_encoder[-1].inverse_transform(output_class)[0])
 
