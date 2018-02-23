@@ -23,11 +23,14 @@
       <sourceFolder url="file://$MODULE_DIR$/_1_PythonBasic/Reactive/rxzoo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/_8_TensorFlowBasics/Kaggle/MNIST_example" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CS294/hw2" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/ZB1605/chapter01/testdata" />
       <excludeFolder url="file://$MODULE_DIR$/_0_Working/Chapter02/Code/data" />
       <excludeFolder url="file://$MODULE_DIR$/_14_Plot/data" />
       <excludeFolder url="file://$MODULE_DIR$/_1_PythonBasic/Pandas/Data" />
       <excludeFolder url="file://$MODULE_DIR$/_2_Deeplearning/data" />
       <excludeFolder url="file://$MODULE_DIR$/_8_TensorFlowBasics/MNIST/mnist_data" />
+      <excludeFolder url="file://$MODULE_DIR$/_92_CheatSheet" />
+      <excludeFolder url="file://$MODULE_DIR$/_PythonBig/CHT/notebooks/02-numpy/thumbnails" />
       <excludeFolder url="file://$MODULE_DIR$/lvvd/data" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.5" jdkType="Python SDK" />

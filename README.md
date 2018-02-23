@@ -143,9 +143,7 @@ pip install moviepy
 brew install ffmpeg
 
 
-#Requirements
 
-pip install -r requirements.txt
 
 #Export Conda environment
 

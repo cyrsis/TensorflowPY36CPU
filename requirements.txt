@@ -1,3 +1,4 @@
+notebook
 cudatoolkit
 numexpr
 h5py
@@ -12,7 +13,6 @@ keras
 Networkx
 PyMc3
 matplotlib
-pyTorch
 sympy
 jupyter
 numpy
@@ -97,7 +97,7 @@ readline
 requests
 requests-file
 requests-ftp
-scipy=
+scipy
 setuptools
 simplegeneric
 sip
@@ -113,3 +113,4 @@ wheel
 widgetsnbextension
 xz
 zlib
+jupyter
