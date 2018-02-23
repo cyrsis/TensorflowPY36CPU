@@ -30,7 +30,7 @@
       <excludeFolder url="file://$MODULE_DIR$/_8_TensorFlowBasics/MNIST/mnist_data" />
       <excludeFolder url="file://$MODULE_DIR$/lvvd/data" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.5 TensorflowPY35 GPU" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.5" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="R User Library" level="project" />
     <orderEntry type="library" name="R Skeletons" level="application" />
