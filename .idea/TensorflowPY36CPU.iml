@@ -28,6 +28,7 @@
       <excludeFolder url="file://$MODULE_DIR$/_14_Plot/data" />
       <excludeFolder url="file://$MODULE_DIR$/_1_PythonBasic/Pandas/Data" />
       <excludeFolder url="file://$MODULE_DIR$/_2_Deeplearning/data" />
+      <excludeFolder url="file://$MODULE_DIR$/_6_DeepReforcementTrading/05-Pandas-with-Time-Series/time_data" />
       <excludeFolder url="file://$MODULE_DIR$/_8_TensorFlowBasics/MNIST/mnist_data" />
       <excludeFolder url="file://$MODULE_DIR$/_92_CheatSheet" />
       <excludeFolder url="file://$MODULE_DIR$/_PythonBig/CHT/notebooks/02-numpy/thumbnails" />
