@@ -15,16 +15,28 @@ def get_data():
 
 model = Sequential()
 model.add(Dense(1, input_shape=(1,), activation=None))
+model.add(Dense(1, input_shape=(1,), activation=None))
 
 model.add(Dense(1, input_shape=(1,), activation=None))
 model.summary()
+model.summary()
+
 
 adam = Adam(lr=0.5)
+adam = Adam(lr=0.5)
+
 model.compile(loss='mse',
               optimizer=adam)
 
 x, y = get_data()
 x_t, y_t = get_data()
+
+# train network
+NUM_EPOCHS = 20
+BATCH_SIZE = 10
+
+
+
 
 history = model.fit(x, y,
                     batch_size=BATCH_SIZE,
