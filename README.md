@@ -112,6 +112,15 @@ pip install --no-index -f https://github.com/Kojoley/atari-py/releases atari_py
 
 Works like charm on Windows
 
+conda install git
+conda install -c conda-forge ffmpeg
+# Note: For video recording.
+conda update --all
+conda clean -a
+pip install git+https://github.com/Kojoley/atari-py.git
+pip install gym[all]
+# Get all things done!
+
 pip install moviepy
 brew install ffmpeg
 
