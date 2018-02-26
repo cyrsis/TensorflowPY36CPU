@@ -34,7 +34,7 @@
       <excludeFolder url="file://$MODULE_DIR$/_PythonBig/CHT/notebooks/02-numpy/thumbnails" />
       <excludeFolder url="file://$MODULE_DIR$/lvvd/data" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.5 (TensorflowCPUPY35)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.5 TensorflowPY35 GPU" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="R User Library" level="project" />
     <orderEntry type="library" name="R Skeletons" level="application" />
