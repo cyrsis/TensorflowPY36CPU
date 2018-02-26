@@ -23,6 +23,7 @@
       <sourceFolder url="file://$MODULE_DIR$/_1_PythonBasic/Reactive/rxzoo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/_8_TensorFlowBasics/Kaggle/MNIST_example" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CS294/hw2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_7_Keras/RL" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/ZB1605/chapter01/testdata" />
       <excludeFolder url="file://$MODULE_DIR$/_0_Working/Chapter02/Code/data" />
       <excludeFolder url="file://$MODULE_DIR$/_14_Plot/data" />
