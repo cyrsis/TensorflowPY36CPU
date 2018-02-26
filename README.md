@@ -1,6 +1,4 @@
-#Come back for it
 
-https://github.com/the-deep-learners/TensorFlow-LiveLessons/tree/master/notebooks
 
 #Switch to Docker for pycharm
 
@@ -13,35 +11,17 @@ sudo nvidia-docker run --rm -v /home:/data alpine ls /data
 
 docker run - p 8888:8888 -v K:/TensorflowPY36CPU/TensorflowPY36CPU:/src kreas
 
-#AI machine learning END TO END
 
-From Data pipline to get the machine up and running with Tensorflow 
-
-
-#http://arbu00.blogspot.hk/2017/05/4-tensorflowlenet5.html
 
 This one is really really good
 
-# Working on the study of tensorflow
 
-This is really good one
-
-http://www.jianshu.com/p/86f2a252581a
-
-https://github.com/nfmcclure/tensorflow_cookbook/tree/master/03_Linear_Regression
-
-
-
-https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/2-4-variable/
 
 November 25, 2017 4:33 pm
 
 # reinforcement learning is actually CPU the most
 
 
-#work on this tomorrow
-
-https://morvanzhou.github.io/tutorials/machine-learning/torch/4-04-A-autoencoder/
 
 
 # TensorflowPY36CPU
@@ -86,9 +66,6 @@ logPath = "./tb_logs/"
 
 # Use Name in the variable rather than generateed one
 
-house_size = tf.placeholder("float", name="house_size")
-price = tf.placeholder("float", name="price")
-
 
 tensorpack
 pip install -U git+https://github.com/ppwwyyxx/tensorpack.git
@@ -105,12 +82,8 @@ Caffee
 Open cv
 pip install opencv-python (For )
 
-Rx
 
-pip install rx
 
-seaborn
-    statsmodels
 OpenCV cv2
 conda install -c conda-forge opencv (Works in Python 3.6)
 
