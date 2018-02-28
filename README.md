@@ -1,4 +1,15 @@
+For AI Gym  in Windows
 
+conda install git
+conda install -c conda-forge ffmpeg
+# Note: For video recording.
+conda update --all
+conda clean -a
+pip install git+https://github.com/Kojoley/atari-py.git
+pip install gym[all]
+
+
+# Get all things done!
 
 #Switch to Docker for pycharm
 
