@@ -23,7 +23,7 @@ logger = keras.callbacks.TensorBoard(
     histogram_freq=5,
     write_graph=True
 )
-
+modelsave
 
 # Train the model
 model.fit(

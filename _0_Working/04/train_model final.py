@@ -3,12 +3,16 @@ from keras.models import Sequential
 from keras.layers import *
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
+import keras
 
+
+
+RUN_NAME = "3 node"
 # Load training data set from CSV file
-training_data_df = pd.read_csv("K:\\TensorflowPY36CPU\\TensorflowPY36CPU\\_0_Working\\03\\sales_data_training.csv")
+training_data_df = pd.read_csv("K:\\TensorflowPY36CPU\\TensorflowPY36CPU\\_0_Working\\04\\sales_data_training.csv")
 
 # Load testing data set from CSV file
-test_data_df = pd.read_csv("K:\\TensorflowPY36CPU\\TensorflowPY36CPU\\_0_Working\\03\\sales_data_test.csv")
+test_data_df = pd.read_csv("K:\\TensorflowPY36CPU\\TensorflowPY36CPU\\_0_Working\\04\\sales_data_test.csv")
 
 # Data needs to be scaled to a small range like 0 to 1 for the neural
 # network to work well.
@@ -31,18 +35,28 @@ scaled_testing_df.to_csv("sales_data_testing_scaled.csv", index=False)
 
 
 
-training_data_df = pd.read_csv("sales_data_training_scaled.csv")
+training_data_df = pd.read_csv("K:\\TensorflowPY36CPU\\TensorflowPY36CPU\\_0_Working\\04\\sales_data_training_scaled.csv")
 
 X = training_data_df.drop('total_earnings', axis=1).values
 Y = training_data_df[['total_earnings']].values
 
 # Define the model
 model = Sequential()
-model.add(Dense(50, input_dim=9, activation='relu'))
-model.add(Dense(100, activation='relu'))
-model.add(Dense(50, activation='relu'))
-model.add(Dense(1, activation='linear'))
+model.add(Dense(5, input_dim=9, activation='relu', name='layer_1'))
+model.add(Dense(100, activation='relu', name='layer_2'))
+model.add(Dense(50, activation='relu', name='layer_3'))
+model.add(Dense(1, activation='linear', name='output_layer'))
 model.compile(loss='mean_squared_error', optimizer='adam')
+
+
+logger = keras.callbacks.TensorBoard(
+    log_dir='logs/{}'.format(RUN_NAME),
+    histogram_freq=0,
+    write_images=True,
+    write_graph=True,
+)  # Create a TensorBoard logger
+
+
 
 # Train the model
 model.fit(
@@ -50,10 +64,12 @@ model.fit(
     Y,
     epochs=50,
     shuffle=True,
-    verbose=2
+    verbose=2,
+    callbacks=[logger]
 )
 
-#DM
+
+
 
 
 # Load the separate test data set
