@@ -4,6 +4,7 @@ from keras.layers import *
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 import keras
+import tensorflow as tf
 
 
 
@@ -80,3 +81,21 @@ Y_test = test_data_df[['total_earnings']].values
 
 test_error_rate = model.evaluate(X_test, Y_test, verbose=0)
 print("The mean squared error (MSE) for the test data set is: {}".format(test_error_rate))
+
+
+model_builder = tf.saved_model.builder.SavedModelBuilder("exported_model")
+
+inputs = {
+    'input': tf.saved_model.utils.build_tensor_info(model.input)
+}
+outputs = {
+    'earnings': tf.saved_model.utils.build_tensor_info(model.output)
+}
+
+signature_def = tf.saved_model.signature_def_utils.build_signature_def(
+    inputs=inputs,
+    outputs=outputs,
+    method_name=tf.saved_model.signature_constants.PREDICT_METHOD_NAME
+)
+
+model_builder.save()
