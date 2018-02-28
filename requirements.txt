@@ -20,7 +20,7 @@ beautifulsoup
 sympy
 psycopg2
 flask
-pillow
+pillow =4.0.0
 jupyter
 ipython
 notebook
@@ -53,7 +53,7 @@ html5lib
 icu
 inflection
 ipykernel
-ipython=6.1.0
+ipython
 ipython_genutils
 ipywidgets
 jedi
@@ -76,7 +76,7 @@ numpy
 openssl
 pandas
 pandas-datareader
-pandocfilters=
+pandocfilters
 path.py
 patsy
 pexpect

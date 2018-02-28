@@ -2,10 +2,10 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
 # Load training data set from CSV file
-training_data_df = pd.read_csv("sales_data_training.csv")
+training_data_df = pd.read_csv("K:\\TensorflowPY36CPU\\TensorflowPY36CPU\\_0_Working\\03\\sales_data_training.csv")
 
 # Load testing data set from CSV file
-test_data_df = pd.read_csv("sales_data_test.csv")
+test_data_df = pd.read_csv("K:\\TensorflowPY36CPU\\TensorflowPY36CPU\\_0_Working\\03\\sales_data_test.csv")
 
 # Data needs to be scaled to a small range like 0 to 1 for the neural
 # network to work well.
@@ -25,3 +25,4 @@ scaled_testing_df = pd.DataFrame(scaled_testing, columns=test_data_df.columns.va
 # Save scaled data dataframes to new CSV files
 scaled_training_df.to_csv("sales_data_training_scaled.csv", index=False)
 scaled_testing_df.to_csv("sales_data_testing_scaled.csv", index=False)
+

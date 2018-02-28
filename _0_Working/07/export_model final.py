@@ -24,6 +24,7 @@ logger = keras.callbacks.TensorBoard(
     write_graph=True
 )
 
+
 # Train the model
 model.fit(
     X,
@@ -42,7 +43,6 @@ Y_test = test_data_df[['total_earnings']].values
 
 test_error_rate = model.evaluate(X_test, Y_test, verbose=0)
 print("The mean squared error (MSE) for the test data set is: {}".format(test_error_rate))
-
 
 model_builder = tf.saved_model.builder.SavedModelBuilder("exported_model")
 
