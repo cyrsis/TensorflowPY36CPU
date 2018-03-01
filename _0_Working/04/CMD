@@ -12,3 +12,6 @@ gcloud ml-engine versions create v1 --model=earnings --origin=gs://keras-class-1
 
 #Test json
 gcloud ml-engine predict --model=earnings --json-instances=K:\TensorflowPY36CPU\TensorflowPY36CPU\_0_Working\07\sample_input_prescaled.json
+
+API library
+https://developers.google.com/api-client-library/
