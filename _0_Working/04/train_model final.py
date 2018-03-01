@@ -72,15 +72,15 @@ model.fit(
 
 
 
-
 # Load the separate test data set
-test_data_df = pd.read_csv("sales_data_test_scaled.csv")
+test_data_df = pd.read_csv("K:\\TensorflowPY36CPU\\TensorflowPY36CPU\\_0_Working\\04\\sales_data_test_scaled.csv")
 
 X_test = test_data_df.drop('total_earnings', axis=1).values
 Y_test = test_data_df[['total_earnings']].values
 
 test_error_rate = model.evaluate(X_test, Y_test, verbose=0)
 print("The mean squared error (MSE) for the test data set is: {}".format(test_error_rate))
+
 
 
 model_builder = tf.saved_model.builder.SavedModelBuilder("exported_model")
@@ -96,6 +96,14 @@ signature_def = tf.saved_model.signature_def_utils.build_signature_def(
     inputs=inputs,
     outputs=outputs,
     method_name=tf.saved_model.signature_constants.PREDICT_METHOD_NAME
+)
+
+model_builder.add_meta_graph_and_variables(
+    K.get_session(),
+    tags=[tf.saved_model.tag_constants.SERVING],
+    signature_def_map={
+        tf.saved_model.signature_constants.DEFAULT_SERVING_SIGNATURE_DEF_KEY: signature_def
+    }
 )
 
 model_builder.save()

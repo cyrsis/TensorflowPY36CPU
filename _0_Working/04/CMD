@@ -1,0 +1,14 @@
+#create bucket
+gsutil mb -l us-central1 gs://keras-class-10007
+
+#move model to production
+gsutil cp -r K:\TensorflowPY36CPU\TensorflowPY36CPU\_0_Working\04\exported_model\* gs://keras-class-10007/earning_v1/
+
+#create the model in the cloud
+gcloud ml-engine models create earnings7 --regions us-central1
+
+#make available
+gcloud ml-engine versions create v1 --model=earnings --origin=gs://keras-class-10007/earning_v1/ --runtime-version 1.2
+
+#Test json
+gcloud ml-engine predict --model=earnings --json-instances=K:\TensorflowPY36CPU\TensorflowPY36CPU\_0_Working\07\sample_input_prescaled.json
