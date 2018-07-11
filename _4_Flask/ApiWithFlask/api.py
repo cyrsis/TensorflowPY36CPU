@@ -1,9 +1,3 @@
-"""
-Book: Building RESTful Python Web Services
-Chapter 9: Developing RESTful APIs with Tornado
-Author: Gaston C. Hillar - Twitter.com/gastonhillar
-Publisher: Packt Publishing Ltd. - http://www.packtpub.com
-"""
 import status
 from datetime import date
 from tornado import web, escape, ioloop, httpclient, gen

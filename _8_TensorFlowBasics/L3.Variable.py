@@ -23,6 +23,8 @@ update = tf.assign(state,one)
 
 init = tf.global_variables_initializer()  # 替换成这样就好
 
+
+
 with tf.Session() as sess:
     sess.run(init)
     for _ in range(3):

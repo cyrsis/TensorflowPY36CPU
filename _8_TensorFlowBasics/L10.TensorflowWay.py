@@ -16,3 +16,5 @@ for x_value in x_values:
 
 merged = tf.summary.merge_all(key = 'summaries')
 my_writer=tf.summary.FileWriter('tensorboard/logs',sess.graph)
+
+
