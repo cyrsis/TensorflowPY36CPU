@@ -24,7 +24,6 @@ import tensorflow as tf
 import numpy as np
 from arm_env import ArmEnv
 
-
 # np.random.seed(1)
 # tf.set_random_seed(1)
 
@@ -42,7 +41,6 @@ ENTROPY_BETA = 0.01
 GLOBAL_RUNNING_R = []
 GLOBAL_EP = 0
 
-
 env = ArmEnv(mode=MODE[n_model])
 N_S = env.state_dim
 N_A = env.action_dim
@@ -53,13 +51,13 @@ del env
 class ACNet(object):
     def __init__(self, scope, globalAC=None):
 
-        if scope == GLOBAL_NET_SCOPE:   # get global network
+        if scope == GLOBAL_NET_SCOPE:  # get global network
             with tf.variable_scope(scope):
                 self.s = tf.placeholder(tf.float32, [None, N_S], 'S')
                 self._build_net()
                 self.a_params = tf.get_collection(tf.GraphKeys.TRAINABLE_VARIABLES, scope=scope + '/actor')
                 self.c_params = tf.get_collection(tf.GraphKeys.TRAINABLE_VARIABLES, scope=scope + '/critic')
-        else:   # local net, calculate losses
+        else:  # local net, calculate losses
             with tf.variable_scope(scope):
                 self.s = tf.placeholder(tf.float32, [None, N_S], 'S')
                 self.a_his = tf.placeholder(tf.float32, [None, N_A], 'A')
@@ -114,7 +112,8 @@ class ACNet(object):
         return mu, sigma, v
 
     def update_global(self, feed_dict):  # run by a local
-        _, _, t = SESS.run([self.update_a_op, self.update_c_op, self.test], feed_dict)  # local grads applies to global net
+        _, _, t = SESS.run([self.update_a_op, self.update_c_op, self.test],
+                           feed_dict)  # local grads applies to global net
         return t
 
     def pull_global(self):  # run by a local
@@ -149,18 +148,19 @@ class Worker(object):
                 buffer_a.append(a)
                 buffer_r.append(r)
 
-                if total_step % UPDATE_GLOBAL_ITER == 0 or done:   # update global and assign to local net
+                if total_step % UPDATE_GLOBAL_ITER == 0 or done:  # update global and assign to local net
                     if done:
-                        v_s_ = 0   # terminal
+                        v_s_ = 0  # terminal
                     else:
                         v_s_ = SESS.run(self.AC.v, {self.AC.s: s_[np.newaxis, :]})[0, 0]
                     buffer_v_target = []
-                    for r in buffer_r[::-1]:    # reverse buffer r
+                    for r in buffer_r[::-1]:  # reverse buffer r
                         v_s_ = r + GAMMA * v_s_
                         buffer_v_target.append(v_s_)
                     buffer_v_target.reverse()
 
-                    buffer_s, buffer_a, buffer_v_target = np.vstack(buffer_s), np.vstack(buffer_a), np.vstack(buffer_v_target)
+                    buffer_s, buffer_a, buffer_v_target = np.vstack(buffer_s), np.vstack(buffer_a), np.vstack(
+                        buffer_v_target)
                     feed_dict = {
                         self.AC.s: buffer_s,
                         self.AC.a_his: buffer_a,
@@ -183,9 +183,10 @@ class Worker(object):
                         "| Ep_r: %i" % GLOBAL_RUNNING_R[-1],
                         '| Var:', test,
 
-                          )
+                    )
                     GLOBAL_EP += 1
                     break
+
 
 if __name__ == "__main__":
     SESS = tf.Session()
@@ -197,7 +198,7 @@ if __name__ == "__main__":
         workers = []
         # Create worker
         for i in range(N_WORKERS):
-            i_name = 'W_%i' % i   # worker name
+            i_name = 'W_%i' % i  # worker name
             workers.append(Worker(i_name, GLOBAL_AC))
 
     COORD = tf.train.Coordinator()
@@ -210,5 +211,3 @@ if __name__ == "__main__":
         t.start()
         worker_threads.append(t)
     COORD.join(worker_threads)
-
-

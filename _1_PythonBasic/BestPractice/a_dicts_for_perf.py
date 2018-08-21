@@ -24,7 +24,11 @@ def main():
     sys.stdout.flush()
 
     data_list = []
-    random.seed(0)
+
+    random.seed(1)
+
+
+    print()
     for d_id in range(500000):
         x = random.randint(0, 1000)
         y = random.randint(0, 1000)

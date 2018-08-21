@@ -13,6 +13,7 @@ def get_data():
     y_ = 3 * x_ + 10
     return x_, y_
 
+
 model = Sequential()
 model.add(Dense(1, input_shape=(1,), activation=None))
 model.add(Dense(1, input_shape=(1,), activation=None))
@@ -20,7 +21,6 @@ model.add(Dense(1, input_shape=(1,), activation=None))
 model.add(Dense(1, input_shape=(1,), activation=None))
 model.summary()
 model.summary()
-
 
 adam = Adam(lr=0.5)
 adam = Adam(lr=0.5)
@@ -34,9 +34,6 @@ x_t, y_t = get_data()
 # train network
 NUM_EPOCHS = 20
 BATCH_SIZE = 10
-
-
-
 
 history = model.fit(x, y,
                     batch_size=BATCH_SIZE,
