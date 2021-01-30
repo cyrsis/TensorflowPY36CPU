@@ -81,7 +81,7 @@ path.py
 patsy
 pexpect
 pickleshare
-pip=
+pip
 prompt_toolkit
 ptyprocess
 pygments
