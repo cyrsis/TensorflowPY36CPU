@@ -1,6 +1,6 @@
 connexion==1.1.3
 keras==2.1.2
-tensorflow==1.4.1
+tensorflow==2.7.2
 Pillow==4.3.0
 numpy==1.13.1
 h5py==2.7.1
