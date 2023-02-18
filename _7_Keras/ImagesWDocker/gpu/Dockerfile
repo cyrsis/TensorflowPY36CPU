@@ -1,5 +1,5 @@
 #base image provides CUDA support on Ubuntu 16.04
-FROM nvidia/cuda:8.0-cudnn6-devel
+FROM nvidia/cuda:8.0-cudnn6-devel@sha256:da47267ad02aef2d28c7cf482cc39204446fd2b7b5176554ec57f5eccdc76524
 
 ENV CONDA_DIR /opt/conda
 ENV PATH $CONDA_DIR/bin:$PATH
