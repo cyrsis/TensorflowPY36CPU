@@ -1,6 +1,6 @@
 ## Dockerfile to build DeepQ&A container image
 
-FROM python:3.5.2
+FROM python:3.5.2@sha256:f081d746c4bc0c8e74fb82551e860c8917aaa9cc47b0c217f1880ae59801cd1b
 
 ## Dependencies
 
