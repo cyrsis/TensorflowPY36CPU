@@ -1,6 +1,6 @@
 ## Dockerfile to build DeepQ&A container image
 
-FROM nvidia/cuda:8.0-cudnn5-devel
+FROM nvidia/cuda:8.0-cudnn5-devel@sha256:861cd1586bcded967e7a40c494e18588a3627aa38116729d71a4fe0243f44a33
 
 ## Dependencies
 
